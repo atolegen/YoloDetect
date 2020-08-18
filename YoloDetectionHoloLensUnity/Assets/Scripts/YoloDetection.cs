@@ -71,8 +71,8 @@ namespace YoloDetectionHoloLens
         TcpListener listener;
         TcpClient client;
         Vector3 pos = Vector3.zero;
-
-
+        Quaternion zcamera;
+        public GameObject camera1;
 
         bool running;
 
@@ -138,6 +138,15 @@ namespace YoloDetectionHoloLens
         void Update()
         {
             myText.text = _input;
+            zcamera = Quaternion.LookRotation(Camera.main.transform.forward, Camera.main.transform.up);
+            /*if (camera1.transform.position.y > 0)
+            {
+                zcamera = camera1.transform.position.y - 1;
+            }
+            else {
+                zcamera = camera1.transform.position.y;
+            }*/
+
         }
         async Task StartHoloLensMediaFrameSourceGroup()
         {
@@ -250,19 +259,21 @@ namespace YoloDetectionHoloLens
                             Confidence = float.Parse(dataBuffer1[(boxCount * boxSize) + 5])
                             
                         };
-                        _input=boxCount.ToString();
+                        //_input=boxCount.ToString();
                         // Set top label from the label string by index.
                         box.Label = _labels[box.TopLabel];
 
                         // Add the filled box to list
                         boundingBoxes.Add(box);
                     }
-
+                    
+                    Vector3 eulercam=zcamera.ToEulerAngles();
+                    _input=eulercam.ToString();
                     // Draw the list of boxes
-                    drawBoundingBoxes.DrawBoxes(boundingBoxes);
+                    drawBoundingBoxes.DrawBoxes(boundingBoxes,zcamera);
 
                     // Debug the text string outside of loop
-                    yield return new WaitForSeconds(0.05f);
+                    yield return new WaitForSeconds(0.03f);
                     //_input = dataBuffer.Length.ToString();
                     //_input =$"Received {boundingBoxes.Count} bounding boxes.";
                     //Debug.Log(textString);
@@ -279,14 +290,16 @@ namespace YoloDetectionHoloLens
                         Width = 0,
                         X = 0,
                         Y = 0});
-                    drawBoundingBoxes.DrawBoxes(boundingBoxes);
+                    drawBoundingBoxes.DrawBoxes(boundingBoxes,zcamera);
 
-                    _input = "No bounding boxes received.";
-                    yield return new WaitForSeconds(0.05f);
+                    Vector3 eulercam=zcamera.ToEulerAngles();
+                    _input=eulercam.ToString();
+                    //_input = "No bounding boxes received.";
+                    yield return new WaitForSeconds(0.03f);
                 }
             }
 #endif
-            yield return new WaitForSeconds(3f);
+            yield return new WaitForSeconds(0.03f);
         }
 
         #region TapGestureHandler
@@ -507,7 +520,7 @@ namespace YoloDetectionHoloLens
 
                  boundingBoxes.Add(box);
                  //_input=box.TopLabel.ToString()+box.X.ToString()+box.Y.ToString()+box.Height.ToString()+box.Width.ToString()+box.Confidence.ToString();
-                 drawBoundingBoxes.DrawBoxes(boundingBoxes);
+                 drawBoundingBoxes.DrawBoxes(boundingBoxes,zcamera);
                  
                  _input = "Received bounding boxes.";
                  yield return new WaitForSeconds(0.05f);

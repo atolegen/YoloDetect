@@ -211,6 +211,10 @@ struct Thread_tF60E0A146CD3B5480CB65FF9B6016E84C5460CC7;
 struct UInt16U5BU5D_t2D4BB1F8C486FF4359FFA7E4A76A8708A684543E;
 // System.Void
 struct Void_t22962CB4C05B1D89B55A6E1139F0E87A90987017;
+// UnityEngine.Camera
+struct Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34;
+// UnityEngine.Camera/CameraCallback
+struct CameraCallback_t8BBB42AA08D7498DFC11F4128117055BC7F0B9D0;
 // UnityEngine.Canvas
 struct Canvas_tBC28BF1DD8D8499A89B5781505833D3728CF8591;
 // UnityEngine.CanvasRenderer
@@ -331,12 +335,12 @@ struct IInputStream_t9A06904D0534FEFA9174E580FCA59EDA460E6C6E;
 struct IOutputStream_tDDEC725E2EE24D9CB5CF43B540772BFAB27E5AB4;
 // YoloDetectionHoloLens.YoloDetection
 struct YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170;
-// YoloDetectionHoloLens.YoloDetection/<ConnectSocket>d__39
-struct U3CConnectSocketU3Ed__39_tA79C43DAE62BD2D1E4471D0BCF0B1094BD95DC9F;
-// YoloDetectionHoloLens.YoloDetection/<Databuffer1>d__50
-struct U3CDatabuffer1U3Ed__50_tB351B4F8B8B81AA3600697E9861BF27E8ADF2C75;
-// YoloDetectionHoloLens.YoloDetection/<testconn>d__45
-struct U3CtestconnU3Ed__45_t5A1A96807FEB9794E8B6E3BA7497C4C86BF44AD9;
+// YoloDetectionHoloLens.YoloDetection/<ConnectSocket>d__41
+struct U3CConnectSocketU3Ed__41_t365DB6990A18B12EC097EA66D6A08536BD002041;
+// YoloDetectionHoloLens.YoloDetection/<Databuffer1>d__52
+struct U3CDatabuffer1U3Ed__52_t5A0FC00FC8FCC82E25286B7A3237F79E2F0AA2EA;
+// YoloDetectionHoloLens.YoloDetection/<testconn>d__47
+struct U3CtestconnU3Ed__47_tA87F302836423510DD5D436CA9341DBCA85E32E8;
 // YoloRuntime.BoundingBox
 struct BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E;
 // YoloRuntime.BoundingBox[]
@@ -370,9 +374,9 @@ extern RuntimeClass* StreamSocketListener_t70D22DB456195FB1F414724B2A1C639ED99E1
 extern RuntimeClass* StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E_il2cpp_TypeInfo_var;
 extern RuntimeClass* TcpListener_t23EA9DFFE7F84119440813E7F77A181C39BE08EE_il2cpp_TypeInfo_var;
 extern RuntimeClass* Texture2D_tBBF96AC337723E2EF156DF17E09D4379FD05DE1C_il2cpp_TypeInfo_var;
-extern RuntimeClass* U3CConnectSocketU3Ed__39_tA79C43DAE62BD2D1E4471D0BCF0B1094BD95DC9F_il2cpp_TypeInfo_var;
-extern RuntimeClass* U3CDatabuffer1U3Ed__50_tB351B4F8B8B81AA3600697E9861BF27E8ADF2C75_il2cpp_TypeInfo_var;
-extern RuntimeClass* U3CtestconnU3Ed__45_t5A1A96807FEB9794E8B6E3BA7497C4C86BF44AD9_il2cpp_TypeInfo_var;
+extern RuntimeClass* U3CConnectSocketU3Ed__41_t365DB6990A18B12EC097EA66D6A08536BD002041_il2cpp_TypeInfo_var;
+extern RuntimeClass* U3CDatabuffer1U3Ed__52_t5A0FC00FC8FCC82E25286B7A3237F79E2F0AA2EA_il2cpp_TypeInfo_var;
+extern RuntimeClass* U3CtestconnU3Ed__47_tA87F302836423510DD5D436CA9341DBCA85E32E8_il2cpp_TypeInfo_var;
 extern RuntimeClass* Vector2_tA85D2DD88578276CA8A8796756458277E72D073D_il2cpp_TypeInfo_var;
 extern RuntimeClass* Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720_il2cpp_TypeInfo_var;
 extern RuntimeClass* WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8_il2cpp_TypeInfo_var;
@@ -459,7 +463,6 @@ extern String_t* _stringLiteralC534ED71BA41797990825A42789F9CE5E7BE9651;
 extern String_t* _stringLiteralC5824D156CBE8D27658B4DC03ACF5D47905F03DA;
 extern String_t* _stringLiteralC771FFED510957F9B9CC4A08666469848B90D663;
 extern String_t* _stringLiteralCA869464FCD7C463BB3078DEA53E273D9305656F;
-extern String_t* _stringLiteralCCEB5663AFEC60D7FF60B0CCED845E69A6DB7373;
 extern String_t* _stringLiteralCD92815BF6273ACBAF834B9FAED277C722068291;
 extern String_t* _stringLiteralCF30145704E5F2A14FA8A3F2B475A8E211DE2B2E;
 extern String_t* _stringLiteralD0BE2DC421BE4FCD0172E5AFCEEA3970E2F3D940;
@@ -489,18 +492,18 @@ extern String_t* _stringLiteralFB96549631C835EB239CD614CC6B5CB7D295121A;
 extern String_t* _stringLiteralFE123C379617AFC0105868B6802BD144EC2057BB;
 extern String_t* _stringLiteralFEFE2393A7FC8EAFC6F15A3953F6102DFEBF6D1A;
 extern const RuntimeMethod* Action_1__ctor_mC172C98F4F0CF247C0880F1F05D557C9005F0FF0_RuntimeMethod_var;
-extern const RuntimeMethod* AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A_m05E34F9F7FA56A0F4DFD8D4214DEB8E9E3D0196B_RuntimeMethod_var;
-extern const RuntimeMethod* AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435_m5E108397105666BC5D37C25982B6E42C347072F2_RuntimeMethod_var;
-extern const RuntimeMethod* AsyncTaskMethodBuilder_Start_TisU3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A_mAA0BBDAB34EB00D9D31BC3882639958758A111AE_RuntimeMethod_var;
-extern const RuntimeMethod* AsyncTaskMethodBuilder_Start_TisU3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435_m944D08D60F153EB2E09D7F08803F9FDD89B36869_RuntimeMethod_var;
-extern const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830_TisU3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8_m3C702C47BD7D163FE0F72C03216861F56089FD85_RuntimeMethod_var;
-extern const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6_m1323BFF243F7FEEEBAAB3CDE7DA1E07172402467_RuntimeMethod_var;
-extern const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931_mD6FCC091BA66DA80D1B0E4BE0E37DD64B7241F25_RuntimeMethod_var;
-extern const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272_mD6C45E98D88E844DCBBAE8D534630B8361FC6F16_RuntimeMethod_var;
-extern const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8_m160E0226B84A65047AD45BB0390AC7B463BFB3CF_RuntimeMethod_var;
-extern const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6_mD28C84415767A79B552BE68E633164608F49E198_RuntimeMethod_var;
-extern const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931_mEE9AF35147B1E4DA916DD719AB6C7F422F6FECAA_RuntimeMethod_var;
-extern const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272_m38536B07CB8B67133DF91D155172F7E755FDDBCE_RuntimeMethod_var;
+extern const RuntimeMethod* AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44_m9C28B9D0CA00F9D9BABB7EB7D9B886D5C23D195D_RuntimeMethod_var;
+extern const RuntimeMethod* AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F_mEB5CDA66ACDC181EED598F9B95BF5672F639E1E9_RuntimeMethod_var;
+extern const RuntimeMethod* AsyncTaskMethodBuilder_Start_TisU3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44_m67E1FB70BFEF57B9EA65A39C9BB3B530C9AFF5E9_RuntimeMethod_var;
+extern const RuntimeMethod* AsyncTaskMethodBuilder_Start_TisU3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F_mD4E0BC5746352D701F840B5F8A6719E8464EB32F_RuntimeMethod_var;
+extern const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830_TisU3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4_m5B6B67B29538076E4C87FB699685D5C8D68312B2_RuntimeMethod_var;
+extern const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E_mED805E0A30229321DA68C09D7C5C23954AD8A233_RuntimeMethod_var;
+extern const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1_m5D213FA0F5F13DED7A4C110FAE90115224F8B38D_RuntimeMethod_var;
+extern const RuntimeMethod* AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C_m59A61C6FE4C2DF9212060FBD1AB8E935E10A48A9_RuntimeMethod_var;
+extern const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4_m0E141759155B5C4206EEC5161546C4717F3E666E_RuntimeMethod_var;
+extern const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E_mE5A5AB110A9F1617A056F57C05A3927C1D70352D_RuntimeMethod_var;
+extern const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1_m55D254691BEA7AA910A79396E93BD053EA8CEA20_RuntimeMethod_var;
+extern const RuntimeMethod* AsyncVoidMethodBuilder_Start_TisU3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C_m0751C5F1975531CA88B2D9786BFD6DA5964DCB23_RuntimeMethod_var;
 extern const RuntimeMethod* Enumerator_Dispose_m370D55FE9FF4E2AE42A6ABF701C630FFD51A5AE4_RuntimeMethod_var;
 extern const RuntimeMethod* Enumerator_MoveNext_m813FB5877ED872791AF4DE4D36E12BC4CEC71FF8_RuntimeMethod_var;
 extern const RuntimeMethod* Enumerator_get_Current_mED2EEC7B719235F5482E8B620CB024B3AC567C8F_RuntimeMethod_var;
@@ -512,27 +515,27 @@ extern const RuntimeMethod* List_1__ctor_m676738485DAF2EB7F8FCCCB098940619AAD125
 extern const RuntimeMethod* Object_Instantiate_TisGameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F_m6895A7A231540279E01A537649EB42814FD2671B_RuntimeMethod_var;
 extern const RuntimeMethod* TaskAwaiter_1_GetResult_mD575FD03753A3FD916DFF7C9834342D3EEEB0EE8_RuntimeMethod_var;
 extern const RuntimeMethod* TaskAwaiter_1_get_IsCompleted_mD9FB168E3D6034701DE4736347E1B30AE6CCE70F_RuntimeMethod_var;
-extern const RuntimeMethod* U3CConnectSocketU3Ed__39_System_Collections_IEnumerator_Reset_mD7AFA2769106CB5860B795C6950E3862C31FDC4B_RuntimeMethod_var;
-extern const RuntimeMethod* U3CDatabuffer1U3Ed__50_System_Collections_IEnumerator_Reset_m414B1E9968D5905455BF22EFE5C54A3C23B28536_RuntimeMethod_var;
-extern const RuntimeMethod* U3CtestconnU3Ed__45_System_Collections_IEnumerator_Reset_m2F72E3CBC717E12041E8DF02FAE982ECC44D40D2_RuntimeMethod_var;
+extern const RuntimeMethod* U3CConnectSocketU3Ed__41_System_Collections_IEnumerator_Reset_mB710A432EE1091434A38F456681CE912F3CD2CC6_RuntimeMethod_var;
+extern const RuntimeMethod* U3CDatabuffer1U3Ed__52_System_Collections_IEnumerator_Reset_m21AF74F13106F11D5B7CA2D647F7C1704F97071B_RuntimeMethod_var;
+extern const RuntimeMethod* U3CtestconnU3Ed__47_System_Collections_IEnumerator_Reset_mF7854C43E20E1069BB3A0DEFFF8BF339324D8C4B_RuntimeMethod_var;
 extern const RuntimeMethod* WindowsRuntimeSystemExtensions_GetAwaiter_TisUInt32_t4980FA09003AFAAB5A6E361BA2748EA9A005709B_m2C6520F6DAA7FA2D998990884CDBFC4BAB46BCA8_RuntimeMethod_var;
 extern const RuntimeMethod* YoloDetection_GestureRecognizer_Tapped_m36613AC9F634E60546F013B8E50AE989AFDD47C8_RuntimeMethod_var;
-extern const uint32_t DrawBoundingBoxes_DrawBoxes_mBF91D848C6332C38633F6E64F2D9864AAEE605AF_MetadataUsageId;
+extern const uint32_t DrawBoundingBoxes_DrawBoxes_m61AD267364EA93F0AFCC32871FA559CF4962A6C4_MetadataUsageId;
 extern const uint32_t DrawBoundingBoxes_InitDrawBoundingBoxes_m7E3B2FEE87F65F6D8022A27E2CAE6D5B68A996D2_MetadataUsageId;
 extern const uint32_t Texture2DExtension_Line_mA1E0B540A88277013555C23E9B3355CEAE2CC96F_MetadataUsageId;
 extern const uint32_t Texture2DExtension_TransparentTexture_m69BD7C2533E5B64B8BB217DBCD5878F3D9D52F8C_MetadataUsageId;
-extern const uint32_t U3CConnectSocketU3Ed__39_MoveNext_m2B1A7C9D2B6C066DD8106FE686C3852226C1472B_MetadataUsageId;
-extern const uint32_t U3CConnectSocketU3Ed__39_System_Collections_IEnumerator_Reset_mD7AFA2769106CB5860B795C6950E3862C31FDC4B_MetadataUsageId;
-extern const uint32_t U3CDatabuffer1U3Ed__50_MoveNext_m85AEC30CE8B9363A93E6AE5FD3E4D62D84779D6F_MetadataUsageId;
-extern const uint32_t U3CDatabuffer1U3Ed__50_System_Collections_IEnumerator_Reset_m414B1E9968D5905455BF22EFE5C54A3C23B28536_MetadataUsageId;
-extern const uint32_t U3CListener_ConnectionReceivedU3Ed__49_MoveNext_mEADA63CDF0B0E06A408EF591DA9D449BDEF83718_MetadataUsageId;
-extern const uint32_t U3CListener_StartU3Ed__48_MoveNext_mA6FCDECA5F56D4319FEAE1E76FDF01D474C9C87B_MetadataUsageId;
-extern const uint32_t U3COnApplicationQuitU3Ed__35_MoveNext_m101E4F3EC14D4AAA7280893A01B84125A095CB57_MetadataUsageId;
-extern const uint32_t U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_MoveNext_m67599A6EE7BCE3E220E500EE7401FA98B2E9D9D4_MetadataUsageId;
-extern const uint32_t U3CStartU3Ed__34_MoveNext_mCBED5AECCC96BB9E1D359348DE0DD819C42DDC11_MetadataUsageId;
-extern const uint32_t U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_MoveNext_m4FE6A3E2AF2880422377620F5482125C7372AD28_MetadataUsageId;
-extern const uint32_t U3CtestconnU3Ed__45_MoveNext_mF0831A9FE9C4F9B02D48266AE7EE4FC3F2B99B76_MetadataUsageId;
-extern const uint32_t U3CtestconnU3Ed__45_System_Collections_IEnumerator_Reset_m2F72E3CBC717E12041E8DF02FAE982ECC44D40D2_MetadataUsageId;
+extern const uint32_t U3CConnectSocketU3Ed__41_MoveNext_m27F1BBAA778C931608B765D1A6DED9869ED668FC_MetadataUsageId;
+extern const uint32_t U3CConnectSocketU3Ed__41_System_Collections_IEnumerator_Reset_mB710A432EE1091434A38F456681CE912F3CD2CC6_MetadataUsageId;
+extern const uint32_t U3CDatabuffer1U3Ed__52_MoveNext_mFD8C8A3AB8C1785C39488F9E64707C6E17785AE6_MetadataUsageId;
+extern const uint32_t U3CDatabuffer1U3Ed__52_System_Collections_IEnumerator_Reset_m21AF74F13106F11D5B7CA2D647F7C1704F97071B_MetadataUsageId;
+extern const uint32_t U3CListener_ConnectionReceivedU3Ed__51_MoveNext_mDAD7AE8F134CFF3D6A810F3AB9D2E8F9D00AC5F2_MetadataUsageId;
+extern const uint32_t U3CListener_StartU3Ed__50_MoveNext_mAA853E366ACA51B7E7A8505A3A8F56B133F62581_MetadataUsageId;
+extern const uint32_t U3COnApplicationQuitU3Ed__37_MoveNext_mAA641A0F1E44368237833A583704B90ED178ED7C_MetadataUsageId;
+extern const uint32_t U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_MoveNext_m46C71A19C3BAF760E0AD65A58AB75F893DA86890_MetadataUsageId;
+extern const uint32_t U3CStartU3Ed__36_MoveNext_m17119DC0DACDBFB9264E4B78B3B50F4F1E0EF498_MetadataUsageId;
+extern const uint32_t U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_MoveNext_mD53412BDA661B4453EC08170EEEC70EF31D2E48F_MetadataUsageId;
+extern const uint32_t U3CtestconnU3Ed__47_MoveNext_m0DDF970379ECDD8C576C4314D50E1655A2DEAE9E_MetadataUsageId;
+extern const uint32_t U3CtestconnU3Ed__47_System_Collections_IEnumerator_Reset_mF7854C43E20E1069BB3A0DEFFF8BF339324D8C4B_MetadataUsageId;
 extern const uint32_t YoloDetection_ConnectSocket_m7E8DFE7099ECBF475A8BC8D23322AD17674FA469_MetadataUsageId;
 extern const uint32_t YoloDetection_Connection_m539E984F984D7CA388EADF5D4B161835A2551C40_MetadataUsageId;
 extern const uint32_t YoloDetection_Databuffer1_m4142E0CC11B31C5D8F4C4BC498264561CBFAC324_MetadataUsageId;
@@ -546,6 +549,7 @@ extern const uint32_t YoloDetection_StartHoloLensMediaFrameSourceGroup_m6125D3DF
 extern const uint32_t YoloDetection_Start_m2213099EF893F1B0050F6CC12C9F4DD8383F6919_MetadataUsageId;
 extern const uint32_t YoloDetection_StopHoloLensMediaFrameSourceGroup_mD6B32FF012FC6FD8F3C3E35E12C2CBEF3FA6A933_MetadataUsageId;
 extern const uint32_t YoloDetection_StringToVector3_m1C5068C4C7B285D845BB49B67585E721402A3042_MetadataUsageId;
+extern const uint32_t YoloDetection_Update_mA5D7A4DF0DF5B9C7547BC47CBB4E091A42ED2DF1_MetadataUsageId;
 extern const uint32_t YoloDetection__ctor_m9A918BB846D7B59D28F1F51A24048E03014C9238_MetadataUsageId;
 extern const uint32_t YoloDetection_testconn_mB79B0C7DA88C8C89D4E68A66A66604FB2E325733_MetadataUsageId;
 struct Delegate_t_marshaled_com;
@@ -1444,27 +1448,27 @@ struct YieldInstruction_t836035AC7BD07A3C7909F7AD2A5B42DE99D91C44_marshaled_com
 {
 };
 #endif // YIELDINSTRUCTION_T836035AC7BD07A3C7909F7AD2A5B42DE99D91C44_H
-#ifndef U3CCONNECTSOCKETU3ED__39_TA79C43DAE62BD2D1E4471D0BCF0B1094BD95DC9F_H
-#define U3CCONNECTSOCKETU3ED__39_TA79C43DAE62BD2D1E4471D0BCF0B1094BD95DC9F_H
+#ifndef U3CCONNECTSOCKETU3ED__41_T365DB6990A18B12EC097EA66D6A08536BD002041_H
+#define U3CCONNECTSOCKETU3ED__41_T365DB6990A18B12EC097EA66D6A08536BD002041_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// YoloDetectionHoloLens.YoloDetection_<ConnectSocket>d__39
-struct  U3CConnectSocketU3Ed__39_tA79C43DAE62BD2D1E4471D0BCF0B1094BD95DC9F  : public RuntimeObject
+// YoloDetectionHoloLens.YoloDetection_<ConnectSocket>d__41
+struct  U3CConnectSocketU3Ed__41_t365DB6990A18B12EC097EA66D6A08536BD002041  : public RuntimeObject
 {
 public:
-	// System.Int32 YoloDetectionHoloLens.YoloDetection_<ConnectSocket>d__39::<>1__state
+	// System.Int32 YoloDetectionHoloLens.YoloDetection_<ConnectSocket>d__41::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object YoloDetectionHoloLens.YoloDetection_<ConnectSocket>d__39::<>2__current
+	// System.Object YoloDetectionHoloLens.YoloDetection_<ConnectSocket>d__41::<>2__current
 	RuntimeObject * ___U3CU3E2__current_1;
-	// YoloDetectionHoloLens.YoloDetection YoloDetectionHoloLens.YoloDetection_<ConnectSocket>d__39::<>4__this
+	// YoloDetectionHoloLens.YoloDetection YoloDetectionHoloLens.YoloDetection_<ConnectSocket>d__41::<>4__this
 	YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * ___U3CU3E4__this_2;
 
 public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CConnectSocketU3Ed__39_tA79C43DAE62BD2D1E4471D0BCF0B1094BD95DC9F, ___U3CU3E1__state_0)); }
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CConnectSocketU3Ed__41_t365DB6990A18B12EC097EA66D6A08536BD002041, ___U3CU3E1__state_0)); }
 	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
 	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
 	inline void set_U3CU3E1__state_0(int32_t value)
@@ -1472,7 +1476,7 @@ public:
 		___U3CU3E1__state_0 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CConnectSocketU3Ed__39_tA79C43DAE62BD2D1E4471D0BCF0B1094BD95DC9F, ___U3CU3E2__current_1)); }
+	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CConnectSocketU3Ed__41_t365DB6990A18B12EC097EA66D6A08536BD002041, ___U3CU3E2__current_1)); }
 	inline RuntimeObject * get_U3CU3E2__current_1() const { return ___U3CU3E2__current_1; }
 	inline RuntimeObject ** get_address_of_U3CU3E2__current_1() { return &___U3CU3E2__current_1; }
 	inline void set_U3CU3E2__current_1(RuntimeObject * value)
@@ -1481,7 +1485,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___U3CU3E2__current_1), value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CConnectSocketU3Ed__39_tA79C43DAE62BD2D1E4471D0BCF0B1094BD95DC9F, ___U3CU3E4__this_2)); }
+	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CConnectSocketU3Ed__41_t365DB6990A18B12EC097EA66D6A08536BD002041, ___U3CU3E4__this_2)); }
 	inline YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
 	inline YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
 	inline void set_U3CU3E4__this_2(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * value)
@@ -1494,30 +1498,30 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CCONNECTSOCKETU3ED__39_TA79C43DAE62BD2D1E4471D0BCF0B1094BD95DC9F_H
-#ifndef U3CDATABUFFER1U3ED__50_TB351B4F8B8B81AA3600697E9861BF27E8ADF2C75_H
-#define U3CDATABUFFER1U3ED__50_TB351B4F8B8B81AA3600697E9861BF27E8ADF2C75_H
+#endif // U3CCONNECTSOCKETU3ED__41_T365DB6990A18B12EC097EA66D6A08536BD002041_H
+#ifndef U3CDATABUFFER1U3ED__52_T5A0FC00FC8FCC82E25286B7A3237F79E2F0AA2EA_H
+#define U3CDATABUFFER1U3ED__52_T5A0FC00FC8FCC82E25286B7A3237F79E2F0AA2EA_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// YoloDetectionHoloLens.YoloDetection_<Databuffer1>d__50
-struct  U3CDatabuffer1U3Ed__50_tB351B4F8B8B81AA3600697E9861BF27E8ADF2C75  : public RuntimeObject
+// YoloDetectionHoloLens.YoloDetection_<Databuffer1>d__52
+struct  U3CDatabuffer1U3Ed__52_t5A0FC00FC8FCC82E25286B7A3237F79E2F0AA2EA  : public RuntimeObject
 {
 public:
-	// System.Int32 YoloDetectionHoloLens.YoloDetection_<Databuffer1>d__50::<>1__state
+	// System.Int32 YoloDetectionHoloLens.YoloDetection_<Databuffer1>d__52::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object YoloDetectionHoloLens.YoloDetection_<Databuffer1>d__50::<>2__current
+	// System.Object YoloDetectionHoloLens.YoloDetection_<Databuffer1>d__52::<>2__current
 	RuntimeObject * ___U3CU3E2__current_1;
-	// System.String[] YoloDetectionHoloLens.YoloDetection_<Databuffer1>d__50::input2
+	// System.String[] YoloDetectionHoloLens.YoloDetection_<Databuffer1>d__52::input2
 	StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* ___input2_2;
-	// YoloDetectionHoloLens.YoloDetection YoloDetectionHoloLens.YoloDetection_<Databuffer1>d__50::<>4__this
+	// YoloDetectionHoloLens.YoloDetection YoloDetectionHoloLens.YoloDetection_<Databuffer1>d__52::<>4__this
 	YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * ___U3CU3E4__this_3;
 
 public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CDatabuffer1U3Ed__50_tB351B4F8B8B81AA3600697E9861BF27E8ADF2C75, ___U3CU3E1__state_0)); }
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CDatabuffer1U3Ed__52_t5A0FC00FC8FCC82E25286B7A3237F79E2F0AA2EA, ___U3CU3E1__state_0)); }
 	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
 	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
 	inline void set_U3CU3E1__state_0(int32_t value)
@@ -1525,7 +1529,7 @@ public:
 		___U3CU3E1__state_0 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CDatabuffer1U3Ed__50_tB351B4F8B8B81AA3600697E9861BF27E8ADF2C75, ___U3CU3E2__current_1)); }
+	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CDatabuffer1U3Ed__52_t5A0FC00FC8FCC82E25286B7A3237F79E2F0AA2EA, ___U3CU3E2__current_1)); }
 	inline RuntimeObject * get_U3CU3E2__current_1() const { return ___U3CU3E2__current_1; }
 	inline RuntimeObject ** get_address_of_U3CU3E2__current_1() { return &___U3CU3E2__current_1; }
 	inline void set_U3CU3E2__current_1(RuntimeObject * value)
@@ -1534,7 +1538,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___U3CU3E2__current_1), value);
 	}
 
-	inline static int32_t get_offset_of_input2_2() { return static_cast<int32_t>(offsetof(U3CDatabuffer1U3Ed__50_tB351B4F8B8B81AA3600697E9861BF27E8ADF2C75, ___input2_2)); }
+	inline static int32_t get_offset_of_input2_2() { return static_cast<int32_t>(offsetof(U3CDatabuffer1U3Ed__52_t5A0FC00FC8FCC82E25286B7A3237F79E2F0AA2EA, ___input2_2)); }
 	inline StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* get_input2_2() const { return ___input2_2; }
 	inline StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E** get_address_of_input2_2() { return &___input2_2; }
 	inline void set_input2_2(StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* value)
@@ -1543,7 +1547,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___input2_2), value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3E4__this_3() { return static_cast<int32_t>(offsetof(U3CDatabuffer1U3Ed__50_tB351B4F8B8B81AA3600697E9861BF27E8ADF2C75, ___U3CU3E4__this_3)); }
+	inline static int32_t get_offset_of_U3CU3E4__this_3() { return static_cast<int32_t>(offsetof(U3CDatabuffer1U3Ed__52_t5A0FC00FC8FCC82E25286B7A3237F79E2F0AA2EA, ___U3CU3E4__this_3)); }
 	inline YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * get_U3CU3E4__this_3() const { return ___U3CU3E4__this_3; }
 	inline YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 ** get_address_of_U3CU3E4__this_3() { return &___U3CU3E4__this_3; }
 	inline void set_U3CU3E4__this_3(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * value)
@@ -1556,28 +1560,28 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CDATABUFFER1U3ED__50_TB351B4F8B8B81AA3600697E9861BF27E8ADF2C75_H
-#ifndef U3CTESTCONNU3ED__45_T5A1A96807FEB9794E8B6E3BA7497C4C86BF44AD9_H
-#define U3CTESTCONNU3ED__45_T5A1A96807FEB9794E8B6E3BA7497C4C86BF44AD9_H
+#endif // U3CDATABUFFER1U3ED__52_T5A0FC00FC8FCC82E25286B7A3237F79E2F0AA2EA_H
+#ifndef U3CTESTCONNU3ED__47_TA87F302836423510DD5D436CA9341DBCA85E32E8_H
+#define U3CTESTCONNU3ED__47_TA87F302836423510DD5D436CA9341DBCA85E32E8_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// YoloDetectionHoloLens.YoloDetection_<testconn>d__45
-struct  U3CtestconnU3Ed__45_t5A1A96807FEB9794E8B6E3BA7497C4C86BF44AD9  : public RuntimeObject
+// YoloDetectionHoloLens.YoloDetection_<testconn>d__47
+struct  U3CtestconnU3Ed__47_tA87F302836423510DD5D436CA9341DBCA85E32E8  : public RuntimeObject
 {
 public:
-	// System.Int32 YoloDetectionHoloLens.YoloDetection_<testconn>d__45::<>1__state
+	// System.Int32 YoloDetectionHoloLens.YoloDetection_<testconn>d__47::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Object YoloDetectionHoloLens.YoloDetection_<testconn>d__45::<>2__current
+	// System.Object YoloDetectionHoloLens.YoloDetection_<testconn>d__47::<>2__current
 	RuntimeObject * ___U3CU3E2__current_1;
-	// YoloDetectionHoloLens.YoloDetection YoloDetectionHoloLens.YoloDetection_<testconn>d__45::<>4__this
+	// YoloDetectionHoloLens.YoloDetection YoloDetectionHoloLens.YoloDetection_<testconn>d__47::<>4__this
 	YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * ___U3CU3E4__this_2;
 
 public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CtestconnU3Ed__45_t5A1A96807FEB9794E8B6E3BA7497C4C86BF44AD9, ___U3CU3E1__state_0)); }
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CtestconnU3Ed__47_tA87F302836423510DD5D436CA9341DBCA85E32E8, ___U3CU3E1__state_0)); }
 	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
 	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
 	inline void set_U3CU3E1__state_0(int32_t value)
@@ -1585,7 +1589,7 @@ public:
 		___U3CU3E1__state_0 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CtestconnU3Ed__45_t5A1A96807FEB9794E8B6E3BA7497C4C86BF44AD9, ___U3CU3E2__current_1)); }
+	inline static int32_t get_offset_of_U3CU3E2__current_1() { return static_cast<int32_t>(offsetof(U3CtestconnU3Ed__47_tA87F302836423510DD5D436CA9341DBCA85E32E8, ___U3CU3E2__current_1)); }
 	inline RuntimeObject * get_U3CU3E2__current_1() const { return ___U3CU3E2__current_1; }
 	inline RuntimeObject ** get_address_of_U3CU3E2__current_1() { return &___U3CU3E2__current_1; }
 	inline void set_U3CU3E2__current_1(RuntimeObject * value)
@@ -1594,7 +1598,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___U3CU3E2__current_1), value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CtestconnU3Ed__45_t5A1A96807FEB9794E8B6E3BA7497C4C86BF44AD9, ___U3CU3E4__this_2)); }
+	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CtestconnU3Ed__47_tA87F302836423510DD5D436CA9341DBCA85E32E8, ___U3CU3E4__this_2)); }
 	inline YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
 	inline YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
 	inline void set_U3CU3E4__this_2(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * value)
@@ -1607,7 +1611,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CTESTCONNU3ED__45_T5A1A96807FEB9794E8B6E3BA7497C4C86BF44AD9_H
+#endif // U3CTESTCONNU3ED__47_TA87F302836423510DD5D436CA9341DBCA85E32E8_H
 #ifndef BOUNDINGBOX_T2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E_H
 #define BOUNDINGBOX_T2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E_H
 #ifdef __clang__
@@ -5392,39 +5396,39 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // INTERACTIONSOURCEPOSE_T249CD43F634426269571F0E4689428ACC8C54F73_H
-#ifndef U3CLISTENER_CONNECTIONRECEIVEDU3ED__49_TA50BB42EF772589ECDE0833346B94E11DBAFACF8_H
-#define U3CLISTENER_CONNECTIONRECEIVEDU3ED__49_TA50BB42EF772589ECDE0833346B94E11DBAFACF8_H
+#ifndef U3CLISTENER_CONNECTIONRECEIVEDU3ED__51_TEC6C7FB9723E655067743CDB501194ADA1CBD7E4_H
+#define U3CLISTENER_CONNECTIONRECEIVEDU3ED__51_TEC6C7FB9723E655067743CDB501194ADA1CBD7E4_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// YoloDetectionHoloLens.YoloDetection_<Listener_ConnectionReceived>d__49
-struct  U3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8 
+// YoloDetectionHoloLens.YoloDetection_<Listener_ConnectionReceived>d__51
+struct  U3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4 
 {
 public:
-	// System.Int32 YoloDetectionHoloLens.YoloDetection_<Listener_ConnectionReceived>d__49::<>1__state
+	// System.Int32 YoloDetectionHoloLens.YoloDetection_<Listener_ConnectionReceived>d__51::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder YoloDetectionHoloLens.YoloDetection_<Listener_ConnectionReceived>d__49::<>t__builder
+	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder YoloDetectionHoloLens.YoloDetection_<Listener_ConnectionReceived>d__51::<>t__builder
 	AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF  ___U3CU3Et__builder_1;
-	// Windows.Networking.Sockets.StreamSocketListenerConnectionReceivedEventArgs YoloDetectionHoloLens.YoloDetection_<Listener_ConnectionReceived>d__49::args
+	// Windows.Networking.Sockets.StreamSocketListenerConnectionReceivedEventArgs YoloDetectionHoloLens.YoloDetection_<Listener_ConnectionReceived>d__51::args
 	StreamSocketListenerConnectionReceivedEventArgs_tAE7EBA1171F068A64476B93DB1A11CF05A376B5E * ___args_2;
-	// YoloDetectionHoloLens.YoloDetection YoloDetectionHoloLens.YoloDetection_<Listener_ConnectionReceived>d__49::<>4__this
+	// YoloDetectionHoloLens.YoloDetection YoloDetectionHoloLens.YoloDetection_<Listener_ConnectionReceived>d__51::<>4__this
 	YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * ___U3CU3E4__this_3;
-	// Windows.Networking.Sockets.StreamSocketListener YoloDetectionHoloLens.YoloDetection_<Listener_ConnectionReceived>d__49::sender
+	// Windows.Networking.Sockets.StreamSocketListener YoloDetectionHoloLens.YoloDetection_<Listener_ConnectionReceived>d__51::sender
 	StreamSocketListener_t70D22DB456195FB1F414724B2A1C639ED99E10DE * ___sender_4;
-	// System.String YoloDetectionHoloLens.YoloDetection_<Listener_ConnectionReceived>d__49::<ab>5__2
+	// System.String YoloDetectionHoloLens.YoloDetection_<Listener_ConnectionReceived>d__51::<ab>5__2
 	String_t* ___U3CabU3E5__2_5;
-	// Windows.Storage.Streams.DataReader YoloDetectionHoloLens.YoloDetection_<Listener_ConnectionReceived>d__49::<dr>5__3
+	// Windows.Storage.Streams.DataReader YoloDetectionHoloLens.YoloDetection_<Listener_ConnectionReceived>d__51::<dr>5__3
 	DataReader_t92CE269217524DDA728FF4095997CC6D57EC7E4F * ___U3CdrU3E5__3_6;
-	// System.Runtime.CompilerServices.TaskAwaiter`1<System.UInt32> YoloDetectionHoloLens.YoloDetection_<Listener_ConnectionReceived>d__49::<>u__1
+	// System.Runtime.CompilerServices.TaskAwaiter`1<System.UInt32> YoloDetectionHoloLens.YoloDetection_<Listener_ConnectionReceived>d__51::<>u__1
 	TaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830  ___U3CU3Eu__1_7;
-	// Windows.Storage.Streams.DataWriter YoloDetectionHoloLens.YoloDetection_<Listener_ConnectionReceived>d__49::<dw>5__4
+	// Windows.Storage.Streams.DataWriter YoloDetectionHoloLens.YoloDetection_<Listener_ConnectionReceived>d__51::<dw>5__4
 	DataWriter_tA855994179CFF45E4D95655F1A5AFC2BFCEB22A3 * ___U3CdwU3E5__4_8;
 
 public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8, ___U3CU3E1__state_0)); }
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4, ___U3CU3E1__state_0)); }
 	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
 	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
 	inline void set_U3CU3E1__state_0(int32_t value)
@@ -5432,7 +5436,7 @@ public:
 		___U3CU3E1__state_0 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8, ___U3CU3Et__builder_1)); }
+	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4, ___U3CU3Et__builder_1)); }
 	inline AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF  get_U3CU3Et__builder_1() const { return ___U3CU3Et__builder_1; }
 	inline AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * get_address_of_U3CU3Et__builder_1() { return &___U3CU3Et__builder_1; }
 	inline void set_U3CU3Et__builder_1(AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF  value)
@@ -5440,7 +5444,7 @@ public:
 		___U3CU3Et__builder_1 = value;
 	}
 
-	inline static int32_t get_offset_of_args_2() { return static_cast<int32_t>(offsetof(U3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8, ___args_2)); }
+	inline static int32_t get_offset_of_args_2() { return static_cast<int32_t>(offsetof(U3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4, ___args_2)); }
 	inline StreamSocketListenerConnectionReceivedEventArgs_tAE7EBA1171F068A64476B93DB1A11CF05A376B5E * get_args_2() const { return ___args_2; }
 	inline StreamSocketListenerConnectionReceivedEventArgs_tAE7EBA1171F068A64476B93DB1A11CF05A376B5E ** get_address_of_args_2() { return &___args_2; }
 	inline void set_args_2(StreamSocketListenerConnectionReceivedEventArgs_tAE7EBA1171F068A64476B93DB1A11CF05A376B5E * value)
@@ -5449,7 +5453,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___args_2), value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3E4__this_3() { return static_cast<int32_t>(offsetof(U3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8, ___U3CU3E4__this_3)); }
+	inline static int32_t get_offset_of_U3CU3E4__this_3() { return static_cast<int32_t>(offsetof(U3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4, ___U3CU3E4__this_3)); }
 	inline YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * get_U3CU3E4__this_3() const { return ___U3CU3E4__this_3; }
 	inline YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 ** get_address_of_U3CU3E4__this_3() { return &___U3CU3E4__this_3; }
 	inline void set_U3CU3E4__this_3(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * value)
@@ -5458,7 +5462,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___U3CU3E4__this_3), value);
 	}
 
-	inline static int32_t get_offset_of_sender_4() { return static_cast<int32_t>(offsetof(U3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8, ___sender_4)); }
+	inline static int32_t get_offset_of_sender_4() { return static_cast<int32_t>(offsetof(U3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4, ___sender_4)); }
 	inline StreamSocketListener_t70D22DB456195FB1F414724B2A1C639ED99E10DE * get_sender_4() const { return ___sender_4; }
 	inline StreamSocketListener_t70D22DB456195FB1F414724B2A1C639ED99E10DE ** get_address_of_sender_4() { return &___sender_4; }
 	inline void set_sender_4(StreamSocketListener_t70D22DB456195FB1F414724B2A1C639ED99E10DE * value)
@@ -5467,7 +5471,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___sender_4), value);
 	}
 
-	inline static int32_t get_offset_of_U3CabU3E5__2_5() { return static_cast<int32_t>(offsetof(U3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8, ___U3CabU3E5__2_5)); }
+	inline static int32_t get_offset_of_U3CabU3E5__2_5() { return static_cast<int32_t>(offsetof(U3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4, ___U3CabU3E5__2_5)); }
 	inline String_t* get_U3CabU3E5__2_5() const { return ___U3CabU3E5__2_5; }
 	inline String_t** get_address_of_U3CabU3E5__2_5() { return &___U3CabU3E5__2_5; }
 	inline void set_U3CabU3E5__2_5(String_t* value)
@@ -5476,7 +5480,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___U3CabU3E5__2_5), value);
 	}
 
-	inline static int32_t get_offset_of_U3CdrU3E5__3_6() { return static_cast<int32_t>(offsetof(U3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8, ___U3CdrU3E5__3_6)); }
+	inline static int32_t get_offset_of_U3CdrU3E5__3_6() { return static_cast<int32_t>(offsetof(U3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4, ___U3CdrU3E5__3_6)); }
 	inline DataReader_t92CE269217524DDA728FF4095997CC6D57EC7E4F * get_U3CdrU3E5__3_6() const { return ___U3CdrU3E5__3_6; }
 	inline DataReader_t92CE269217524DDA728FF4095997CC6D57EC7E4F ** get_address_of_U3CdrU3E5__3_6() { return &___U3CdrU3E5__3_6; }
 	inline void set_U3CdrU3E5__3_6(DataReader_t92CE269217524DDA728FF4095997CC6D57EC7E4F * value)
@@ -5485,7 +5489,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___U3CdrU3E5__3_6), value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3Eu__1_7() { return static_cast<int32_t>(offsetof(U3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8, ___U3CU3Eu__1_7)); }
+	inline static int32_t get_offset_of_U3CU3Eu__1_7() { return static_cast<int32_t>(offsetof(U3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4, ___U3CU3Eu__1_7)); }
 	inline TaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830  get_U3CU3Eu__1_7() const { return ___U3CU3Eu__1_7; }
 	inline TaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830 * get_address_of_U3CU3Eu__1_7() { return &___U3CU3Eu__1_7; }
 	inline void set_U3CU3Eu__1_7(TaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830  value)
@@ -5493,7 +5497,7 @@ public:
 		___U3CU3Eu__1_7 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CdwU3E5__4_8() { return static_cast<int32_t>(offsetof(U3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8, ___U3CdwU3E5__4_8)); }
+	inline static int32_t get_offset_of_U3CdwU3E5__4_8() { return static_cast<int32_t>(offsetof(U3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4, ___U3CdwU3E5__4_8)); }
 	inline DataWriter_tA855994179CFF45E4D95655F1A5AFC2BFCEB22A3 * get_U3CdwU3E5__4_8() const { return ___U3CdwU3E5__4_8; }
 	inline DataWriter_tA855994179CFF45E4D95655F1A5AFC2BFCEB22A3 ** get_address_of_U3CdwU3E5__4_8() { return &___U3CdwU3E5__4_8; }
 	inline void set_U3CdwU3E5__4_8(DataWriter_tA855994179CFF45E4D95655F1A5AFC2BFCEB22A3 * value)
@@ -5506,30 +5510,30 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CLISTENER_CONNECTIONRECEIVEDU3ED__49_TA50BB42EF772589ECDE0833346B94E11DBAFACF8_H
-#ifndef U3CLISTENER_STARTU3ED__48_T05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6_H
-#define U3CLISTENER_STARTU3ED__48_T05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6_H
+#endif // U3CLISTENER_CONNECTIONRECEIVEDU3ED__51_TEC6C7FB9723E655067743CDB501194ADA1CBD7E4_H
+#ifndef U3CLISTENER_STARTU3ED__50_T40142B6C9EF3A642573D1D0A6168433FF587C78E_H
+#define U3CLISTENER_STARTU3ED__50_T40142B6C9EF3A642573D1D0A6168433FF587C78E_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// YoloDetectionHoloLens.YoloDetection_<Listener_Start>d__48
-struct  U3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6 
+// YoloDetectionHoloLens.YoloDetection_<Listener_Start>d__50
+struct  U3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E 
 {
 public:
-	// System.Int32 YoloDetectionHoloLens.YoloDetection_<Listener_Start>d__48::<>1__state
+	// System.Int32 YoloDetectionHoloLens.YoloDetection_<Listener_Start>d__50::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder YoloDetectionHoloLens.YoloDetection_<Listener_Start>d__48::<>t__builder
+	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder YoloDetectionHoloLens.YoloDetection_<Listener_Start>d__50::<>t__builder
 	AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF  ___U3CU3Et__builder_1;
-	// YoloDetectionHoloLens.YoloDetection YoloDetectionHoloLens.YoloDetection_<Listener_Start>d__48::<>4__this
+	// YoloDetectionHoloLens.YoloDetection YoloDetectionHoloLens.YoloDetection_<Listener_Start>d__50::<>4__this
 	YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * ___U3CU3E4__this_2;
-	// System.Runtime.CompilerServices.TaskAwaiter YoloDetectionHoloLens.YoloDetection_<Listener_Start>d__48::<>u__1
+	// System.Runtime.CompilerServices.TaskAwaiter YoloDetectionHoloLens.YoloDetection_<Listener_Start>d__50::<>u__1
 	TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F  ___U3CU3Eu__1_3;
 
 public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6, ___U3CU3E1__state_0)); }
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E, ___U3CU3E1__state_0)); }
 	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
 	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
 	inline void set_U3CU3E1__state_0(int32_t value)
@@ -5537,7 +5541,7 @@ public:
 		___U3CU3E1__state_0 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6, ___U3CU3Et__builder_1)); }
+	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E, ___U3CU3Et__builder_1)); }
 	inline AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF  get_U3CU3Et__builder_1() const { return ___U3CU3Et__builder_1; }
 	inline AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * get_address_of_U3CU3Et__builder_1() { return &___U3CU3Et__builder_1; }
 	inline void set_U3CU3Et__builder_1(AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF  value)
@@ -5545,7 +5549,7 @@ public:
 		___U3CU3Et__builder_1 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6, ___U3CU3E4__this_2)); }
+	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E, ___U3CU3E4__this_2)); }
 	inline YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
 	inline YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
 	inline void set_U3CU3E4__this_2(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * value)
@@ -5554,7 +5558,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___U3CU3E4__this_2), value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3Eu__1_3() { return static_cast<int32_t>(offsetof(U3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6, ___U3CU3Eu__1_3)); }
+	inline static int32_t get_offset_of_U3CU3Eu__1_3() { return static_cast<int32_t>(offsetof(U3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E, ___U3CU3Eu__1_3)); }
 	inline TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F  get_U3CU3Eu__1_3() const { return ___U3CU3Eu__1_3; }
 	inline TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F * get_address_of_U3CU3Eu__1_3() { return &___U3CU3Eu__1_3; }
 	inline void set_U3CU3Eu__1_3(TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F  value)
@@ -5566,30 +5570,30 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CLISTENER_STARTU3ED__48_T05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6_H
-#ifndef U3CONAPPLICATIONQUITU3ED__35_T1258E3A1B201F827B1AFEDCDA933FF78270A0931_H
-#define U3CONAPPLICATIONQUITU3ED__35_T1258E3A1B201F827B1AFEDCDA933FF78270A0931_H
+#endif // U3CLISTENER_STARTU3ED__50_T40142B6C9EF3A642573D1D0A6168433FF587C78E_H
+#ifndef U3CONAPPLICATIONQUITU3ED__37_T6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1_H
+#define U3CONAPPLICATIONQUITU3ED__37_T6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// YoloDetectionHoloLens.YoloDetection_<OnApplicationQuit>d__35
-struct  U3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931 
+// YoloDetectionHoloLens.YoloDetection_<OnApplicationQuit>d__37
+struct  U3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1 
 {
 public:
-	// System.Int32 YoloDetectionHoloLens.YoloDetection_<OnApplicationQuit>d__35::<>1__state
+	// System.Int32 YoloDetectionHoloLens.YoloDetection_<OnApplicationQuit>d__37::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder YoloDetectionHoloLens.YoloDetection_<OnApplicationQuit>d__35::<>t__builder
+	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder YoloDetectionHoloLens.YoloDetection_<OnApplicationQuit>d__37::<>t__builder
 	AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF  ___U3CU3Et__builder_1;
-	// YoloDetectionHoloLens.YoloDetection YoloDetectionHoloLens.YoloDetection_<OnApplicationQuit>d__35::<>4__this
+	// YoloDetectionHoloLens.YoloDetection YoloDetectionHoloLens.YoloDetection_<OnApplicationQuit>d__37::<>4__this
 	YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * ___U3CU3E4__this_2;
-	// System.Runtime.CompilerServices.TaskAwaiter YoloDetectionHoloLens.YoloDetection_<OnApplicationQuit>d__35::<>u__1
+	// System.Runtime.CompilerServices.TaskAwaiter YoloDetectionHoloLens.YoloDetection_<OnApplicationQuit>d__37::<>u__1
 	TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F  ___U3CU3Eu__1_3;
 
 public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931, ___U3CU3E1__state_0)); }
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1, ___U3CU3E1__state_0)); }
 	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
 	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
 	inline void set_U3CU3E1__state_0(int32_t value)
@@ -5597,7 +5601,7 @@ public:
 		___U3CU3E1__state_0 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931, ___U3CU3Et__builder_1)); }
+	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1, ___U3CU3Et__builder_1)); }
 	inline AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF  get_U3CU3Et__builder_1() const { return ___U3CU3Et__builder_1; }
 	inline AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * get_address_of_U3CU3Et__builder_1() { return &___U3CU3Et__builder_1; }
 	inline void set_U3CU3Et__builder_1(AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF  value)
@@ -5605,7 +5609,7 @@ public:
 		___U3CU3Et__builder_1 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931, ___U3CU3E4__this_2)); }
+	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1, ___U3CU3E4__this_2)); }
 	inline YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
 	inline YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
 	inline void set_U3CU3E4__this_2(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * value)
@@ -5614,7 +5618,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___U3CU3E4__this_2), value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3Eu__1_3() { return static_cast<int32_t>(offsetof(U3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931, ___U3CU3Eu__1_3)); }
+	inline static int32_t get_offset_of_U3CU3Eu__1_3() { return static_cast<int32_t>(offsetof(U3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1, ___U3CU3Eu__1_3)); }
 	inline TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F  get_U3CU3Eu__1_3() const { return ___U3CU3Eu__1_3; }
 	inline TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F * get_address_of_U3CU3Eu__1_3() { return &___U3CU3Eu__1_3; }
 	inline void set_U3CU3Eu__1_3(TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F  value)
@@ -5626,30 +5630,30 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CONAPPLICATIONQUITU3ED__35_T1258E3A1B201F827B1AFEDCDA933FF78270A0931_H
-#ifndef U3CSTARTU3ED__34_T82F2C76E463313640FC8B9870C49F7324297A272_H
-#define U3CSTARTU3ED__34_T82F2C76E463313640FC8B9870C49F7324297A272_H
+#endif // U3CONAPPLICATIONQUITU3ED__37_T6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1_H
+#ifndef U3CSTARTU3ED__36_T856FED444AB5EAE5658CA0CBA9F439E36D83777C_H
+#define U3CSTARTU3ED__36_T856FED444AB5EAE5658CA0CBA9F439E36D83777C_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// YoloDetectionHoloLens.YoloDetection_<Start>d__34
-struct  U3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272 
+// YoloDetectionHoloLens.YoloDetection_<Start>d__36
+struct  U3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C 
 {
 public:
-	// System.Int32 YoloDetectionHoloLens.YoloDetection_<Start>d__34::<>1__state
+	// System.Int32 YoloDetectionHoloLens.YoloDetection_<Start>d__36::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder YoloDetectionHoloLens.YoloDetection_<Start>d__34::<>t__builder
+	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder YoloDetectionHoloLens.YoloDetection_<Start>d__36::<>t__builder
 	AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF  ___U3CU3Et__builder_1;
-	// YoloDetectionHoloLens.YoloDetection YoloDetectionHoloLens.YoloDetection_<Start>d__34::<>4__this
+	// YoloDetectionHoloLens.YoloDetection YoloDetectionHoloLens.YoloDetection_<Start>d__36::<>4__this
 	YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * ___U3CU3E4__this_2;
-	// System.Runtime.CompilerServices.TaskAwaiter YoloDetectionHoloLens.YoloDetection_<Start>d__34::<>u__1
+	// System.Runtime.CompilerServices.TaskAwaiter YoloDetectionHoloLens.YoloDetection_<Start>d__36::<>u__1
 	TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F  ___U3CU3Eu__1_3;
 
 public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272, ___U3CU3E1__state_0)); }
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C, ___U3CU3E1__state_0)); }
 	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
 	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
 	inline void set_U3CU3E1__state_0(int32_t value)
@@ -5657,7 +5661,7 @@ public:
 		___U3CU3E1__state_0 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272, ___U3CU3Et__builder_1)); }
+	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C, ___U3CU3Et__builder_1)); }
 	inline AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF  get_U3CU3Et__builder_1() const { return ___U3CU3Et__builder_1; }
 	inline AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * get_address_of_U3CU3Et__builder_1() { return &___U3CU3Et__builder_1; }
 	inline void set_U3CU3Et__builder_1(AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF  value)
@@ -5665,7 +5669,7 @@ public:
 		___U3CU3Et__builder_1 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272, ___U3CU3E4__this_2)); }
+	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C, ___U3CU3E4__this_2)); }
 	inline YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
 	inline YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
 	inline void set_U3CU3E4__this_2(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * value)
@@ -5674,7 +5678,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___U3CU3E4__this_2), value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3Eu__1_3() { return static_cast<int32_t>(offsetof(U3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272, ___U3CU3Eu__1_3)); }
+	inline static int32_t get_offset_of_U3CU3Eu__1_3() { return static_cast<int32_t>(offsetof(U3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C, ___U3CU3Eu__1_3)); }
 	inline TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F  get_U3CU3Eu__1_3() const { return ___U3CU3Eu__1_3; }
 	inline TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F * get_address_of_U3CU3Eu__1_3() { return &___U3CU3Eu__1_3; }
 	inline void set_U3CU3Eu__1_3(TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F  value)
@@ -5686,7 +5690,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CSTARTU3ED__34_T82F2C76E463313640FC8B9870C49F7324297A272_H
+#endif // U3CSTARTU3ED__36_T856FED444AB5EAE5658CA0CBA9F439E36D83777C_H
 #ifndef MEDIAFRAMESOURCEGROUP_T81A62BB7229CDBDE57DACE8362C9A7657B19DEB8_H
 #define MEDIAFRAMESOURCEGROUP_T81A62BB7229CDBDE57DACE8362C9A7657B19DEB8_H
 #ifdef __clang__
@@ -5910,29 +5914,29 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // TAPPEDEVENTARGS_T1E2125DB3E5E3F28EF3018C15F6A7786EDE8E9D6_H
-#ifndef U3CSTARTHOLOLENSMEDIAFRAMESOURCEGROUPU3ED__37_T1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A_H
-#define U3CSTARTHOLOLENSMEDIAFRAMESOURCEGROUPU3ED__37_T1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A_H
+#ifndef U3CSTARTHOLOLENSMEDIAFRAMESOURCEGROUPU3ED__39_TBDB6C9685910D3D2358BF437960FB9516C8D9B44_H
+#define U3CSTARTHOLOLENSMEDIAFRAMESOURCEGROUPU3ED__39_TBDB6C9685910D3D2358BF437960FB9516C8D9B44_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// YoloDetectionHoloLens.YoloDetection_<StartHoloLensMediaFrameSourceGroup>d__37
-struct  U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A 
+// YoloDetectionHoloLens.YoloDetection_<StartHoloLensMediaFrameSourceGroup>d__39
+struct  U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44 
 {
 public:
-	// System.Int32 YoloDetectionHoloLens.YoloDetection_<StartHoloLensMediaFrameSourceGroup>d__37::<>1__state
+	// System.Int32 YoloDetectionHoloLens.YoloDetection_<StartHoloLensMediaFrameSourceGroup>d__39::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder YoloDetectionHoloLens.YoloDetection_<StartHoloLensMediaFrameSourceGroup>d__37::<>t__builder
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder YoloDetectionHoloLens.YoloDetection_<StartHoloLensMediaFrameSourceGroup>d__39::<>t__builder
 	AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487  ___U3CU3Et__builder_1;
-	// YoloDetectionHoloLens.YoloDetection YoloDetectionHoloLens.YoloDetection_<StartHoloLensMediaFrameSourceGroup>d__37::<>4__this
+	// YoloDetectionHoloLens.YoloDetection YoloDetectionHoloLens.YoloDetection_<StartHoloLensMediaFrameSourceGroup>d__39::<>4__this
 	YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * ___U3CU3E4__this_2;
-	// System.Runtime.CompilerServices.TaskAwaiter YoloDetectionHoloLens.YoloDetection_<StartHoloLensMediaFrameSourceGroup>d__37::<>u__1
+	// System.Runtime.CompilerServices.TaskAwaiter YoloDetectionHoloLens.YoloDetection_<StartHoloLensMediaFrameSourceGroup>d__39::<>u__1
 	TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F  ___U3CU3Eu__1_3;
 
 public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A, ___U3CU3E1__state_0)); }
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44, ___U3CU3E1__state_0)); }
 	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
 	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
 	inline void set_U3CU3E1__state_0(int32_t value)
@@ -5940,7 +5944,7 @@ public:
 		___U3CU3E1__state_0 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A, ___U3CU3Et__builder_1)); }
+	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44, ___U3CU3Et__builder_1)); }
 	inline AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487  get_U3CU3Et__builder_1() const { return ___U3CU3Et__builder_1; }
 	inline AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * get_address_of_U3CU3Et__builder_1() { return &___U3CU3Et__builder_1; }
 	inline void set_U3CU3Et__builder_1(AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487  value)
@@ -5948,7 +5952,7 @@ public:
 		___U3CU3Et__builder_1 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A, ___U3CU3E4__this_2)); }
+	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44, ___U3CU3E4__this_2)); }
 	inline YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
 	inline YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
 	inline void set_U3CU3E4__this_2(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * value)
@@ -5957,7 +5961,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___U3CU3E4__this_2), value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3Eu__1_3() { return static_cast<int32_t>(offsetof(U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A, ___U3CU3Eu__1_3)); }
+	inline static int32_t get_offset_of_U3CU3Eu__1_3() { return static_cast<int32_t>(offsetof(U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44, ___U3CU3Eu__1_3)); }
 	inline TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F  get_U3CU3Eu__1_3() const { return ___U3CU3Eu__1_3; }
 	inline TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F * get_address_of_U3CU3Eu__1_3() { return &___U3CU3Eu__1_3; }
 	inline void set_U3CU3Eu__1_3(TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F  value)
@@ -5969,30 +5973,30 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CSTARTHOLOLENSMEDIAFRAMESOURCEGROUPU3ED__37_T1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A_H
-#ifndef U3CSTOPHOLOLENSMEDIAFRAMESOURCEGROUPU3ED__38_T8FFC98E2F97CA4233612A3E002195C7EBE5D0435_H
-#define U3CSTOPHOLOLENSMEDIAFRAMESOURCEGROUPU3ED__38_T8FFC98E2F97CA4233612A3E002195C7EBE5D0435_H
+#endif // U3CSTARTHOLOLENSMEDIAFRAMESOURCEGROUPU3ED__39_TBDB6C9685910D3D2358BF437960FB9516C8D9B44_H
+#ifndef U3CSTOPHOLOLENSMEDIAFRAMESOURCEGROUPU3ED__40_T497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F_H
+#define U3CSTOPHOLOLENSMEDIAFRAMESOURCEGROUPU3ED__40_T497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// YoloDetectionHoloLens.YoloDetection_<StopHoloLensMediaFrameSourceGroup>d__38
-struct  U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435 
+// YoloDetectionHoloLens.YoloDetection_<StopHoloLensMediaFrameSourceGroup>d__40
+struct  U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F 
 {
 public:
-	// System.Int32 YoloDetectionHoloLens.YoloDetection_<StopHoloLensMediaFrameSourceGroup>d__38::<>1__state
+	// System.Int32 YoloDetectionHoloLens.YoloDetection_<StopHoloLensMediaFrameSourceGroup>d__40::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder YoloDetectionHoloLens.YoloDetection_<StopHoloLensMediaFrameSourceGroup>d__38::<>t__builder
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder YoloDetectionHoloLens.YoloDetection_<StopHoloLensMediaFrameSourceGroup>d__40::<>t__builder
 	AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487  ___U3CU3Et__builder_1;
-	// YoloDetectionHoloLens.YoloDetection YoloDetectionHoloLens.YoloDetection_<StopHoloLensMediaFrameSourceGroup>d__38::<>4__this
+	// YoloDetectionHoloLens.YoloDetection YoloDetectionHoloLens.YoloDetection_<StopHoloLensMediaFrameSourceGroup>d__40::<>4__this
 	YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * ___U3CU3E4__this_2;
-	// System.Runtime.CompilerServices.TaskAwaiter YoloDetectionHoloLens.YoloDetection_<StopHoloLensMediaFrameSourceGroup>d__38::<>u__1
+	// System.Runtime.CompilerServices.TaskAwaiter YoloDetectionHoloLens.YoloDetection_<StopHoloLensMediaFrameSourceGroup>d__40::<>u__1
 	TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F  ___U3CU3Eu__1_3;
 
 public:
-	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435, ___U3CU3E1__state_0)); }
+	inline static int32_t get_offset_of_U3CU3E1__state_0() { return static_cast<int32_t>(offsetof(U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F, ___U3CU3E1__state_0)); }
 	inline int32_t get_U3CU3E1__state_0() const { return ___U3CU3E1__state_0; }
 	inline int32_t* get_address_of_U3CU3E1__state_0() { return &___U3CU3E1__state_0; }
 	inline void set_U3CU3E1__state_0(int32_t value)
@@ -6000,7 +6004,7 @@ public:
 		___U3CU3E1__state_0 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435, ___U3CU3Et__builder_1)); }
+	inline static int32_t get_offset_of_U3CU3Et__builder_1() { return static_cast<int32_t>(offsetof(U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F, ___U3CU3Et__builder_1)); }
 	inline AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487  get_U3CU3Et__builder_1() const { return ___U3CU3Et__builder_1; }
 	inline AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * get_address_of_U3CU3Et__builder_1() { return &___U3CU3Et__builder_1; }
 	inline void set_U3CU3Et__builder_1(AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487  value)
@@ -6008,7 +6012,7 @@ public:
 		___U3CU3Et__builder_1 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435, ___U3CU3E4__this_2)); }
+	inline static int32_t get_offset_of_U3CU3E4__this_2() { return static_cast<int32_t>(offsetof(U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F, ___U3CU3E4__this_2)); }
 	inline YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * get_U3CU3E4__this_2() const { return ___U3CU3E4__this_2; }
 	inline YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 ** get_address_of_U3CU3E4__this_2() { return &___U3CU3E4__this_2; }
 	inline void set_U3CU3E4__this_2(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * value)
@@ -6017,7 +6021,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___U3CU3E4__this_2), value);
 	}
 
-	inline static int32_t get_offset_of_U3CU3Eu__1_3() { return static_cast<int32_t>(offsetof(U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435, ___U3CU3Eu__1_3)); }
+	inline static int32_t get_offset_of_U3CU3Eu__1_3() { return static_cast<int32_t>(offsetof(U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F, ___U3CU3Eu__1_3)); }
 	inline TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F  get_U3CU3Eu__1_3() const { return ___U3CU3Eu__1_3; }
 	inline TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F * get_address_of_U3CU3Eu__1_3() { return &___U3CU3Eu__1_3; }
 	inline void set_U3CU3Eu__1_3(TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F  value)
@@ -6029,7 +6033,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CSTOPHOLOLENSMEDIAFRAMESOURCEGROUPU3ED__38_T8FFC98E2F97CA4233612A3E002195C7EBE5D0435_H
+#endif // U3CSTOPHOLOLENSMEDIAFRAMESOURCEGROUPU3ED__40_T497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F_H
 #ifndef ACTION_1_TF26E81D6C525086A6BF0264D4CCFF4F9D3C86D12_H
 #define ACTION_1_TF26E81D6C525086A6BF0264D4CCFF4F9D3C86D12_H
 #ifdef __clang__
@@ -6050,6 +6054,65 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // ACTION_1_TF26E81D6C525086A6BF0264D4CCFF4F9D3C86D12_H
+#ifndef CAMERA_T48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34_H
+#define CAMERA_T48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Camera
+struct  Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34  : public Behaviour_tBDC7E9C3C898AD8348891B82D3E345801D920CA8
+{
+public:
+
+public:
+};
+
+struct Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34_StaticFields
+{
+public:
+	// UnityEngine.Camera_CameraCallback UnityEngine.Camera::onPreCull
+	CameraCallback_t8BBB42AA08D7498DFC11F4128117055BC7F0B9D0 * ___onPreCull_4;
+	// UnityEngine.Camera_CameraCallback UnityEngine.Camera::onPreRender
+	CameraCallback_t8BBB42AA08D7498DFC11F4128117055BC7F0B9D0 * ___onPreRender_5;
+	// UnityEngine.Camera_CameraCallback UnityEngine.Camera::onPostRender
+	CameraCallback_t8BBB42AA08D7498DFC11F4128117055BC7F0B9D0 * ___onPostRender_6;
+
+public:
+	inline static int32_t get_offset_of_onPreCull_4() { return static_cast<int32_t>(offsetof(Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34_StaticFields, ___onPreCull_4)); }
+	inline CameraCallback_t8BBB42AA08D7498DFC11F4128117055BC7F0B9D0 * get_onPreCull_4() const { return ___onPreCull_4; }
+	inline CameraCallback_t8BBB42AA08D7498DFC11F4128117055BC7F0B9D0 ** get_address_of_onPreCull_4() { return &___onPreCull_4; }
+	inline void set_onPreCull_4(CameraCallback_t8BBB42AA08D7498DFC11F4128117055BC7F0B9D0 * value)
+	{
+		___onPreCull_4 = value;
+		Il2CppCodeGenWriteBarrier((&___onPreCull_4), value);
+	}
+
+	inline static int32_t get_offset_of_onPreRender_5() { return static_cast<int32_t>(offsetof(Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34_StaticFields, ___onPreRender_5)); }
+	inline CameraCallback_t8BBB42AA08D7498DFC11F4128117055BC7F0B9D0 * get_onPreRender_5() const { return ___onPreRender_5; }
+	inline CameraCallback_t8BBB42AA08D7498DFC11F4128117055BC7F0B9D0 ** get_address_of_onPreRender_5() { return &___onPreRender_5; }
+	inline void set_onPreRender_5(CameraCallback_t8BBB42AA08D7498DFC11F4128117055BC7F0B9D0 * value)
+	{
+		___onPreRender_5 = value;
+		Il2CppCodeGenWriteBarrier((&___onPreRender_5), value);
+	}
+
+	inline static int32_t get_offset_of_onPostRender_6() { return static_cast<int32_t>(offsetof(Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34_StaticFields, ___onPostRender_6)); }
+	inline CameraCallback_t8BBB42AA08D7498DFC11F4128117055BC7F0B9D0 * get_onPostRender_6() const { return ___onPostRender_6; }
+	inline CameraCallback_t8BBB42AA08D7498DFC11F4128117055BC7F0B9D0 ** get_address_of_onPostRender_6() { return &___onPostRender_6; }
+	inline void set_onPostRender_6(CameraCallback_t8BBB42AA08D7498DFC11F4128117055BC7F0B9D0 * value)
+	{
+		___onPostRender_6 = value;
+		Il2CppCodeGenWriteBarrier((&___onPostRender_6), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // CAMERA_T48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34_H
 #ifndef MESHRENDERER_T9D67CA54E83315F743623BDE8EADCD5074659EED_H
 #define MESHRENDERER_T9D67CA54E83315F743623BDE8EADCD5074659EED_H
 #ifdef __clang__
@@ -6250,28 +6313,32 @@ public:
 	TcpClient_t8BC37A84681D1839590AE10B14C25BA473063EDB * ___client_24;
 	// UnityEngine.Vector3 YoloDetectionHoloLens.YoloDetection::pos
 	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  ___pos_25;
+	// UnityEngine.Quaternion YoloDetectionHoloLens.YoloDetection::zcamera
+	Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  ___zcamera_26;
+	// UnityEngine.GameObject YoloDetectionHoloLens.YoloDetection::camera1
+	GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * ___camera1_27;
 	// System.Boolean YoloDetectionHoloLens.YoloDetection::running
-	bool ___running_26;
+	bool ___running_28;
 	// Windows.Networking.Sockets.StreamSocket YoloDetectionHoloLens.YoloDetection::socket1
-	StreamSocket_t35DDC5E485B0CBC2BF8BEA1F9348DE7382B929BA * ___socket1_27;
+	StreamSocket_t35DDC5E485B0CBC2BF8BEA1F9348DE7382B929BA * ___socket1_29;
 	// Windows.Networking.Sockets.StreamSocketListener YoloDetectionHoloLens.YoloDetection::listener1
-	StreamSocketListener_t70D22DB456195FB1F414724B2A1C639ED99E10DE * ___listener1_28;
+	StreamSocketListener_t70D22DB456195FB1F414724B2A1C639ED99E10DE * ___listener1_30;
 	// System.String YoloDetectionHoloLens.YoloDetection::port1
-	String_t* ___port1_29;
+	String_t* ___port1_31;
 	// System.String YoloDetectionHoloLens.YoloDetection::message1
-	String_t* ___message1_30;
+	String_t* ___message1_32;
 	// YoloDetectionHoloLens.YoloDetection_SensorTypeUnity YoloDetectionHoloLens.YoloDetection::sensorTypePv
-	int32_t ___sensorTypePv_31;
+	int32_t ___sensorTypePv_33;
 	// HoloLensForCV.MediaFrameSourceGroupType YoloDetectionHoloLens.YoloDetection::_selectedMediaFrameSourceGroupType
-	int32_t ____selectedMediaFrameSourceGroupType_32;
+	int32_t ____selectedMediaFrameSourceGroupType_34;
 	// HoloLensForCV.SensorFrameStreamer YoloDetectionHoloLens.YoloDetection::_sensorFrameStreamer
-	SensorFrameStreamer_t260E842ACC198DB23E5DDF4E161D537DFB2A0849 * ____sensorFrameStreamer_33;
+	SensorFrameStreamer_t260E842ACC198DB23E5DDF4E161D537DFB2A0849 * ____sensorFrameStreamer_35;
 	// HoloLensForCV.SpatialPerception YoloDetectionHoloLens.YoloDetection::_spatialPerception
-	SpatialPerception_tDD728203A074E13BCA1E015A265D6CC013A08577 * ____spatialPerception_34;
+	SpatialPerception_tDD728203A074E13BCA1E015A265D6CC013A08577 * ____spatialPerception_36;
 	// HoloLensForCV.MediaFrameSourceGroup YoloDetectionHoloLens.YoloDetection::_holoLensMediaFrameSourceGroup
-	MediaFrameSourceGroup_t81A62BB7229CDBDE57DACE8362C9A7657B19DEB8 * ____holoLensMediaFrameSourceGroup_35;
+	MediaFrameSourceGroup_t81A62BB7229CDBDE57DACE8362C9A7657B19DEB8 * ____holoLensMediaFrameSourceGroup_37;
 	// HoloLensForCV.SensorType YoloDetectionHoloLens.YoloDetection::_sensorType
-	int32_t ____sensorType_36;
+	int32_t ____sensorType_38;
 
 public:
 	inline static int32_t get_offset_of__gestureRecognizer_4() { return static_cast<int32_t>(offsetof(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170, ____gestureRecognizer_4)); }
@@ -6463,99 +6530,116 @@ public:
 		___pos_25 = value;
 	}
 
-	inline static int32_t get_offset_of_running_26() { return static_cast<int32_t>(offsetof(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170, ___running_26)); }
-	inline bool get_running_26() const { return ___running_26; }
-	inline bool* get_address_of_running_26() { return &___running_26; }
-	inline void set_running_26(bool value)
+	inline static int32_t get_offset_of_zcamera_26() { return static_cast<int32_t>(offsetof(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170, ___zcamera_26)); }
+	inline Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  get_zcamera_26() const { return ___zcamera_26; }
+	inline Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357 * get_address_of_zcamera_26() { return &___zcamera_26; }
+	inline void set_zcamera_26(Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  value)
 	{
-		___running_26 = value;
+		___zcamera_26 = value;
 	}
 
-	inline static int32_t get_offset_of_socket1_27() { return static_cast<int32_t>(offsetof(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170, ___socket1_27)); }
-	inline StreamSocket_t35DDC5E485B0CBC2BF8BEA1F9348DE7382B929BA * get_socket1_27() const { return ___socket1_27; }
-	inline StreamSocket_t35DDC5E485B0CBC2BF8BEA1F9348DE7382B929BA ** get_address_of_socket1_27() { return &___socket1_27; }
-	inline void set_socket1_27(StreamSocket_t35DDC5E485B0CBC2BF8BEA1F9348DE7382B929BA * value)
+	inline static int32_t get_offset_of_camera1_27() { return static_cast<int32_t>(offsetof(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170, ___camera1_27)); }
+	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * get_camera1_27() const { return ___camera1_27; }
+	inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F ** get_address_of_camera1_27() { return &___camera1_27; }
+	inline void set_camera1_27(GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * value)
 	{
-		___socket1_27 = value;
-		Il2CppCodeGenWriteBarrier((&___socket1_27), value);
+		___camera1_27 = value;
+		Il2CppCodeGenWriteBarrier((&___camera1_27), value);
 	}
 
-	inline static int32_t get_offset_of_listener1_28() { return static_cast<int32_t>(offsetof(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170, ___listener1_28)); }
-	inline StreamSocketListener_t70D22DB456195FB1F414724B2A1C639ED99E10DE * get_listener1_28() const { return ___listener1_28; }
-	inline StreamSocketListener_t70D22DB456195FB1F414724B2A1C639ED99E10DE ** get_address_of_listener1_28() { return &___listener1_28; }
-	inline void set_listener1_28(StreamSocketListener_t70D22DB456195FB1F414724B2A1C639ED99E10DE * value)
+	inline static int32_t get_offset_of_running_28() { return static_cast<int32_t>(offsetof(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170, ___running_28)); }
+	inline bool get_running_28() const { return ___running_28; }
+	inline bool* get_address_of_running_28() { return &___running_28; }
+	inline void set_running_28(bool value)
 	{
-		___listener1_28 = value;
-		Il2CppCodeGenWriteBarrier((&___listener1_28), value);
+		___running_28 = value;
 	}
 
-	inline static int32_t get_offset_of_port1_29() { return static_cast<int32_t>(offsetof(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170, ___port1_29)); }
-	inline String_t* get_port1_29() const { return ___port1_29; }
-	inline String_t** get_address_of_port1_29() { return &___port1_29; }
-	inline void set_port1_29(String_t* value)
+	inline static int32_t get_offset_of_socket1_29() { return static_cast<int32_t>(offsetof(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170, ___socket1_29)); }
+	inline StreamSocket_t35DDC5E485B0CBC2BF8BEA1F9348DE7382B929BA * get_socket1_29() const { return ___socket1_29; }
+	inline StreamSocket_t35DDC5E485B0CBC2BF8BEA1F9348DE7382B929BA ** get_address_of_socket1_29() { return &___socket1_29; }
+	inline void set_socket1_29(StreamSocket_t35DDC5E485B0CBC2BF8BEA1F9348DE7382B929BA * value)
 	{
-		___port1_29 = value;
-		Il2CppCodeGenWriteBarrier((&___port1_29), value);
+		___socket1_29 = value;
+		Il2CppCodeGenWriteBarrier((&___socket1_29), value);
 	}
 
-	inline static int32_t get_offset_of_message1_30() { return static_cast<int32_t>(offsetof(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170, ___message1_30)); }
-	inline String_t* get_message1_30() const { return ___message1_30; }
-	inline String_t** get_address_of_message1_30() { return &___message1_30; }
-	inline void set_message1_30(String_t* value)
+	inline static int32_t get_offset_of_listener1_30() { return static_cast<int32_t>(offsetof(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170, ___listener1_30)); }
+	inline StreamSocketListener_t70D22DB456195FB1F414724B2A1C639ED99E10DE * get_listener1_30() const { return ___listener1_30; }
+	inline StreamSocketListener_t70D22DB456195FB1F414724B2A1C639ED99E10DE ** get_address_of_listener1_30() { return &___listener1_30; }
+	inline void set_listener1_30(StreamSocketListener_t70D22DB456195FB1F414724B2A1C639ED99E10DE * value)
 	{
-		___message1_30 = value;
-		Il2CppCodeGenWriteBarrier((&___message1_30), value);
+		___listener1_30 = value;
+		Il2CppCodeGenWriteBarrier((&___listener1_30), value);
 	}
 
-	inline static int32_t get_offset_of_sensorTypePv_31() { return static_cast<int32_t>(offsetof(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170, ___sensorTypePv_31)); }
-	inline int32_t get_sensorTypePv_31() const { return ___sensorTypePv_31; }
-	inline int32_t* get_address_of_sensorTypePv_31() { return &___sensorTypePv_31; }
-	inline void set_sensorTypePv_31(int32_t value)
+	inline static int32_t get_offset_of_port1_31() { return static_cast<int32_t>(offsetof(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170, ___port1_31)); }
+	inline String_t* get_port1_31() const { return ___port1_31; }
+	inline String_t** get_address_of_port1_31() { return &___port1_31; }
+	inline void set_port1_31(String_t* value)
 	{
-		___sensorTypePv_31 = value;
+		___port1_31 = value;
+		Il2CppCodeGenWriteBarrier((&___port1_31), value);
 	}
 
-	inline static int32_t get_offset_of__selectedMediaFrameSourceGroupType_32() { return static_cast<int32_t>(offsetof(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170, ____selectedMediaFrameSourceGroupType_32)); }
-	inline int32_t get__selectedMediaFrameSourceGroupType_32() const { return ____selectedMediaFrameSourceGroupType_32; }
-	inline int32_t* get_address_of__selectedMediaFrameSourceGroupType_32() { return &____selectedMediaFrameSourceGroupType_32; }
-	inline void set__selectedMediaFrameSourceGroupType_32(int32_t value)
+	inline static int32_t get_offset_of_message1_32() { return static_cast<int32_t>(offsetof(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170, ___message1_32)); }
+	inline String_t* get_message1_32() const { return ___message1_32; }
+	inline String_t** get_address_of_message1_32() { return &___message1_32; }
+	inline void set_message1_32(String_t* value)
 	{
-		____selectedMediaFrameSourceGroupType_32 = value;
+		___message1_32 = value;
+		Il2CppCodeGenWriteBarrier((&___message1_32), value);
 	}
 
-	inline static int32_t get_offset_of__sensorFrameStreamer_33() { return static_cast<int32_t>(offsetof(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170, ____sensorFrameStreamer_33)); }
-	inline SensorFrameStreamer_t260E842ACC198DB23E5DDF4E161D537DFB2A0849 * get__sensorFrameStreamer_33() const { return ____sensorFrameStreamer_33; }
-	inline SensorFrameStreamer_t260E842ACC198DB23E5DDF4E161D537DFB2A0849 ** get_address_of__sensorFrameStreamer_33() { return &____sensorFrameStreamer_33; }
-	inline void set__sensorFrameStreamer_33(SensorFrameStreamer_t260E842ACC198DB23E5DDF4E161D537DFB2A0849 * value)
+	inline static int32_t get_offset_of_sensorTypePv_33() { return static_cast<int32_t>(offsetof(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170, ___sensorTypePv_33)); }
+	inline int32_t get_sensorTypePv_33() const { return ___sensorTypePv_33; }
+	inline int32_t* get_address_of_sensorTypePv_33() { return &___sensorTypePv_33; }
+	inline void set_sensorTypePv_33(int32_t value)
 	{
-		____sensorFrameStreamer_33 = value;
-		Il2CppCodeGenWriteBarrier((&____sensorFrameStreamer_33), value);
+		___sensorTypePv_33 = value;
 	}
 
-	inline static int32_t get_offset_of__spatialPerception_34() { return static_cast<int32_t>(offsetof(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170, ____spatialPerception_34)); }
-	inline SpatialPerception_tDD728203A074E13BCA1E015A265D6CC013A08577 * get__spatialPerception_34() const { return ____spatialPerception_34; }
-	inline SpatialPerception_tDD728203A074E13BCA1E015A265D6CC013A08577 ** get_address_of__spatialPerception_34() { return &____spatialPerception_34; }
-	inline void set__spatialPerception_34(SpatialPerception_tDD728203A074E13BCA1E015A265D6CC013A08577 * value)
+	inline static int32_t get_offset_of__selectedMediaFrameSourceGroupType_34() { return static_cast<int32_t>(offsetof(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170, ____selectedMediaFrameSourceGroupType_34)); }
+	inline int32_t get__selectedMediaFrameSourceGroupType_34() const { return ____selectedMediaFrameSourceGroupType_34; }
+	inline int32_t* get_address_of__selectedMediaFrameSourceGroupType_34() { return &____selectedMediaFrameSourceGroupType_34; }
+	inline void set__selectedMediaFrameSourceGroupType_34(int32_t value)
 	{
-		____spatialPerception_34 = value;
-		Il2CppCodeGenWriteBarrier((&____spatialPerception_34), value);
+		____selectedMediaFrameSourceGroupType_34 = value;
 	}
 
-	inline static int32_t get_offset_of__holoLensMediaFrameSourceGroup_35() { return static_cast<int32_t>(offsetof(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170, ____holoLensMediaFrameSourceGroup_35)); }
-	inline MediaFrameSourceGroup_t81A62BB7229CDBDE57DACE8362C9A7657B19DEB8 * get__holoLensMediaFrameSourceGroup_35() const { return ____holoLensMediaFrameSourceGroup_35; }
-	inline MediaFrameSourceGroup_t81A62BB7229CDBDE57DACE8362C9A7657B19DEB8 ** get_address_of__holoLensMediaFrameSourceGroup_35() { return &____holoLensMediaFrameSourceGroup_35; }
-	inline void set__holoLensMediaFrameSourceGroup_35(MediaFrameSourceGroup_t81A62BB7229CDBDE57DACE8362C9A7657B19DEB8 * value)
+	inline static int32_t get_offset_of__sensorFrameStreamer_35() { return static_cast<int32_t>(offsetof(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170, ____sensorFrameStreamer_35)); }
+	inline SensorFrameStreamer_t260E842ACC198DB23E5DDF4E161D537DFB2A0849 * get__sensorFrameStreamer_35() const { return ____sensorFrameStreamer_35; }
+	inline SensorFrameStreamer_t260E842ACC198DB23E5DDF4E161D537DFB2A0849 ** get_address_of__sensorFrameStreamer_35() { return &____sensorFrameStreamer_35; }
+	inline void set__sensorFrameStreamer_35(SensorFrameStreamer_t260E842ACC198DB23E5DDF4E161D537DFB2A0849 * value)
 	{
-		____holoLensMediaFrameSourceGroup_35 = value;
-		Il2CppCodeGenWriteBarrier((&____holoLensMediaFrameSourceGroup_35), value);
+		____sensorFrameStreamer_35 = value;
+		Il2CppCodeGenWriteBarrier((&____sensorFrameStreamer_35), value);
 	}
 
-	inline static int32_t get_offset_of__sensorType_36() { return static_cast<int32_t>(offsetof(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170, ____sensorType_36)); }
-	inline int32_t get__sensorType_36() const { return ____sensorType_36; }
-	inline int32_t* get_address_of__sensorType_36() { return &____sensorType_36; }
-	inline void set__sensorType_36(int32_t value)
+	inline static int32_t get_offset_of__spatialPerception_36() { return static_cast<int32_t>(offsetof(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170, ____spatialPerception_36)); }
+	inline SpatialPerception_tDD728203A074E13BCA1E015A265D6CC013A08577 * get__spatialPerception_36() const { return ____spatialPerception_36; }
+	inline SpatialPerception_tDD728203A074E13BCA1E015A265D6CC013A08577 ** get_address_of__spatialPerception_36() { return &____spatialPerception_36; }
+	inline void set__spatialPerception_36(SpatialPerception_tDD728203A074E13BCA1E015A265D6CC013A08577 * value)
 	{
-		____sensorType_36 = value;
+		____spatialPerception_36 = value;
+		Il2CppCodeGenWriteBarrier((&____spatialPerception_36), value);
+	}
+
+	inline static int32_t get_offset_of__holoLensMediaFrameSourceGroup_37() { return static_cast<int32_t>(offsetof(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170, ____holoLensMediaFrameSourceGroup_37)); }
+	inline MediaFrameSourceGroup_t81A62BB7229CDBDE57DACE8362C9A7657B19DEB8 * get__holoLensMediaFrameSourceGroup_37() const { return ____holoLensMediaFrameSourceGroup_37; }
+	inline MediaFrameSourceGroup_t81A62BB7229CDBDE57DACE8362C9A7657B19DEB8 ** get_address_of__holoLensMediaFrameSourceGroup_37() { return &____holoLensMediaFrameSourceGroup_37; }
+	inline void set__holoLensMediaFrameSourceGroup_37(MediaFrameSourceGroup_t81A62BB7229CDBDE57DACE8362C9A7657B19DEB8 * value)
+	{
+		____holoLensMediaFrameSourceGroup_37 = value;
+		Il2CppCodeGenWriteBarrier((&____holoLensMediaFrameSourceGroup_37), value);
+	}
+
+	inline static int32_t get_offset_of__sensorType_38() { return static_cast<int32_t>(offsetof(YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170, ____sensorType_38)); }
+	inline int32_t get__sensorType_38() const { return ____sensorType_38; }
+	inline int32_t* get_address_of__sensorType_38() { return &____sensorType_38; }
+	inline void set__sensorType_38(int32_t value)
+	{
+		____sensorType_38 = value;
 	}
 };
 
@@ -7177,20 +7261,20 @@ extern "C" IL2CPP_METHOD_ATTR RuntimeObject * Object_Instantiate_TisRuntimeObjec
 extern "C" IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m38B1099DDAD7EEDE2F4CDAB11C095AC784AC2E34_gshared (Enumerator_tE0C99528D3DCE5863566CE37BD94162A4C0431CD * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1/Enumerator<System.Object>::Dispose()
 extern "C" IL2CPP_METHOD_ATTR void Enumerator_Dispose_m94D0DAE031619503CDA6E53C5C3CC78AF3139472_gshared (Enumerator_tE0C99528D3DCE5863566CE37BD94162A4C0431CD * __this, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<YoloDetectionHoloLens.YoloDetection/<Start>d__34>(!!0&)
-extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272_m38536B07CB8B67133DF91D155172F7E755FDDBCE_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, U3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272 * p0, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<YoloDetectionHoloLens.YoloDetection/<OnApplicationQuit>d__35>(!!0&)
-extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931_mEE9AF35147B1E4DA916DD719AB6C7F422F6FECAA_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, U3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931 * p0, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<YoloDetectionHoloLens.YoloDetection/<StartHoloLensMediaFrameSourceGroup>d__37>(!!0&)
-extern "C" IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_Start_TisU3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A_mAA0BBDAB34EB00D9D31BC3882639958758A111AE_gshared (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * __this, U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A * p0, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<YoloDetectionHoloLens.YoloDetection/<StopHoloLensMediaFrameSourceGroup>d__38>(!!0&)
-extern "C" IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_Start_TisU3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435_m944D08D60F153EB2E09D7F08803F9FDD89B36869_gshared (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * __this, U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435 * p0, const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<YoloDetectionHoloLens.YoloDetection/<Start>d__36>(!!0&)
+extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C_m0751C5F1975531CA88B2D9786BFD6DA5964DCB23_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, U3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C * p0, const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<YoloDetectionHoloLens.YoloDetection/<OnApplicationQuit>d__37>(!!0&)
+extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1_m55D254691BEA7AA910A79396E93BD053EA8CEA20_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, U3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1 * p0, const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<YoloDetectionHoloLens.YoloDetection/<StartHoloLensMediaFrameSourceGroup>d__39>(!!0&)
+extern "C" IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_Start_TisU3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44_m67E1FB70BFEF57B9EA65A39C9BB3B530C9AFF5E9_gshared (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * __this, U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44 * p0, const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<YoloDetectionHoloLens.YoloDetection/<StopHoloLensMediaFrameSourceGroup>d__40>(!!0&)
+extern "C" IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_Start_TisU3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F_mD4E0BC5746352D701F840B5F8A6719E8464EB32F_gshared (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * __this, U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F * p0, const RuntimeMethod* method);
 // System.Void System.Action`1<UnityEngine.XR.WSA.Input.TappedEventArgs>::.ctor(System.Object,System.IntPtr)
 extern "C" IL2CPP_METHOD_ATTR void Action_1__ctor_mC172C98F4F0CF247C0880F1F05D557C9005F0FF0_gshared (Action_1_tF26E81D6C525086A6BF0264D4CCFF4F9D3C86D12 * __this, RuntimeObject * p0, intptr_t p1, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<YoloDetectionHoloLens.YoloDetection/<Listener_Start>d__48>(!!0&)
-extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6_mD28C84415767A79B552BE68E633164608F49E198_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, U3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6 * p0, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<YoloDetectionHoloLens.YoloDetection/<Listener_ConnectionReceived>d__49>(!!0&)
-extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8_m160E0226B84A65047AD45BB0390AC7B463BFB3CF_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, U3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8 * p0, const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<YoloDetectionHoloLens.YoloDetection/<Listener_Start>d__50>(!!0&)
+extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E_mE5A5AB110A9F1617A056F57C05A3927C1D70352D_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, U3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E * p0, const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<YoloDetectionHoloLens.YoloDetection/<Listener_ConnectionReceived>d__51>(!!0&)
+extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_Start_TisU3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4_m0E141759155B5C4206EEC5161546C4717F3E666E_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, U3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4 * p0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<System.Object>::.ctor()
 extern "C" IL2CPP_METHOD_ATTR void List_1__ctor_mC832F1AC0F814BAEB19175F5D7972A7507508BC3_gshared (List_1_t05CC3C859AB5E6024394EF9A42E3E696628CA02D * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<System.Object>::Add(!0)
@@ -7199,20 +7283,20 @@ extern "C" IL2CPP_METHOD_ATTR void List_1_Add_m6930161974C7504C80F52EC379EF01238
 extern "C" IL2CPP_METHOD_ATTR TaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830  WindowsRuntimeSystemExtensions_GetAwaiter_TisUInt32_t4980FA09003AFAAB5A6E361BA2748EA9A005709B_m2C6520F6DAA7FA2D998990884CDBFC4BAB46BCA8_gshared (RuntimeObject* p0, const RuntimeMethod* method);
 // System.Boolean System.Runtime.CompilerServices.TaskAwaiter`1<System.UInt32>::get_IsCompleted()
 extern "C" IL2CPP_METHOD_ATTR bool TaskAwaiter_1_get_IsCompleted_mD9FB168E3D6034701DE4736347E1B30AE6CCE70F_gshared (TaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830 * __this, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.UInt32>,YoloDetectionHoloLens.YoloDetection/<Listener_ConnectionReceived>d__49>(!!0&,!!1&)
-extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830_TisU3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8_m3C702C47BD7D163FE0F72C03216861F56089FD85_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830 * p0, U3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8 * p1, const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.UInt32>,YoloDetectionHoloLens.YoloDetection/<Listener_ConnectionReceived>d__51>(!!0&,!!1&)
+extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830_TisU3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4_m5B6B67B29538076E4C87FB699685D5C8D68312B2_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830 * p0, U3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4 * p1, const RuntimeMethod* method);
 // !0 System.Runtime.CompilerServices.TaskAwaiter`1<System.UInt32>::GetResult()
 extern "C" IL2CPP_METHOD_ATTR uint32_t TaskAwaiter_1_GetResult_mD575FD03753A3FD916DFF7C9834342D3EEEB0EE8_gshared (TaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830 * __this, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,YoloDetectionHoloLens.YoloDetection/<Listener_Start>d__48>(!!0&,!!1&)
-extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6_m1323BFF243F7FEEEBAAB3CDE7DA1E07172402467_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F * p0, U3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6 * p1, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,YoloDetectionHoloLens.YoloDetection/<OnApplicationQuit>d__35>(!!0&,!!1&)
-extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931_mD6FCC091BA66DA80D1B0E4BE0E37DD64B7241F25_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F * p0, U3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931 * p1, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,YoloDetectionHoloLens.YoloDetection/<Start>d__34>(!!0&,!!1&)
-extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272_mD6C45E98D88E844DCBBAE8D534630B8361FC6F16_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F * p0, U3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272 * p1, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,YoloDetectionHoloLens.YoloDetection/<StartHoloLensMediaFrameSourceGroup>d__37>(!!0&,!!1&)
-extern "C" IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A_m05E34F9F7FA56A0F4DFD8D4214DEB8E9E3D0196B_gshared (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * __this, TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F * p0, U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A * p1, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,YoloDetectionHoloLens.YoloDetection/<StopHoloLensMediaFrameSourceGroup>d__38>(!!0&,!!1&)
-extern "C" IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435_m5E108397105666BC5D37C25982B6E42C347072F2_gshared (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * __this, TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F * p0, U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435 * p1, const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,YoloDetectionHoloLens.YoloDetection/<Listener_Start>d__50>(!!0&,!!1&)
+extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E_mED805E0A30229321DA68C09D7C5C23954AD8A233_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F * p0, U3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E * p1, const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,YoloDetectionHoloLens.YoloDetection/<OnApplicationQuit>d__37>(!!0&,!!1&)
+extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1_m5D213FA0F5F13DED7A4C110FAE90115224F8B38D_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F * p0, U3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1 * p1, const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,YoloDetectionHoloLens.YoloDetection/<Start>d__36>(!!0&,!!1&)
+extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C_m59A61C6FE4C2DF9212060FBD1AB8E935E10A48A9_gshared (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F * p0, U3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C * p1, const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,YoloDetectionHoloLens.YoloDetection/<StartHoloLensMediaFrameSourceGroup>d__39>(!!0&,!!1&)
+extern "C" IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44_m9C28B9D0CA00F9D9BABB7EB7D9B886D5C23D195D_gshared (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * __this, TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F * p0, U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44 * p1, const RuntimeMethod* method);
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,YoloDetectionHoloLens.YoloDetection/<StopHoloLensMediaFrameSourceGroup>d__40>(!!0&,!!1&)
+extern "C" IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F_mEB5CDA66ACDC181EED598F9B95BF5672F639E1E9_gshared (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * __this, TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F * p0, U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F * p1, const RuntimeMethod* method);
 
 // System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
 extern "C" IL2CPP_METHOD_ATTR bool Object_op_Inequality_m31EF58E217E8F4BDD3E409DEF79E1AEE95874FC1 (Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0 * p0, Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0 * p1, const RuntimeMethod* method);
@@ -7276,6 +7360,8 @@ inline GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * Object_Instantiate
 extern "C" IL2CPP_METHOD_ATTR void Vector3__ctor_m08F61F548AA5836D8789843ACB4A81E4963D2EE1 (Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * __this, float p0, float p1, float p2, const RuntimeMethod* method);
 // System.Void UnityEngine.Transform::set_localPosition(UnityEngine.Vector3)
 extern "C" IL2CPP_METHOD_ATTR void Transform_set_localPosition_m275F5550DD939F83AFEB5E8D681131172E2E1728 (Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * __this, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  p0, const RuntimeMethod* method);
+// System.Void UnityEngine.Transform::set_rotation(UnityEngine.Quaternion)
+extern "C" IL2CPP_METHOD_ATTR void Transform_set_rotation_m429694E264117C6DC682EC6AF45C7864E5155935 (Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * __this, Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  p0, const RuntimeMethod* method);
 // System.String YoloRuntime.BoundingBox::get_Label()
 extern "C" IL2CPP_METHOD_ATTR String_t* BoundingBox_get_Label_m788FE38136E283E055925F59A2B8DDC679A95102 (BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * __this, const RuntimeMethod* method);
 // System.Single YoloRuntime.BoundingBox::get_Confidence()
@@ -7317,32 +7403,44 @@ extern "C" IL2CPP_METHOD_ATTR void Texture2D_SetPixels_mDE50229135F49F323D265340
 extern "C" IL2CPP_METHOD_ATTR void Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0 (RuntimeObject * __this, const RuntimeMethod* method);
 // System.Runtime.CompilerServices.AsyncVoidMethodBuilder System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Create()
 extern "C" IL2CPP_METHOD_ATTR AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF  AsyncVoidMethodBuilder_Create_m2EF884A75C3C230F0E6A63B1E23DC82F3B159130 (const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<YoloDetectionHoloLens.YoloDetection/<Start>d__34>(!!0&)
-inline void AsyncVoidMethodBuilder_Start_TisU3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272_m38536B07CB8B67133DF91D155172F7E755FDDBCE (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, U3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272 * p0, const RuntimeMethod* method)
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<YoloDetectionHoloLens.YoloDetection/<Start>d__36>(!!0&)
+inline void AsyncVoidMethodBuilder_Start_TisU3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C_m0751C5F1975531CA88B2D9786BFD6DA5964DCB23 (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, U3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C * p0, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *, U3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272 *, const RuntimeMethod*))AsyncVoidMethodBuilder_Start_TisU3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272_m38536B07CB8B67133DF91D155172F7E755FDDBCE_gshared)(__this, p0, method);
+	((  void (*) (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *, U3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C *, const RuntimeMethod*))AsyncVoidMethodBuilder_Start_TisU3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C_m0751C5F1975531CA88B2D9786BFD6DA5964DCB23_gshared)(__this, p0, method);
 }
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<YoloDetectionHoloLens.YoloDetection/<OnApplicationQuit>d__35>(!!0&)
-inline void AsyncVoidMethodBuilder_Start_TisU3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931_mEE9AF35147B1E4DA916DD719AB6C7F422F6FECAA (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, U3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931 * p0, const RuntimeMethod* method)
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<YoloDetectionHoloLens.YoloDetection/<OnApplicationQuit>d__37>(!!0&)
+inline void AsyncVoidMethodBuilder_Start_TisU3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1_m55D254691BEA7AA910A79396E93BD053EA8CEA20 (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, U3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1 * p0, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *, U3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931 *, const RuntimeMethod*))AsyncVoidMethodBuilder_Start_TisU3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931_mEE9AF35147B1E4DA916DD719AB6C7F422F6FECAA_gshared)(__this, p0, method);
+	((  void (*) (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *, U3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1 *, const RuntimeMethod*))AsyncVoidMethodBuilder_Start_TisU3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1_m55D254691BEA7AA910A79396E93BD053EA8CEA20_gshared)(__this, p0, method);
 }
+// UnityEngine.Camera UnityEngine.Camera::get_main()
+extern "C" IL2CPP_METHOD_ATTR Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34 * Camera_get_main_m9256A9F84F92D7ED73F3E6C4E2694030AD8B61FA (const RuntimeMethod* method);
+// UnityEngine.Transform UnityEngine.Component::get_transform()
+extern "C" IL2CPP_METHOD_ATTR Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * Component_get_transform_m00F05BD782F920C301A7EBA480F3B7A904C07EC9 (Component_t05064EF382ABCAF4B8C94F8A350EA85184C26621 * __this, const RuntimeMethod* method);
+// UnityEngine.Vector3 UnityEngine.Transform::get_forward()
+extern "C" IL2CPP_METHOD_ATTR Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  Transform_get_forward_m0BE1E88B86049ADA39391C3ACED2314A624BC67F (Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * __this, const RuntimeMethod* method);
+// UnityEngine.Vector3 UnityEngine.Transform::get_up()
+extern "C" IL2CPP_METHOD_ATTR Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  Transform_get_up_m3E443F6EB278D547946E80D77065A871BEEEE282 (Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * __this, const RuntimeMethod* method);
+// UnityEngine.Vector3 UnityEngine.Vector3::op_UnaryNegation(UnityEngine.Vector3)
+extern "C" IL2CPP_METHOD_ATTR Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  Vector3_op_UnaryNegation_m2AFBBF22801F9BCA5A4EBE642A29F433FE1339C2 (Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  p0, const RuntimeMethod* method);
+// UnityEngine.Quaternion UnityEngine.Quaternion::LookRotation(UnityEngine.Vector3,UnityEngine.Vector3)
+extern "C" IL2CPP_METHOD_ATTR Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  Quaternion_LookRotation_m7BED8FBB457FF073F183AC7962264E5110794672 (Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  p0, Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  p1, const RuntimeMethod* method);
 // System.Runtime.CompilerServices.AsyncTaskMethodBuilder System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Create()
 extern "C" IL2CPP_METHOD_ATTR AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487  AsyncTaskMethodBuilder_Create_m081DF9A202E7C2F3CF3D41E1E63E63DA18F19FDB (const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<YoloDetectionHoloLens.YoloDetection/<StartHoloLensMediaFrameSourceGroup>d__37>(!!0&)
-inline void AsyncTaskMethodBuilder_Start_TisU3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A_mAA0BBDAB34EB00D9D31BC3882639958758A111AE (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * __this, U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A * p0, const RuntimeMethod* method)
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<YoloDetectionHoloLens.YoloDetection/<StartHoloLensMediaFrameSourceGroup>d__39>(!!0&)
+inline void AsyncTaskMethodBuilder_Start_TisU3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44_m67E1FB70BFEF57B9EA65A39C9BB3B530C9AFF5E9 (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * __this, U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44 * p0, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 *, U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A *, const RuntimeMethod*))AsyncTaskMethodBuilder_Start_TisU3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A_mAA0BBDAB34EB00D9D31BC3882639958758A111AE_gshared)(__this, p0, method);
+	((  void (*) (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 *, U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44 *, const RuntimeMethod*))AsyncTaskMethodBuilder_Start_TisU3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44_m67E1FB70BFEF57B9EA65A39C9BB3B530C9AFF5E9_gshared)(__this, p0, method);
 }
 // System.Threading.Tasks.Task System.Runtime.CompilerServices.AsyncTaskMethodBuilder::get_Task()
 extern "C" IL2CPP_METHOD_ATTR Task_t1F48C203E163126EBC69ACCA679D1A462DEE9EB2 * AsyncTaskMethodBuilder_get_Task_m3E45BC00F7D224FEA04AB9BF26DB52E131D33022 (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * __this, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<YoloDetectionHoloLens.YoloDetection/<StopHoloLensMediaFrameSourceGroup>d__38>(!!0&)
-inline void AsyncTaskMethodBuilder_Start_TisU3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435_m944D08D60F153EB2E09D7F08803F9FDD89B36869 (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * __this, U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435 * p0, const RuntimeMethod* method)
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<YoloDetectionHoloLens.YoloDetection/<StopHoloLensMediaFrameSourceGroup>d__40>(!!0&)
+inline void AsyncTaskMethodBuilder_Start_TisU3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F_mD4E0BC5746352D701F840B5F8A6719E8464EB32F (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * __this, U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F * p0, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 *, U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435 *, const RuntimeMethod*))AsyncTaskMethodBuilder_Start_TisU3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435_m944D08D60F153EB2E09D7F08803F9FDD89B36869_gshared)(__this, p0, method);
+	((  void (*) (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 *, U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F *, const RuntimeMethod*))AsyncTaskMethodBuilder_Start_TisU3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F_mD4E0BC5746352D701F840B5F8A6719E8464EB32F_gshared)(__this, p0, method);
 }
-// System.Void YoloDetectionHoloLens.YoloDetection/<ConnectSocket>d__39::.ctor(System.Int32)
-extern "C" IL2CPP_METHOD_ATTR void U3CConnectSocketU3Ed__39__ctor_mD7BA248D7E2097EB38114FCA2149F01FEF4CFBC2 (U3CConnectSocketU3Ed__39_tA79C43DAE62BD2D1E4471D0BCF0B1094BD95DC9F * __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method);
+// System.Void YoloDetectionHoloLens.YoloDetection/<ConnectSocket>d__41::.ctor(System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void U3CConnectSocketU3Ed__41__ctor_m1E4E2BF67894904065D3D8C0AD1FBB2C5B512F00 (U3CConnectSocketU3Ed__41_t365DB6990A18B12EC097EA66D6A08536BD002041 * __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method);
 // System.Void UnityEngine.XR.WSA.Input.GestureRecognizer::.ctor()
 extern "C" IL2CPP_METHOD_ATTR void GestureRecognizer__ctor_m4EC0013B225C0189D0ACB2DC77092C809764F1D5 (GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE * __this, const RuntimeMethod* method);
 // UnityEngine.XR.WSA.Input.GestureSettings UnityEngine.XR.WSA.Input.GestureRecognizer::SetRecognizableGestures(UnityEngine.XR.WSA.Input.GestureSettings)
@@ -7390,8 +7488,8 @@ extern "C" IL2CPP_METHOD_ATTR String_t* String_Substring_mB593C0A320C683E6E47EFF
 extern "C" IL2CPP_METHOD_ATTR StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* String_Split_m13262358217AD2C119FD1B9733C3C0289D608512 (String_t* __this, CharU5BU5D_t4CC6ABF0AD71BEC97E3C2F1E9C5677E46D3A75C2* p0, const RuntimeMethod* method);
 // System.Single System.Single::Parse(System.String)
 extern "C" IL2CPP_METHOD_ATTR float Single_Parse_m643ECE18CB0499B2B3EC76C8B941020122003DC6 (String_t* p0, const RuntimeMethod* method);
-// System.Void YoloDetectionHoloLens.YoloDetection/<testconn>d__45::.ctor(System.Int32)
-extern "C" IL2CPP_METHOD_ATTR void U3CtestconnU3Ed__45__ctor_m7BD64FF6099CEE9DE9DBAB2D851513D525B7BB15 (U3CtestconnU3Ed__45_t5A1A96807FEB9794E8B6E3BA7497C4C86BF44AD9 * __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method);
+// System.Void YoloDetectionHoloLens.YoloDetection/<testconn>d__47::.ctor(System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void U3CtestconnU3Ed__47__ctor_m013DA943709B42AB7B4BAF395E9F5BF3CBD7E6AA (U3CtestconnU3Ed__47_tA87F302836423510DD5D436CA9341DBCA85E32E8 * __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method);
 // System.Void Windows.Networking.Sockets.StreamSocketListener::.ctor()
 extern "C" IL2CPP_METHOD_ATTR void StreamSocketListener__ctor_m5C6AA23628DE3075F18D14779308E60774B26483 (StreamSocketListener_t70D22DB456195FB1F414724B2A1C639ED99E10DE * __this, const RuntimeMethod* method);
 // System.Void System.Net.Sockets.TcpListener::.ctor(System.Net.IPAddress,System.Int32)
@@ -7404,18 +7502,18 @@ extern "C" IL2CPP_METHOD_ATTR bool TcpListener_Pending_m0B9E31AE2543019FFEEB527A
 extern "C" IL2CPP_METHOD_ATTR TcpClient_t8BC37A84681D1839590AE10B14C25BA473063EDB * TcpListener_AcceptTcpClient_mA55444BAE76E163D81C41D0D46D07F67662E48C2 (TcpListener_t23EA9DFFE7F84119440813E7F77A181C39BE08EE * __this, const RuntimeMethod* method);
 // System.Void YoloDetectionHoloLens.YoloDetection::Connection()
 extern "C" IL2CPP_METHOD_ATTR void YoloDetection_Connection_m539E984F984D7CA388EADF5D4B161835A2551C40 (YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * __this, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<YoloDetectionHoloLens.YoloDetection/<Listener_Start>d__48>(!!0&)
-inline void AsyncVoidMethodBuilder_Start_TisU3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6_mD28C84415767A79B552BE68E633164608F49E198 (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, U3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6 * p0, const RuntimeMethod* method)
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<YoloDetectionHoloLens.YoloDetection/<Listener_Start>d__50>(!!0&)
+inline void AsyncVoidMethodBuilder_Start_TisU3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E_mE5A5AB110A9F1617A056F57C05A3927C1D70352D (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, U3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E * p0, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *, U3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6 *, const RuntimeMethod*))AsyncVoidMethodBuilder_Start_TisU3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6_mD28C84415767A79B552BE68E633164608F49E198_gshared)(__this, p0, method);
+	((  void (*) (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *, U3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E *, const RuntimeMethod*))AsyncVoidMethodBuilder_Start_TisU3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E_mE5A5AB110A9F1617A056F57C05A3927C1D70352D_gshared)(__this, p0, method);
 }
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<YoloDetectionHoloLens.YoloDetection/<Listener_ConnectionReceived>d__49>(!!0&)
-inline void AsyncVoidMethodBuilder_Start_TisU3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8_m160E0226B84A65047AD45BB0390AC7B463BFB3CF (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, U3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8 * p0, const RuntimeMethod* method)
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::Start<YoloDetectionHoloLens.YoloDetection/<Listener_ConnectionReceived>d__51>(!!0&)
+inline void AsyncVoidMethodBuilder_Start_TisU3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4_m0E141759155B5C4206EEC5161546C4717F3E666E (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, U3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4 * p0, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *, U3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8 *, const RuntimeMethod*))AsyncVoidMethodBuilder_Start_TisU3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8_m160E0226B84A65047AD45BB0390AC7B463BFB3CF_gshared)(__this, p0, method);
+	((  void (*) (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *, U3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4 *, const RuntimeMethod*))AsyncVoidMethodBuilder_Start_TisU3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4_m0E141759155B5C4206EEC5161546C4717F3E666E_gshared)(__this, p0, method);
 }
-// System.Void YoloDetectionHoloLens.YoloDetection/<Databuffer1>d__50::.ctor(System.Int32)
-extern "C" IL2CPP_METHOD_ATTR void U3CDatabuffer1U3Ed__50__ctor_m177E1CB62E105974B5709B69EF3F06140C48DC61 (U3CDatabuffer1U3Ed__50_tB351B4F8B8B81AA3600697E9861BF27E8ADF2C75 * __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method);
+// System.Void YoloDetectionHoloLens.YoloDetection/<Databuffer1>d__52::.ctor(System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void U3CDatabuffer1U3Ed__52__ctor_m5D195DA1DBB79C3D769A9AA3605395282DC27F6B (U3CDatabuffer1U3Ed__52_t5A0FC00FC8FCC82E25286B7A3237F79E2F0AA2EA * __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<YoloRuntime.BoundingBox>::.ctor()
 inline void List_1__ctor_m676738485DAF2EB7F8FCCCB098940619AAD1256A (List_1_t95BFE82BD451C857C62ABE468E525846A8DF3591 * __this, const RuntimeMethod* method)
 {
@@ -7439,8 +7537,6 @@ extern "C" IL2CPP_METHOD_ATTR void BoundingBox_put_Height_m38EB832CB2BDDE7A130B8
 extern "C" IL2CPP_METHOD_ATTR void BoundingBox_put_Width_m13E3ECE097F5E74717FC250C0F8E1A004E3CD5EF (BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * __this, float p0, const RuntimeMethod* method);
 // System.Void YoloRuntime.BoundingBox::put_Confidence(System.Single)
 extern "C" IL2CPP_METHOD_ATTR void BoundingBox_put_Confidence_m92A5795FEBACE603B43ED5F1F1785662651AA1ED (BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * __this, float p0, const RuntimeMethod* method);
-// System.String System.Int32::ToString()
-extern "C" IL2CPP_METHOD_ATTR String_t* Int32_ToString_m1863896DE712BF97C031D55B12E1583F1982DC02 (int32_t* __this, const RuntimeMethod* method);
 // System.Int32 YoloRuntime.BoundingBox::get_TopLabel()
 extern "C" IL2CPP_METHOD_ATTR int32_t BoundingBox_get_TopLabel_m96627B1BEACBCC7CAF1C47D692B101680E80CDA3 (BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * __this, const RuntimeMethod* method);
 // System.Void YoloRuntime.BoundingBox::put_Label(System.String)
@@ -7450,8 +7546,12 @@ inline void List_1_Add_m4A70F555579FEDB39DDCEDC6265FDFADAD4C774B (List_1_t95BFE8
 {
 	((  void (*) (List_1_t95BFE82BD451C857C62ABE468E525846A8DF3591 *, BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E *, const RuntimeMethod*))List_1_Add_m6930161974C7504C80F52EC379EF012387D43138_gshared)(__this, p0, method);
 }
-// System.Void DrawingUtils.DrawBoundingBoxes::DrawBoxes(System.Collections.Generic.List`1<YoloRuntime.BoundingBox>)
-extern "C" IL2CPP_METHOD_ATTR void DrawBoundingBoxes_DrawBoxes_mBF91D848C6332C38633F6E64F2D9864AAEE605AF (DrawBoundingBoxes_t5B83439701CBD420BEECFAE9F126E90FA1D08781 * __this, List_1_t95BFE82BD451C857C62ABE468E525846A8DF3591 * ___boxes0, const RuntimeMethod* method);
+// UnityEngine.Vector3 UnityEngine.Quaternion::ToEulerAngles()
+extern "C" IL2CPP_METHOD_ATTR Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  Quaternion_ToEulerAngles_mEF77BD944D7D96B3E93D797746FC962C944DC04E (Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357 * __this, const RuntimeMethod* method);
+// System.String UnityEngine.Vector3::ToString()
+extern "C" IL2CPP_METHOD_ATTR String_t* Vector3_ToString_m2682D27AB50CD1CE4677C38D0720A302D582348D (Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 * __this, const RuntimeMethod* method);
+// System.Void DrawingUtils.DrawBoundingBoxes::DrawBoxes(System.Collections.Generic.List`1<YoloRuntime.BoundingBox>,UnityEngine.Quaternion)
+extern "C" IL2CPP_METHOD_ATTR void DrawBoundingBoxes_DrawBoxes_m61AD267364EA93F0AFCC32871FA559CF4962A6C4 (DrawBoundingBoxes_t5B83439701CBD420BEECFAE9F126E90FA1D08781 * __this, List_1_t95BFE82BD451C857C62ABE468E525846A8DF3591 * ___boxes0, Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  ___zcamera1, const RuntimeMethod* method);
 // System.Void UnityEngine.WaitForSeconds::.ctor(System.Single)
 extern "C" IL2CPP_METHOD_ATTR void WaitForSeconds__ctor_m8E4BA3E27AEFFE5B74A815F26FF8AAB99743F559 (WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8 * __this, float p0, const RuntimeMethod* method);
 // System.Void System.NotSupportedException::.ctor()
@@ -7476,10 +7576,10 @@ inline bool TaskAwaiter_1_get_IsCompleted_mD9FB168E3D6034701DE4736347E1B30AE6CCE
 {
 	return ((  bool (*) (TaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830 *, const RuntimeMethod*))TaskAwaiter_1_get_IsCompleted_mD9FB168E3D6034701DE4736347E1B30AE6CCE70F_gshared)(__this, method);
 }
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.UInt32>,YoloDetectionHoloLens.YoloDetection/<Listener_ConnectionReceived>d__49>(!!0&,!!1&)
-inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830_TisU3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8_m3C702C47BD7D163FE0F72C03216861F56089FD85 (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830 * p0, U3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8 * p1, const RuntimeMethod* method)
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter`1<System.UInt32>,YoloDetectionHoloLens.YoloDetection/<Listener_ConnectionReceived>d__51>(!!0&,!!1&)
+inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830_TisU3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4_m5B6B67B29538076E4C87FB699685D5C8D68312B2 (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830 * p0, U3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4 * p1, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *, TaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830 *, U3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8 *, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830_TisU3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8_m3C702C47BD7D163FE0F72C03216861F56089FD85_gshared)(__this, p0, p1, method);
+	((  void (*) (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *, TaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830 *, U3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4 *, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830_TisU3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4_m5B6B67B29538076E4C87FB699685D5C8D68312B2_gshared)(__this, p0, p1, method);
 }
 // !0 System.Runtime.CompilerServices.TaskAwaiter`1<System.UInt32>::GetResult()
 inline uint32_t TaskAwaiter_1_GetResult_mD575FD03753A3FD916DFF7C9834342D3EEEB0EE8 (TaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830 * __this, const RuntimeMethod* method)
@@ -7508,57 +7608,57 @@ extern "C" IL2CPP_METHOD_ATTR void StreamSocketListener_Dispose_m7D51D68813A1CAE
 extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_SetException_mA7D834CA1ECA91D65074D7608AADA2E2A9533136 (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, Exception_t * p0, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::SetResult()
 extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_SetResult_mFF6028CDDC809252656354DC1714B4EB5E40A625 (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, const RuntimeMethod* method);
-// System.Void YoloDetectionHoloLens.YoloDetection/<Listener_ConnectionReceived>d__49::MoveNext()
-extern "C" IL2CPP_METHOD_ATTR void U3CListener_ConnectionReceivedU3Ed__49_MoveNext_mEADA63CDF0B0E06A408EF591DA9D449BDEF83718 (U3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8 * __this, const RuntimeMethod* method);
+// System.Void YoloDetectionHoloLens.YoloDetection/<Listener_ConnectionReceived>d__51::MoveNext()
+extern "C" IL2CPP_METHOD_ATTR void U3CListener_ConnectionReceivedU3Ed__51_MoveNext_mDAD7AE8F134CFF3D6A810F3AB9D2E8F9D00AC5F2 (U3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4 * __this, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern "C" IL2CPP_METHOD_ATTR void AsyncVoidMethodBuilder_SetStateMachine_mF3AEE42ED8474F11A5521D94271E884CF99E65B3 (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, RuntimeObject* p0, const RuntimeMethod* method);
-// System.Void YoloDetectionHoloLens.YoloDetection/<Listener_ConnectionReceived>d__49::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern "C" IL2CPP_METHOD_ATTR void U3CListener_ConnectionReceivedU3Ed__49_SetStateMachine_mD64703BECA33BD35985B052FC87D9C5404E97EFE (U3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8 * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method);
+// System.Void YoloDetectionHoloLens.YoloDetection/<Listener_ConnectionReceived>d__51::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern "C" IL2CPP_METHOD_ATTR void U3CListener_ConnectionReceivedU3Ed__51_SetStateMachine_m1B551ED5F1A5E94F94985E917E1180853AC64AB0 (U3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4 * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method);
 // Windows.Foundation.IAsyncAction Windows.Networking.Sockets.StreamSocketListener::BindServiceNameAsync(System.String)
 extern "C" IL2CPP_METHOD_ATTR RuntimeObject* StreamSocketListener_BindServiceNameAsync_m7533577A9C0CA0F5C9331AAF567A7E34D6D4F2D7 (StreamSocketListener_t70D22DB456195FB1F414724B2A1C639ED99E10DE * __this, String_t* p0, const RuntimeMethod* method);
 // System.Runtime.CompilerServices.TaskAwaiter System.WindowsRuntimeSystemExtensions::GetAwaiter(Windows.Foundation.IAsyncAction)
 extern "C" IL2CPP_METHOD_ATTR TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F  WindowsRuntimeSystemExtensions_GetAwaiter_m1E46B83D2D5BEE385305CFFD9496572784AB5D2C (RuntimeObject* p0, const RuntimeMethod* method);
 // System.Boolean System.Runtime.CompilerServices.TaskAwaiter::get_IsCompleted()
 extern "C" IL2CPP_METHOD_ATTR bool TaskAwaiter_get_IsCompleted_m5A2B6FEA0ED3B01B5E88DBF2D8BC4A45652ABD87 (TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F * __this, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,YoloDetectionHoloLens.YoloDetection/<Listener_Start>d__48>(!!0&,!!1&)
-inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6_m1323BFF243F7FEEEBAAB3CDE7DA1E07172402467 (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F * p0, U3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6 * p1, const RuntimeMethod* method)
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,YoloDetectionHoloLens.YoloDetection/<Listener_Start>d__50>(!!0&,!!1&)
+inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E_mED805E0A30229321DA68C09D7C5C23954AD8A233 (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F * p0, U3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E * p1, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *, TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F *, U3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6 *, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6_m1323BFF243F7FEEEBAAB3CDE7DA1E07172402467_gshared)(__this, p0, p1, method);
+	((  void (*) (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *, TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F *, U3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E *, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E_mED805E0A30229321DA68C09D7C5C23954AD8A233_gshared)(__this, p0, p1, method);
 }
 // System.Void System.Runtime.CompilerServices.TaskAwaiter::GetResult()
 extern "C" IL2CPP_METHOD_ATTR void TaskAwaiter_GetResult_m89868C01592AC2B06CE1FD42D9B9C187C6FD928A (TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F * __this, const RuntimeMethod* method);
-// System.Void YoloDetectionHoloLens.YoloDetection/<Listener_Start>d__48::MoveNext()
-extern "C" IL2CPP_METHOD_ATTR void U3CListener_StartU3Ed__48_MoveNext_mA6FCDECA5F56D4319FEAE1E76FDF01D474C9C87B (U3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6 * __this, const RuntimeMethod* method);
-// System.Void YoloDetectionHoloLens.YoloDetection/<Listener_Start>d__48::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern "C" IL2CPP_METHOD_ATTR void U3CListener_StartU3Ed__48_SetStateMachine_mAD20B28D993202DC8A41A7521DB07289840006ED (U3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6 * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method);
+// System.Void YoloDetectionHoloLens.YoloDetection/<Listener_Start>d__50::MoveNext()
+extern "C" IL2CPP_METHOD_ATTR void U3CListener_StartU3Ed__50_MoveNext_mAA853E366ACA51B7E7A8505A3A8F56B133F62581 (U3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E * __this, const RuntimeMethod* method);
+// System.Void YoloDetectionHoloLens.YoloDetection/<Listener_Start>d__50::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern "C" IL2CPP_METHOD_ATTR void U3CListener_StartU3Ed__50_SetStateMachine_mF96713496882109EFC05600DD91F1383EE860525 (U3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method);
 // System.Threading.Tasks.Task YoloDetectionHoloLens.YoloDetection::StopHoloLensMediaFrameSourceGroup()
 extern "C" IL2CPP_METHOD_ATTR Task_t1F48C203E163126EBC69ACCA679D1A462DEE9EB2 * YoloDetection_StopHoloLensMediaFrameSourceGroup_mD6B32FF012FC6FD8F3C3E35E12C2CBEF3FA6A933 (YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * __this, const RuntimeMethod* method);
 // System.Runtime.CompilerServices.TaskAwaiter System.Threading.Tasks.Task::GetAwaiter()
 extern "C" IL2CPP_METHOD_ATTR TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F  Task_GetAwaiter_m73027D5E4C16E961C658B83526BED8E32FD2AC6C (Task_t1F48C203E163126EBC69ACCA679D1A462DEE9EB2 * __this, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,YoloDetectionHoloLens.YoloDetection/<OnApplicationQuit>d__35>(!!0&,!!1&)
-inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931_mD6FCC091BA66DA80D1B0E4BE0E37DD64B7241F25 (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F * p0, U3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931 * p1, const RuntimeMethod* method)
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,YoloDetectionHoloLens.YoloDetection/<OnApplicationQuit>d__37>(!!0&,!!1&)
+inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1_m5D213FA0F5F13DED7A4C110FAE90115224F8B38D (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F * p0, U3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1 * p1, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *, TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F *, U3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931 *, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931_mD6FCC091BA66DA80D1B0E4BE0E37DD64B7241F25_gshared)(__this, p0, p1, method);
+	((  void (*) (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *, TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F *, U3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1 *, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1_m5D213FA0F5F13DED7A4C110FAE90115224F8B38D_gshared)(__this, p0, p1, method);
 }
-// System.Void YoloDetectionHoloLens.YoloDetection/<OnApplicationQuit>d__35::MoveNext()
-extern "C" IL2CPP_METHOD_ATTR void U3COnApplicationQuitU3Ed__35_MoveNext_m101E4F3EC14D4AAA7280893A01B84125A095CB57 (U3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931 * __this, const RuntimeMethod* method);
-// System.Void YoloDetectionHoloLens.YoloDetection/<OnApplicationQuit>d__35::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern "C" IL2CPP_METHOD_ATTR void U3COnApplicationQuitU3Ed__35_SetStateMachine_m82C7150C7A85EB85B0D87635F3FB08B0BF9E2942 (U3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931 * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method);
+// System.Void YoloDetectionHoloLens.YoloDetection/<OnApplicationQuit>d__37::MoveNext()
+extern "C" IL2CPP_METHOD_ATTR void U3COnApplicationQuitU3Ed__37_MoveNext_mAA641A0F1E44368237833A583704B90ED178ED7C (U3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1 * __this, const RuntimeMethod* method);
+// System.Void YoloDetectionHoloLens.YoloDetection/<OnApplicationQuit>d__37::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern "C" IL2CPP_METHOD_ATTR void U3COnApplicationQuitU3Ed__37_SetStateMachine_m30ADF388A31C6231887056127087CDB004F23CAC (U3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1 * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method);
 // System.Void YoloDetectionHoloLens.YoloDetection::InitializeHandler()
 extern "C" IL2CPP_METHOD_ATTR void YoloDetection_InitializeHandler_m39D449D3810CE283420F77E7E0FD1605EFFA0673 (YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * __this, const RuntimeMethod* method);
 // System.Void DrawingUtils.DrawBoundingBoxes::InitDrawBoundingBoxes()
 extern "C" IL2CPP_METHOD_ATTR void DrawBoundingBoxes_InitDrawBoundingBoxes_m7E3B2FEE87F65F6D8022A27E2CAE6D5B68A996D2 (DrawBoundingBoxes_t5B83439701CBD420BEECFAE9F126E90FA1D08781 * __this, const RuntimeMethod* method);
 // System.Threading.Tasks.Task YoloDetectionHoloLens.YoloDetection::StartHoloLensMediaFrameSourceGroup()
 extern "C" IL2CPP_METHOD_ATTR Task_t1F48C203E163126EBC69ACCA679D1A462DEE9EB2 * YoloDetection_StartHoloLensMediaFrameSourceGroup_m6125D3DFC68D2683495149A91E4B5B2F28A305F7 (YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * __this, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,YoloDetectionHoloLens.YoloDetection/<Start>d__34>(!!0&,!!1&)
-inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272_mD6C45E98D88E844DCBBAE8D534630B8361FC6F16 (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F * p0, U3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272 * p1, const RuntimeMethod* method)
+// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,YoloDetectionHoloLens.YoloDetection/<Start>d__36>(!!0&,!!1&)
+inline void AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C_m59A61C6FE4C2DF9212060FBD1AB8E935E10A48A9 (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * __this, TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F * p0, U3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C * p1, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *, TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F *, U3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272 *, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272_mD6C45E98D88E844DCBBAE8D534630B8361FC6F16_gshared)(__this, p0, p1, method);
+	((  void (*) (AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *, TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F *, U3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C *, const RuntimeMethod*))AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C_m59A61C6FE4C2DF9212060FBD1AB8E935E10A48A9_gshared)(__this, p0, p1, method);
 }
-// System.Void YoloDetectionHoloLens.YoloDetection/<Start>d__34::MoveNext()
-extern "C" IL2CPP_METHOD_ATTR void U3CStartU3Ed__34_MoveNext_mCBED5AECCC96BB9E1D359348DE0DD819C42DDC11 (U3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272 * __this, const RuntimeMethod* method);
-// System.Void YoloDetectionHoloLens.YoloDetection/<Start>d__34::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern "C" IL2CPP_METHOD_ATTR void U3CStartU3Ed__34_SetStateMachine_m0073A83FECFA4D59A159929208286D270F994211 (U3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272 * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method);
+// System.Void YoloDetectionHoloLens.YoloDetection/<Start>d__36::MoveNext()
+extern "C" IL2CPP_METHOD_ATTR void U3CStartU3Ed__36_MoveNext_m17119DC0DACDBFB9264E4B78B3B50F4F1E0EF498 (U3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C * __this, const RuntimeMethod* method);
+// System.Void YoloDetectionHoloLens.YoloDetection/<Start>d__36::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern "C" IL2CPP_METHOD_ATTR void U3CStartU3Ed__36_SetStateMachine_mEF3ED03CB98D0A8ABBEEDA4CF50072F61D492833 (U3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method);
 // System.Void HoloLensForCV.SensorFrameStreamer::.ctor()
 extern "C" IL2CPP_METHOD_ATTR void SensorFrameStreamer__ctor_m2A7FE63EE0D6B674FB9C840663B0EAFBF377C657 (SensorFrameStreamer_t260E842ACC198DB23E5DDF4E161D537DFB2A0849 * __this, const RuntimeMethod* method);
 // System.Void HoloLensForCV.SensorFrameStreamer::Enable(HoloLensForCV.SensorType)
@@ -7571,32 +7671,32 @@ extern "C" IL2CPP_METHOD_ATTR void MediaFrameSourceGroup__ctor_m3C4432053C1635FA
 extern "C" IL2CPP_METHOD_ATTR void MediaFrameSourceGroup_Enable_mFB95B66C15BEAD3C5AC911DD021551BBE8692532 (MediaFrameSourceGroup_t81A62BB7229CDBDE57DACE8362C9A7657B19DEB8 * __this, int32_t p0, const RuntimeMethod* method);
 // Windows.Foundation.IAsyncAction HoloLensForCV.MediaFrameSourceGroup::StartAsync()
 extern "C" IL2CPP_METHOD_ATTR RuntimeObject* MediaFrameSourceGroup_StartAsync_m526B5B8956EB089601E9B7CA2A9AFE318DD6490C (MediaFrameSourceGroup_t81A62BB7229CDBDE57DACE8362C9A7657B19DEB8 * __this, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,YoloDetectionHoloLens.YoloDetection/<StartHoloLensMediaFrameSourceGroup>d__37>(!!0&,!!1&)
-inline void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A_m05E34F9F7FA56A0F4DFD8D4214DEB8E9E3D0196B (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * __this, TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F * p0, U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A * p1, const RuntimeMethod* method)
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,YoloDetectionHoloLens.YoloDetection/<StartHoloLensMediaFrameSourceGroup>d__39>(!!0&,!!1&)
+inline void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44_m9C28B9D0CA00F9D9BABB7EB7D9B886D5C23D195D (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * __this, TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F * p0, U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44 * p1, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 *, TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F *, U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A *, const RuntimeMethod*))AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A_m05E34F9F7FA56A0F4DFD8D4214DEB8E9E3D0196B_gshared)(__this, p0, p1, method);
+	((  void (*) (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 *, TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F *, U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44 *, const RuntimeMethod*))AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44_m9C28B9D0CA00F9D9BABB7EB7D9B886D5C23D195D_gshared)(__this, p0, p1, method);
 }
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::SetException(System.Exception)
 extern "C" IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_SetException_m370C484922A63A6EF96E241D1370B8814F1F2D6B (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * __this, Exception_t * p0, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::SetResult()
 extern "C" IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_SetResult_m151016FB698F3BB34A73BAE693A97513A7E4C838 (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * __this, const RuntimeMethod* method);
-// System.Void YoloDetectionHoloLens.YoloDetection/<StartHoloLensMediaFrameSourceGroup>d__37::MoveNext()
-extern "C" IL2CPP_METHOD_ATTR void U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_MoveNext_m67599A6EE7BCE3E220E500EE7401FA98B2E9D9D4 (U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A * __this, const RuntimeMethod* method);
+// System.Void YoloDetectionHoloLens.YoloDetection/<StartHoloLensMediaFrameSourceGroup>d__39::MoveNext()
+extern "C" IL2CPP_METHOD_ATTR void U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_MoveNext_m46C71A19C3BAF760E0AD65A58AB75F893DA86890 (U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44 * __this, const RuntimeMethod* method);
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern "C" IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_SetStateMachine_mB5DD68F7C49EA6D452AEBA02B1B98AED898C3C25 (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * __this, RuntimeObject* p0, const RuntimeMethod* method);
-// System.Void YoloDetectionHoloLens.YoloDetection/<StartHoloLensMediaFrameSourceGroup>d__37::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern "C" IL2CPP_METHOD_ATTR void U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_SetStateMachine_m429D5320F885CD22F0A3060235CC73C0D5DFB283 (U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method);
+// System.Void YoloDetectionHoloLens.YoloDetection/<StartHoloLensMediaFrameSourceGroup>d__39::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern "C" IL2CPP_METHOD_ATTR void U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_SetStateMachine_m87EAC37072E201F7E7A67E49A3303B813D447100 (U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44 * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method);
 // Windows.Foundation.IAsyncAction HoloLensForCV.MediaFrameSourceGroup::StopAsync()
 extern "C" IL2CPP_METHOD_ATTR RuntimeObject* MediaFrameSourceGroup_StopAsync_m7BD719AB4F6251735FE4EAFA4A0C48794CD23368 (MediaFrameSourceGroup_t81A62BB7229CDBDE57DACE8362C9A7657B19DEB8 * __this, const RuntimeMethod* method);
-// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,YoloDetectionHoloLens.YoloDetection/<StopHoloLensMediaFrameSourceGroup>d__38>(!!0&,!!1&)
-inline void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435_m5E108397105666BC5D37C25982B6E42C347072F2 (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * __this, TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F * p0, U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435 * p1, const RuntimeMethod* method)
+// System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::AwaitUnsafeOnCompleted<System.Runtime.CompilerServices.TaskAwaiter,YoloDetectionHoloLens.YoloDetection/<StopHoloLensMediaFrameSourceGroup>d__40>(!!0&,!!1&)
+inline void AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F_mEB5CDA66ACDC181EED598F9B95BF5672F639E1E9 (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * __this, TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F * p0, U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F * p1, const RuntimeMethod* method)
 {
-	((  void (*) (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 *, TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F *, U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435 *, const RuntimeMethod*))AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435_m5E108397105666BC5D37C25982B6E42C347072F2_gshared)(__this, p0, p1, method);
+	((  void (*) (AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 *, TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F *, U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F *, const RuntimeMethod*))AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F_mEB5CDA66ACDC181EED598F9B95BF5672F639E1E9_gshared)(__this, p0, p1, method);
 }
-// System.Void YoloDetectionHoloLens.YoloDetection/<StopHoloLensMediaFrameSourceGroup>d__38::MoveNext()
-extern "C" IL2CPP_METHOD_ATTR void U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_MoveNext_m4FE6A3E2AF2880422377620F5482125C7372AD28 (U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435 * __this, const RuntimeMethod* method);
-// System.Void YoloDetectionHoloLens.YoloDetection/<StopHoloLensMediaFrameSourceGroup>d__38::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern "C" IL2CPP_METHOD_ATTR void U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_SetStateMachine_mD2F731063D13DEE2C7CAC277974FD854DC830959 (U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435 * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method);
+// System.Void YoloDetectionHoloLens.YoloDetection/<StopHoloLensMediaFrameSourceGroup>d__40::MoveNext()
+extern "C" IL2CPP_METHOD_ATTR void U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_MoveNext_mD53412BDA661B4453EC08170EEEC70EF31D2E48F (U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F * __this, const RuntimeMethod* method);
+// System.Void YoloDetectionHoloLens.YoloDetection/<StopHoloLensMediaFrameSourceGroup>d__40::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern "C" IL2CPP_METHOD_ATTR void U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_SetStateMachine_m47C9402383E25E8935813CDE81A1C8657450197E (U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method);
 // System.Net.IPAddress System.Net.IPAddress::Parse(System.String)
 extern "C" IL2CPP_METHOD_ATTR IPAddress_t77F35D21A3027F0CE7B38EA9B56BFD31B28952CE * IPAddress_Parse_mB8537FC76C7BA7482713F289B4EC4C3ED919D273 (String_t* p0, const RuntimeMethod* method);
 #ifdef __clang__
@@ -7672,13 +7772,13 @@ IL_0019:
 		return;
 	}
 }
-// System.Void DrawingUtils.DrawBoundingBoxes::DrawBoxes(System.Collections.Generic.List`1<YoloRuntime.BoundingBox>)
-extern "C" IL2CPP_METHOD_ATTR void DrawBoundingBoxes_DrawBoxes_mBF91D848C6332C38633F6E64F2D9864AAEE605AF (DrawBoundingBoxes_t5B83439701CBD420BEECFAE9F126E90FA1D08781 * __this, List_1_t95BFE82BD451C857C62ABE468E525846A8DF3591 * ___boxes0, const RuntimeMethod* method)
+// System.Void DrawingUtils.DrawBoundingBoxes::DrawBoxes(System.Collections.Generic.List`1<YoloRuntime.BoundingBox>,UnityEngine.Quaternion)
+extern "C" IL2CPP_METHOD_ATTR void DrawBoundingBoxes_DrawBoxes_m61AD267364EA93F0AFCC32871FA559CF4962A6C4 (DrawBoundingBoxes_t5B83439701CBD420BEECFAE9F126E90FA1D08781 * __this, List_1_t95BFE82BD451C857C62ABE468E525846A8DF3591 * ___boxes0, Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  ___zcamera1, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (DrawBoundingBoxes_DrawBoxes_mBF91D848C6332C38633F6E64F2D9864AAEE605AF_MetadataUsageId);
+		il2cpp_codegen_initialize_method (DrawBoundingBoxes_DrawBoxes_m61AD267364EA93F0AFCC32871FA559CF4962A6C4_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	Enumerator_t33CA2315FF3D74E9ADAD80F3BB4B3129553C76C1  V_0;
@@ -7766,7 +7866,7 @@ IL_006d:
 	try
 	{ // begin try (depth: 1)
 		{
-			goto IL_02d2;
+			goto IL_02e3;
 		}
 
 IL_0072:
@@ -7780,7 +7880,7 @@ IL_0072:
 			float L_17 = BoundingBox_get_Height_m44F20B7B98E0D1653AF681B3503AC63D95D473A8(L_16, /*hidden argument*/NULL);
 			if ((((float)L_17) < ((float)(50.0f))))
 			{
-				goto IL_02d2;
+				goto IL_02e3;
 			}
 		}
 
@@ -7791,7 +7891,7 @@ IL_008a:
 			float L_19 = BoundingBox_get_Width_m9F5893974844C8D811D4F1545FFF55EC1A3BE6FD(L_18, /*hidden argument*/NULL);
 			if ((((float)L_19) < ((float)(50.0f))))
 			{
-				goto IL_02d2;
+				goto IL_02e3;
 			}
 		}
 
@@ -8021,7 +8121,7 @@ IL_012c:
 			IL2CPP_RUNTIME_CLASS_INIT(Object_tAE11E5E46CD5C37C9F3E8950C00CD8B45666A2D0_il2cpp_TypeInfo_var);
 			GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * L_103 = Object_Instantiate_TisGameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F_m6895A7A231540279E01A537649EB42814FD2671B(L_98, L_99, L_100, L_102, /*hidden argument*/Object_Instantiate_TisGameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F_m6895A7A231540279E01A537649EB42814FD2671B_RuntimeMethod_var);
 			__this->set__thisBoundingBox_9(L_103);
-			// _thisBoundingBox.transform.localPosition = new Vector3(xText, yText, 0f);
+			// _thisBoundingBox.transform.localPosition = new Vector3(xText, yText, 0f );
 			GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * L_104 = __this->get__thisBoundingBox_9();
 			NullCheck(L_104);
 			Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * L_105 = GameObject_get_transform_mA5C38857137F137CB96C69FAA624199EB1C2FB2C(L_104, /*hidden argument*/NULL);
@@ -8032,76 +8132,83 @@ IL_012c:
 			Vector3__ctor_m08F61F548AA5836D8789843ACB4A81E4963D2EE1((&L_108), L_106, L_107, (0.0f), /*hidden argument*/NULL);
 			NullCheck(L_105);
 			Transform_set_localPosition_m275F5550DD939F83AFEB5E8D681131172E2E1728(L_105, L_108, /*hidden argument*/NULL);
-			// var label = $"{box.Label}: {box.Confidence} ";
-			BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * L_109 = V_1;
+			// _thisBoundingBox.transform.rotation=zcamera;//myFixedQuaternion;
+			GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * L_109 = __this->get__thisBoundingBox_9();
 			NullCheck(L_109);
-			String_t* L_110 = BoundingBox_get_Label_m788FE38136E283E055925F59A2B8DDC679A95102(L_109, /*hidden argument*/NULL);
-			BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * L_111 = V_1;
-			NullCheck(L_111);
-			float L_112 = BoundingBox_get_Confidence_m65994A5209CB19A6688665FFB42B4E2CDFCCD2AA(L_111, /*hidden argument*/NULL);
-			float L_113 = L_112;
-			RuntimeObject * L_114 = Box(Single_tDDDA9169C4E4E308AC6D7A824F9B28DC82204AE1_il2cpp_TypeInfo_var, &L_113);
-			String_t* L_115 = String_Format_m19325298DBC61AAC016C16F7B3CF97A8A3DEA34A(_stringLiteralA7D2CDC2C8F8B6FF5B227F1E5310143E4C265E6B, L_110, L_114, /*hidden argument*/NULL);
-			V_10 = L_115;
+			Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * L_110 = GameObject_get_transform_mA5C38857137F137CB96C69FAA624199EB1C2FB2C(L_109, /*hidden argument*/NULL);
+			Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  L_111 = ___zcamera1;
+			NullCheck(L_110);
+			Transform_set_rotation_m429694E264117C6DC682EC6AF45C7864E5155935(L_110, L_111, /*hidden argument*/NULL);
+			// var label = $"{box.Label}: {box.Confidence} ";
+			BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * L_112 = V_1;
+			NullCheck(L_112);
+			String_t* L_113 = BoundingBox_get_Label_m788FE38136E283E055925F59A2B8DDC679A95102(L_112, /*hidden argument*/NULL);
+			BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * L_114 = V_1;
+			NullCheck(L_114);
+			float L_115 = BoundingBox_get_Confidence_m65994A5209CB19A6688665FFB42B4E2CDFCCD2AA(L_114, /*hidden argument*/NULL);
+			float L_116 = L_115;
+			RuntimeObject * L_117 = Box(Single_tDDDA9169C4E4E308AC6D7A824F9B28DC82204AE1_il2cpp_TypeInfo_var, &L_116);
+			String_t* L_118 = String_Format_m19325298DBC61AAC016C16F7B3CF97A8A3DEA34A(_stringLiteralA7D2CDC2C8F8B6FF5B227F1E5310143E4C265E6B, L_113, L_117, /*hidden argument*/NULL);
+			V_10 = L_118;
 			// _thisBoundingBox.GetComponent<TextMesh>().text = label;
-			GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * L_116 = __this->get__thisBoundingBox_9();
-			NullCheck(L_116);
-			TextMesh_t327D0DAFEF431170D8C2882083D442AF4D4A0E4A * L_117 = GameObject_GetComponent_TisTextMesh_t327D0DAFEF431170D8C2882083D442AF4D4A0E4A_m6548CB329DD537D824051D169084C7FB1CD251D8(L_116, /*hidden argument*/GameObject_GetComponent_TisTextMesh_t327D0DAFEF431170D8C2882083D442AF4D4A0E4A_m6548CB329DD537D824051D169084C7FB1CD251D8_RuntimeMethod_var);
-			String_t* L_118 = V_10;
-			NullCheck(L_117);
-			TextMesh_set_text_m64242AB987CF285F432E7AED38F24FF855E9B220(L_117, L_118, /*hidden argument*/NULL);
-			// _thisBoundingBox.GetComponent<TextMesh>().color = Color.cyan;
 			GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * L_119 = __this->get__thisBoundingBox_9();
 			NullCheck(L_119);
 			TextMesh_t327D0DAFEF431170D8C2882083D442AF4D4A0E4A * L_120 = GameObject_GetComponent_TisTextMesh_t327D0DAFEF431170D8C2882083D442AF4D4A0E4A_m6548CB329DD537D824051D169084C7FB1CD251D8(L_119, /*hidden argument*/GameObject_GetComponent_TisTextMesh_t327D0DAFEF431170D8C2882083D442AF4D4A0E4A_m6548CB329DD537D824051D169084C7FB1CD251D8_RuntimeMethod_var);
-			Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  L_121 = Color_get_cyan_m4E9C84C7E1003311C2D4BDB281F2D11DF5F7FDE2(/*hidden argument*/NULL);
+			String_t* L_121 = V_10;
 			NullCheck(L_120);
-			TextMesh_set_color_mF86B9E8CD0F9FD387AF7D543337B5C14DFE67AF0(L_120, L_121, /*hidden argument*/NULL);
+			TextMesh_set_text_m64242AB987CF285F432E7AED38F24FF855E9B220(L_120, L_121, /*hidden argument*/NULL);
+			// _thisBoundingBox.GetComponent<TextMesh>().color = Color.cyan;
+			GameObject_tBD1244AD56B4E59AAD76E5E7C9282EC5CE434F0F * L_122 = __this->get__thisBoundingBox_9();
+			NullCheck(L_122);
+			TextMesh_t327D0DAFEF431170D8C2882083D442AF4D4A0E4A * L_123 = GameObject_GetComponent_TisTextMesh_t327D0DAFEF431170D8C2882083D442AF4D4A0E4A_m6548CB329DD537D824051D169084C7FB1CD251D8(L_122, /*hidden argument*/GameObject_GetComponent_TisTextMesh_t327D0DAFEF431170D8C2882083D442AF4D4A0E4A_m6548CB329DD537D824051D169084C7FB1CD251D8_RuntimeMethod_var);
+			Color_t119BCA590009762C7223FDD3AF9706653AC84ED2  L_124 = Color_get_cyan_m4E9C84C7E1003311C2D4BDB281F2D11DF5F7FDE2(/*hidden argument*/NULL);
+			NullCheck(L_123);
+			TextMesh_set_color_mF86B9E8CD0F9FD387AF7D543337B5C14DFE67AF0(L_123, L_124, /*hidden argument*/NULL);
 		}
 
-IL_02d2:
+IL_02e3:
 		{
 			// foreach (var box in boxes)
-			bool L_122 = Enumerator_MoveNext_m813FB5877ED872791AF4DE4D36E12BC4CEC71FF8((Enumerator_t33CA2315FF3D74E9ADAD80F3BB4B3129553C76C1 *)(&V_0), /*hidden argument*/Enumerator_MoveNext_m813FB5877ED872791AF4DE4D36E12BC4CEC71FF8_RuntimeMethod_var);
-			if (L_122)
+			bool L_125 = Enumerator_MoveNext_m813FB5877ED872791AF4DE4D36E12BC4CEC71FF8((Enumerator_t33CA2315FF3D74E9ADAD80F3BB4B3129553C76C1 *)(&V_0), /*hidden argument*/Enumerator_MoveNext_m813FB5877ED872791AF4DE4D36E12BC4CEC71FF8_RuntimeMethod_var);
+			if (L_125)
 			{
 				goto IL_0072;
 			}
 		}
 
-IL_02de:
+IL_02ef:
 		{
-			IL2CPP_LEAVE(0x2EE, FINALLY_02e0);
+			IL2CPP_LEAVE(0x2FF, FINALLY_02f1);
 		}
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		__last_unhandled_exception = (Exception_t *)e.ex;
-		goto FINALLY_02e0;
+		goto FINALLY_02f1;
 	}
 
-FINALLY_02e0:
+FINALLY_02f1:
 	{ // begin finally (depth: 1)
 		Enumerator_Dispose_m370D55FE9FF4E2AE42A6ABF701C630FFD51A5AE4((Enumerator_t33CA2315FF3D74E9ADAD80F3BB4B3129553C76C1 *)(&V_0), /*hidden argument*/Enumerator_Dispose_m370D55FE9FF4E2AE42A6ABF701C630FFD51A5AE4_RuntimeMethod_var);
-		IL2CPP_END_FINALLY(736)
+		IL2CPP_END_FINALLY(753)
 	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(736)
+	IL2CPP_CLEANUP(753)
 	{
-		IL2CPP_JUMP_TBL(0x2EE, IL_02ee)
+		IL2CPP_JUMP_TBL(0x2FF, IL_02ff)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
 	}
 
-IL_02ee:
+IL_02ff:
 	{
 		// _texture.Apply();
-		Texture2D_tBBF96AC337723E2EF156DF17E09D4379FD05DE1C * L_123 = __this->get__texture_8();
-		NullCheck(L_123);
-		Texture2D_Apply_m0F3B4A4B1B89E44E2AF60ABDEFAA18D93735B5CA(L_123, /*hidden argument*/NULL);
+		Texture2D_tBBF96AC337723E2EF156DF17E09D4379FD05DE1C * L_126 = __this->get__texture_8();
+		NullCheck(L_126);
+		Texture2D_Apply_m0F3B4A4B1B89E44E2AF60ABDEFAA18D93735B5CA(L_126, /*hidden argument*/NULL);
 		// _material.mainTexture = _texture;
-		Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * L_124 = __this->get__material_7();
-		Texture2D_tBBF96AC337723E2EF156DF17E09D4379FD05DE1C * L_125 = __this->get__texture_8();
-		NullCheck(L_124);
-		Material_set_mainTexture_m0742CFF768E9701618DA07C71F009239AB31EB41(L_124, L_125, /*hidden argument*/NULL);
+		Material_tF7DB3BF0C24DEC2FE0CB51E5DF5053D5223C8598 * L_127 = __this->get__material_7();
+		Texture2D_tBBF96AC337723E2EF156DF17E09D4379FD05DE1C * L_128 = __this->get__texture_8();
+		NullCheck(L_127);
+		Material_set_mainTexture_m0742CFF768E9701618DA07C71F009239AB31EB41(L_127, L_128, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -8372,7 +8479,7 @@ extern "C" IL2CPP_METHOD_ATTR void YoloDetection_Start_m2213099EF893F1B0050F6CC1
 		il2cpp_codegen_initialize_method (YoloDetection_Start_m2213099EF893F1B0050F6CC12C9F4DD8383F6919_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	U3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272  V_0;
+	U3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C  V_0;
 	memset(&V_0, 0, sizeof(V_0));
 	AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF  V_1;
 	memset(&V_1, 0, sizeof(V_1));
@@ -8381,10 +8488,10 @@ extern "C" IL2CPP_METHOD_ATTR void YoloDetection_Start_m2213099EF893F1B0050F6CC1
 		AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF  L_0 = AsyncVoidMethodBuilder_Create_m2EF884A75C3C230F0E6A63B1E23DC82F3B159130(/*hidden argument*/NULL);
 		(&V_0)->set_U3CU3Et__builder_1(L_0);
 		(&V_0)->set_U3CU3E1__state_0((-1));
-		U3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272  L_1 = V_0;
+		U3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C  L_1 = V_0;
 		AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF  L_2 = L_1.get_U3CU3Et__builder_1();
 		V_1 = L_2;
-		AsyncVoidMethodBuilder_Start_TisU3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272_m38536B07CB8B67133DF91D155172F7E755FDDBCE((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)(&V_1), (U3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272 *)(&V_0), /*hidden argument*/AsyncVoidMethodBuilder_Start_TisU3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272_m38536B07CB8B67133DF91D155172F7E755FDDBCE_RuntimeMethod_var);
+		AsyncVoidMethodBuilder_Start_TisU3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C_m0751C5F1975531CA88B2D9786BFD6DA5964DCB23((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)(&V_1), (U3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C *)(&V_0), /*hidden argument*/AsyncVoidMethodBuilder_Start_TisU3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C_m0751C5F1975531CA88B2D9786BFD6DA5964DCB23_RuntimeMethod_var);
 		return;
 	}
 }
@@ -8397,7 +8504,7 @@ extern "C" IL2CPP_METHOD_ATTR void YoloDetection_OnApplicationQuit_m6A1736D565DE
 		il2cpp_codegen_initialize_method (YoloDetection_OnApplicationQuit_m6A1736D565DEB45593ED0C16A19AE48A29A377F0_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	U3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931  V_0;
+	U3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1  V_0;
 	memset(&V_0, 0, sizeof(V_0));
 	AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF  V_1;
 	memset(&V_1, 0, sizeof(V_1));
@@ -8406,22 +8513,44 @@ extern "C" IL2CPP_METHOD_ATTR void YoloDetection_OnApplicationQuit_m6A1736D565DE
 		AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF  L_0 = AsyncVoidMethodBuilder_Create_m2EF884A75C3C230F0E6A63B1E23DC82F3B159130(/*hidden argument*/NULL);
 		(&V_0)->set_U3CU3Et__builder_1(L_0);
 		(&V_0)->set_U3CU3E1__state_0((-1));
-		U3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931  L_1 = V_0;
+		U3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1  L_1 = V_0;
 		AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF  L_2 = L_1.get_U3CU3Et__builder_1();
 		V_1 = L_2;
-		AsyncVoidMethodBuilder_Start_TisU3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931_mEE9AF35147B1E4DA916DD719AB6C7F422F6FECAA((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)(&V_1), (U3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931 *)(&V_0), /*hidden argument*/AsyncVoidMethodBuilder_Start_TisU3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931_mEE9AF35147B1E4DA916DD719AB6C7F422F6FECAA_RuntimeMethod_var);
+		AsyncVoidMethodBuilder_Start_TisU3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1_m55D254691BEA7AA910A79396E93BD053EA8CEA20((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)(&V_1), (U3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1 *)(&V_0), /*hidden argument*/AsyncVoidMethodBuilder_Start_TisU3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1_m55D254691BEA7AA910A79396E93BD053EA8CEA20_RuntimeMethod_var);
 		return;
 	}
 }
 // System.Void YoloDetectionHoloLens.YoloDetection::Update()
 extern "C" IL2CPP_METHOD_ATTR void YoloDetection_Update_mA5D7A4DF0DF5B9C7547BC47CBB4E091A42ED2DF1 (YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (YoloDetection_Update_mA5D7A4DF0DF5B9C7547BC47CBB4E091A42ED2DF1_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
 	{
 		// myText.text = _input;
 		Text_tE9317B57477F4B50AA4C16F460DE6F82DAD6D030 * L_0 = __this->get_myText_8();
 		String_t* L_1 = __this->get__input_10();
 		NullCheck(L_0);
 		VirtActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_1);
+		// zcamera = Quaternion.LookRotation(Camera.main.transform.forward, -Camera.main.transform.up);
+		Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34 * L_2 = Camera_get_main_m9256A9F84F92D7ED73F3E6C4E2694030AD8B61FA(/*hidden argument*/NULL);
+		NullCheck(L_2);
+		Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * L_3 = Component_get_transform_m00F05BD782F920C301A7EBA480F3B7A904C07EC9(L_2, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_4 = Transform_get_forward_m0BE1E88B86049ADA39391C3ACED2314A624BC67F(L_3, /*hidden argument*/NULL);
+		Camera_t48B2B9ECB3CE6108A98BF949A1CECF0FE3421F34 * L_5 = Camera_get_main_m9256A9F84F92D7ED73F3E6C4E2694030AD8B61FA(/*hidden argument*/NULL);
+		NullCheck(L_5);
+		Transform_tBB9E78A2766C3C83599A8F66EDE7D1FCAFC66EDA * L_6 = Component_get_transform_m00F05BD782F920C301A7EBA480F3B7A904C07EC9(L_5, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_7 = Transform_get_up_m3E443F6EB278D547946E80D77065A871BEEEE282(L_6, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720_il2cpp_TypeInfo_var);
+		Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_8 = Vector3_op_UnaryNegation_m2AFBBF22801F9BCA5A4EBE642A29F433FE1339C2(L_7, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357_il2cpp_TypeInfo_var);
+		Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  L_9 = Quaternion_LookRotation_m7BED8FBB457FF073F183AC7962264E5110794672(L_4, L_8, /*hidden argument*/NULL);
+		__this->set_zcamera_26(L_9);
 		// }
 		return;
 	}
@@ -8435,7 +8564,7 @@ extern "C" IL2CPP_METHOD_ATTR Task_t1F48C203E163126EBC69ACCA679D1A462DEE9EB2 * Y
 		il2cpp_codegen_initialize_method (YoloDetection_StartHoloLensMediaFrameSourceGroup_m6125D3DFC68D2683495149A91E4B5B2F28A305F7_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A  V_0;
+	U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44  V_0;
 	memset(&V_0, 0, sizeof(V_0));
 	AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487  V_1;
 	memset(&V_1, 0, sizeof(V_1));
@@ -8445,10 +8574,10 @@ extern "C" IL2CPP_METHOD_ATTR Task_t1F48C203E163126EBC69ACCA679D1A462DEE9EB2 * Y
 		AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487  L_0 = AsyncTaskMethodBuilder_Create_m081DF9A202E7C2F3CF3D41E1E63E63DA18F19FDB(/*hidden argument*/NULL);
 		(&V_0)->set_U3CU3Et__builder_1(L_0);
 		(&V_0)->set_U3CU3E1__state_0((-1));
-		U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A  L_1 = V_0;
+		U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44  L_1 = V_0;
 		AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487  L_2 = L_1.get_U3CU3Et__builder_1();
 		V_1 = L_2;
-		AsyncTaskMethodBuilder_Start_TisU3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A_mAA0BBDAB34EB00D9D31BC3882639958758A111AE((AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 *)(&V_1), (U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A *)(&V_0), /*hidden argument*/AsyncTaskMethodBuilder_Start_TisU3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A_mAA0BBDAB34EB00D9D31BC3882639958758A111AE_RuntimeMethod_var);
+		AsyncTaskMethodBuilder_Start_TisU3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44_m67E1FB70BFEF57B9EA65A39C9BB3B530C9AFF5E9((AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 *)(&V_1), (U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44 *)(&V_0), /*hidden argument*/AsyncTaskMethodBuilder_Start_TisU3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44_m67E1FB70BFEF57B9EA65A39C9BB3B530C9AFF5E9_RuntimeMethod_var);
 		AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * L_3 = (&V_0)->get_address_of_U3CU3Et__builder_1();
 		Task_t1F48C203E163126EBC69ACCA679D1A462DEE9EB2 * L_4 = AsyncTaskMethodBuilder_get_Task_m3E45BC00F7D224FEA04AB9BF26DB52E131D33022((AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 *)L_3, /*hidden argument*/NULL);
 		return L_4;
@@ -8463,7 +8592,7 @@ extern "C" IL2CPP_METHOD_ATTR Task_t1F48C203E163126EBC69ACCA679D1A462DEE9EB2 * Y
 		il2cpp_codegen_initialize_method (YoloDetection_StopHoloLensMediaFrameSourceGroup_mD6B32FF012FC6FD8F3C3E35E12C2CBEF3FA6A933_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435  V_0;
+	U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F  V_0;
 	memset(&V_0, 0, sizeof(V_0));
 	AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487  V_1;
 	memset(&V_1, 0, sizeof(V_1));
@@ -8473,10 +8602,10 @@ extern "C" IL2CPP_METHOD_ATTR Task_t1F48C203E163126EBC69ACCA679D1A462DEE9EB2 * Y
 		AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487  L_0 = AsyncTaskMethodBuilder_Create_m081DF9A202E7C2F3CF3D41E1E63E63DA18F19FDB(/*hidden argument*/NULL);
 		(&V_0)->set_U3CU3Et__builder_1(L_0);
 		(&V_0)->set_U3CU3E1__state_0((-1));
-		U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435  L_1 = V_0;
+		U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F  L_1 = V_0;
 		AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487  L_2 = L_1.get_U3CU3Et__builder_1();
 		V_1 = L_2;
-		AsyncTaskMethodBuilder_Start_TisU3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435_m944D08D60F153EB2E09D7F08803F9FDD89B36869((AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 *)(&V_1), (U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435 *)(&V_0), /*hidden argument*/AsyncTaskMethodBuilder_Start_TisU3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435_m944D08D60F153EB2E09D7F08803F9FDD89B36869_RuntimeMethod_var);
+		AsyncTaskMethodBuilder_Start_TisU3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F_mD4E0BC5746352D701F840B5F8A6719E8464EB32F((AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 *)(&V_1), (U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F *)(&V_0), /*hidden argument*/AsyncTaskMethodBuilder_Start_TisU3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F_mD4E0BC5746352D701F840B5F8A6719E8464EB32F_RuntimeMethod_var);
 		AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * L_3 = (&V_0)->get_address_of_U3CU3Et__builder_1();
 		Task_t1F48C203E163126EBC69ACCA679D1A462DEE9EB2 * L_4 = AsyncTaskMethodBuilder_get_Task_m3E45BC00F7D224FEA04AB9BF26DB52E131D33022((AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 *)L_3, /*hidden argument*/NULL);
 		return L_4;
@@ -8492,9 +8621,9 @@ extern "C" IL2CPP_METHOD_ATTR RuntimeObject* YoloDetection_ConnectSocket_m7E8DFE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CConnectSocketU3Ed__39_tA79C43DAE62BD2D1E4471D0BCF0B1094BD95DC9F * L_0 = (U3CConnectSocketU3Ed__39_tA79C43DAE62BD2D1E4471D0BCF0B1094BD95DC9F *)il2cpp_codegen_object_new(U3CConnectSocketU3Ed__39_tA79C43DAE62BD2D1E4471D0BCF0B1094BD95DC9F_il2cpp_TypeInfo_var);
-		U3CConnectSocketU3Ed__39__ctor_mD7BA248D7E2097EB38114FCA2149F01FEF4CFBC2(L_0, 0, /*hidden argument*/NULL);
-		U3CConnectSocketU3Ed__39_tA79C43DAE62BD2D1E4471D0BCF0B1094BD95DC9F * L_1 = L_0;
+		U3CConnectSocketU3Ed__41_t365DB6990A18B12EC097EA66D6A08536BD002041 * L_0 = (U3CConnectSocketU3Ed__41_t365DB6990A18B12EC097EA66D6A08536BD002041 *)il2cpp_codegen_object_new(U3CConnectSocketU3Ed__41_t365DB6990A18B12EC097EA66D6A08536BD002041_il2cpp_TypeInfo_var);
+		U3CConnectSocketU3Ed__41__ctor_m1E4E2BF67894904065D3D8C0AD1FBB2C5B512F00(L_0, 0, /*hidden argument*/NULL);
+		U3CConnectSocketU3Ed__41_t365DB6990A18B12EC097EA66D6A08536BD002041 * L_1 = L_0;
 		NullCheck(L_1);
 		L_1->set_U3CU3E4__this_2(__this);
 		return L_1;
@@ -8639,7 +8768,7 @@ extern "C" IL2CPP_METHOD_ATTR void YoloDetection_Connection_m539E984F984D7CA388E
 	}
 	{
 		// running = false;
-		__this->set_running_26((bool)0);
+		__this->set_running_28((bool)0);
 		// }
 		return;
 	}
@@ -8742,9 +8871,9 @@ extern "C" IL2CPP_METHOD_ATTR RuntimeObject* YoloDetection_testconn_mB79B0C7DA88
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CtestconnU3Ed__45_t5A1A96807FEB9794E8B6E3BA7497C4C86BF44AD9 * L_0 = (U3CtestconnU3Ed__45_t5A1A96807FEB9794E8B6E3BA7497C4C86BF44AD9 *)il2cpp_codegen_object_new(U3CtestconnU3Ed__45_t5A1A96807FEB9794E8B6E3BA7497C4C86BF44AD9_il2cpp_TypeInfo_var);
-		U3CtestconnU3Ed__45__ctor_m7BD64FF6099CEE9DE9DBAB2D851513D525B7BB15(L_0, 0, /*hidden argument*/NULL);
-		U3CtestconnU3Ed__45_t5A1A96807FEB9794E8B6E3BA7497C4C86BF44AD9 * L_1 = L_0;
+		U3CtestconnU3Ed__47_tA87F302836423510DD5D436CA9341DBCA85E32E8 * L_0 = (U3CtestconnU3Ed__47_tA87F302836423510DD5D436CA9341DBCA85E32E8 *)il2cpp_codegen_object_new(U3CtestconnU3Ed__47_tA87F302836423510DD5D436CA9341DBCA85E32E8_il2cpp_TypeInfo_var);
+		U3CtestconnU3Ed__47__ctor_m013DA943709B42AB7B4BAF395E9F5BF3CBD7E6AA(L_0, 0, /*hidden argument*/NULL);
+		U3CtestconnU3Ed__47_tA87F302836423510DD5D436CA9341DBCA85E32E8 * L_1 = L_0;
 		NullCheck(L_1);
 		L_1->set_U3CU3E4__this_2(__this);
 		return L_1;
@@ -8771,9 +8900,9 @@ extern "C" IL2CPP_METHOD_ATTR void YoloDetection_GetInfo_mEE01336D4937CD395BFB43
 		// listener1 = new StreamSocketListener();
 		StreamSocketListener_t70D22DB456195FB1F414724B2A1C639ED99E10DE * L_0 = (StreamSocketListener_t70D22DB456195FB1F414724B2A1C639ED99E10DE *)il2cpp_codegen_object_new(StreamSocketListener_t70D22DB456195FB1F414724B2A1C639ED99E10DE_il2cpp_TypeInfo_var);
 		StreamSocketListener__ctor_m5C6AA23628DE3075F18D14779308E60774B26483(L_0, /*hidden argument*/NULL);
-		__this->set_listener1_28(L_0);
+		__this->set_listener1_30(L_0);
 		// port1 = "9090";
-		__this->set_port1_29(_stringLiteral143AD82C245BE0610F3B3DC3B0BC94B2DB721A3B);
+		__this->set_port1_31(_stringLiteral143AD82C245BE0610F3B3DC3B0BC94B2DB721A3B);
 		// listener = new TcpListener(IPAddress.Any, 9090);
 		IL2CPP_RUNTIME_CLASS_INIT(IPAddress_t77F35D21A3027F0CE7B38EA9B56BFD31B28952CE_il2cpp_TypeInfo_var);
 		IPAddress_t77F35D21A3027F0CE7B38EA9B56BFD31B28952CE * L_1 = ((IPAddress_t77F35D21A3027F0CE7B38EA9B56BFD31B28952CE_StaticFields*)il2cpp_codegen_static_fields_for(IPAddress_t77F35D21A3027F0CE7B38EA9B56BFD31B28952CE_il2cpp_TypeInfo_var))->get_Any_0();
@@ -8822,7 +8951,7 @@ extern "C" IL2CPP_METHOD_ATTR void YoloDetection_Listener_Start_mCE26DECE27ED370
 		il2cpp_codegen_initialize_method (YoloDetection_Listener_Start_mCE26DECE27ED370EAFCA335F5C7B0D1D0E4CEFFC_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	U3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6  V_0;
+	U3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E  V_0;
 	memset(&V_0, 0, sizeof(V_0));
 	AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF  V_1;
 	memset(&V_1, 0, sizeof(V_1));
@@ -8831,10 +8960,10 @@ extern "C" IL2CPP_METHOD_ATTR void YoloDetection_Listener_Start_mCE26DECE27ED370
 		AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF  L_0 = AsyncVoidMethodBuilder_Create_m2EF884A75C3C230F0E6A63B1E23DC82F3B159130(/*hidden argument*/NULL);
 		(&V_0)->set_U3CU3Et__builder_1(L_0);
 		(&V_0)->set_U3CU3E1__state_0((-1));
-		U3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6  L_1 = V_0;
+		U3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E  L_1 = V_0;
 		AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF  L_2 = L_1.get_U3CU3Et__builder_1();
 		V_1 = L_2;
-		AsyncVoidMethodBuilder_Start_TisU3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6_mD28C84415767A79B552BE68E633164608F49E198((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)(&V_1), (U3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6 *)(&V_0), /*hidden argument*/AsyncVoidMethodBuilder_Start_TisU3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6_mD28C84415767A79B552BE68E633164608F49E198_RuntimeMethod_var);
+		AsyncVoidMethodBuilder_Start_TisU3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E_mE5A5AB110A9F1617A056F57C05A3927C1D70352D((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)(&V_1), (U3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E *)(&V_0), /*hidden argument*/AsyncVoidMethodBuilder_Start_TisU3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E_mE5A5AB110A9F1617A056F57C05A3927C1D70352D_RuntimeMethod_var);
 		return;
 	}
 }
@@ -8847,7 +8976,7 @@ extern "C" IL2CPP_METHOD_ATTR void YoloDetection_Listener_ConnectionReceived_mE4
 		il2cpp_codegen_initialize_method (YoloDetection_Listener_ConnectionReceived_mE4C617B9B075CA61CFEB73E036FF7FD89E313C9B_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	U3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8  V_0;
+	U3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4  V_0;
 	memset(&V_0, 0, sizeof(V_0));
 	AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF  V_1;
 	memset(&V_1, 0, sizeof(V_1));
@@ -8860,10 +8989,10 @@ extern "C" IL2CPP_METHOD_ATTR void YoloDetection_Listener_ConnectionReceived_mE4
 		AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF  L_2 = AsyncVoidMethodBuilder_Create_m2EF884A75C3C230F0E6A63B1E23DC82F3B159130(/*hidden argument*/NULL);
 		(&V_0)->set_U3CU3Et__builder_1(L_2);
 		(&V_0)->set_U3CU3E1__state_0((-1));
-		U3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8  L_3 = V_0;
+		U3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4  L_3 = V_0;
 		AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF  L_4 = L_3.get_U3CU3Et__builder_1();
 		V_1 = L_4;
-		AsyncVoidMethodBuilder_Start_TisU3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8_m160E0226B84A65047AD45BB0390AC7B463BFB3CF((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)(&V_1), (U3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8 *)(&V_0), /*hidden argument*/AsyncVoidMethodBuilder_Start_TisU3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8_m160E0226B84A65047AD45BB0390AC7B463BFB3CF_RuntimeMethod_var);
+		AsyncVoidMethodBuilder_Start_TisU3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4_m0E141759155B5C4206EEC5161546C4717F3E666E((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)(&V_1), (U3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4 *)(&V_0), /*hidden argument*/AsyncVoidMethodBuilder_Start_TisU3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4_m0E141759155B5C4206EEC5161546C4717F3E666E_RuntimeMethod_var);
 		return;
 	}
 }
@@ -8877,12 +9006,12 @@ extern "C" IL2CPP_METHOD_ATTR RuntimeObject* YoloDetection_Databuffer1_m4142E0CC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CDatabuffer1U3Ed__50_tB351B4F8B8B81AA3600697E9861BF27E8ADF2C75 * L_0 = (U3CDatabuffer1U3Ed__50_tB351B4F8B8B81AA3600697E9861BF27E8ADF2C75 *)il2cpp_codegen_object_new(U3CDatabuffer1U3Ed__50_tB351B4F8B8B81AA3600697E9861BF27E8ADF2C75_il2cpp_TypeInfo_var);
-		U3CDatabuffer1U3Ed__50__ctor_m177E1CB62E105974B5709B69EF3F06140C48DC61(L_0, 0, /*hidden argument*/NULL);
-		U3CDatabuffer1U3Ed__50_tB351B4F8B8B81AA3600697E9861BF27E8ADF2C75 * L_1 = L_0;
+		U3CDatabuffer1U3Ed__52_t5A0FC00FC8FCC82E25286B7A3237F79E2F0AA2EA * L_0 = (U3CDatabuffer1U3Ed__52_t5A0FC00FC8FCC82E25286B7A3237F79E2F0AA2EA *)il2cpp_codegen_object_new(U3CDatabuffer1U3Ed__52_t5A0FC00FC8FCC82E25286B7A3237F79E2F0AA2EA_il2cpp_TypeInfo_var);
+		U3CDatabuffer1U3Ed__52__ctor_m5D195DA1DBB79C3D769A9AA3605395282DC27F6B(L_0, 0, /*hidden argument*/NULL);
+		U3CDatabuffer1U3Ed__52_t5A0FC00FC8FCC82E25286B7A3237F79E2F0AA2EA * L_1 = L_0;
 		NullCheck(L_1);
 		L_1->set_U3CU3E4__this_3(__this);
-		U3CDatabuffer1U3Ed__50_tB351B4F8B8B81AA3600697E9861BF27E8ADF2C75 * L_2 = L_1;
+		U3CDatabuffer1U3Ed__52_t5A0FC00FC8FCC82E25286B7A3237F79E2F0AA2EA * L_2 = L_1;
 		StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_3 = ___input20;
 		NullCheck(L_2);
 		L_2->set_input2_2(L_3);
@@ -9253,8 +9382,8 @@ extern "C" IL2CPP_METHOD_ATTR void YoloDetection__ctor_m9A918BB846D7B59D28F1F51A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void YoloDetectionHoloLens.YoloDetection_<ConnectSocket>d__39::.ctor(System.Int32)
-extern "C" IL2CPP_METHOD_ATTR void U3CConnectSocketU3Ed__39__ctor_mD7BA248D7E2097EB38114FCA2149F01FEF4CFBC2 (U3CConnectSocketU3Ed__39_tA79C43DAE62BD2D1E4471D0BCF0B1094BD95DC9F * __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method)
+// System.Void YoloDetectionHoloLens.YoloDetection_<ConnectSocket>d__41::.ctor(System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void U3CConnectSocketU3Ed__41__ctor_m1E4E2BF67894904065D3D8C0AD1FBB2C5B512F00 (U3CConnectSocketU3Ed__41_t365DB6990A18B12EC097EA66D6A08536BD002041 * __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method)
 {
 	{
 		Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0(__this, /*hidden argument*/NULL);
@@ -9263,20 +9392,20 @@ extern "C" IL2CPP_METHOD_ATTR void U3CConnectSocketU3Ed__39__ctor_mD7BA248D7E209
 		return;
 	}
 }
-// System.Void YoloDetectionHoloLens.YoloDetection_<ConnectSocket>d__39::System.IDisposable.Dispose()
-extern "C" IL2CPP_METHOD_ATTR void U3CConnectSocketU3Ed__39_System_IDisposable_Dispose_m69BF8974FE8D05FEC62E301DBFC9C3B805940CD9 (U3CConnectSocketU3Ed__39_tA79C43DAE62BD2D1E4471D0BCF0B1094BD95DC9F * __this, const RuntimeMethod* method)
+// System.Void YoloDetectionHoloLens.YoloDetection_<ConnectSocket>d__41::System.IDisposable.Dispose()
+extern "C" IL2CPP_METHOD_ATTR void U3CConnectSocketU3Ed__41_System_IDisposable_Dispose_mB0B5AE613D548DB3A8C0375371E367A917B76082 (U3CConnectSocketU3Ed__41_t365DB6990A18B12EC097EA66D6A08536BD002041 * __this, const RuntimeMethod* method)
 {
 	{
 		return;
 	}
 }
-// System.Boolean YoloDetectionHoloLens.YoloDetection_<ConnectSocket>d__39::MoveNext()
-extern "C" IL2CPP_METHOD_ATTR bool U3CConnectSocketU3Ed__39_MoveNext_m2B1A7C9D2B6C066DD8106FE686C3852226C1472B (U3CConnectSocketU3Ed__39_tA79C43DAE62BD2D1E4471D0BCF0B1094BD95DC9F * __this, const RuntimeMethod* method)
+// System.Boolean YoloDetectionHoloLens.YoloDetection_<ConnectSocket>d__41::MoveNext()
+extern "C" IL2CPP_METHOD_ATTR bool U3CConnectSocketU3Ed__41_MoveNext_m27F1BBAA778C931608B765D1A6DED9869ED668FC (U3CConnectSocketU3Ed__41_t365DB6990A18B12EC097EA66D6A08536BD002041 * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (U3CConnectSocketU3Ed__39_MoveNext_m2B1A7C9D2B6C066DD8106FE686C3852226C1472B_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CConnectSocketU3Ed__41_MoveNext_m27F1BBAA778C931608B765D1A6DED9869ED668FC_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
@@ -9287,8 +9416,12 @@ extern "C" IL2CPP_METHOD_ATTR bool U3CConnectSocketU3Ed__39_MoveNext_m2B1A7C9D2B
 	StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* V_5 = NULL;
 	List_1_t95BFE82BD451C857C62ABE468E525846A8DF3591 * V_6 = NULL;
 	int32_t V_7 = 0;
-	int32_t V_8 = 0;
-	BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * V_9 = NULL;
+	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  V_8;
+	memset(&V_8, 0, sizeof(V_8));
+	int32_t V_9 = 0;
+	BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * V_10 = NULL;
+	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  V_11;
+	memset(&V_11, 0, sizeof(V_11));
 	{
 		int32_t L_0 = __this->get_U3CU3E1__state_0();
 		V_0 = L_0;
@@ -9303,15 +9436,15 @@ extern "C" IL2CPP_METHOD_ATTR bool U3CConnectSocketU3Ed__39_MoveNext_m2B1A7C9D2B
 			}
 			case 1:
 			{
-				goto IL_01f6;
+				goto IL_020f;
 			}
 			case 2:
 			{
-				goto IL_0281;
+				goto IL_02b5;
 			}
 			case 3:
 			{
-				goto IL_028d;
+				goto IL_02c1;
 			}
 		}
 	}
@@ -9443,7 +9576,7 @@ IL_00d5:
 		bool L_45 = String_op_Inequality_m0BD184A74F453A72376E81CC6CAEE2556B80493E(L_44, _stringLiteralFB96549631C835EB239CD614CC6B5CB7D295121A, /*hidden argument*/NULL);
 		if (!L_45)
 		{
-			goto IL_0202;
+			goto IL_021b;
 		}
 	}
 	{
@@ -9452,8 +9585,8 @@ IL_00d5:
 		NullCheck(L_46);
 		V_7 = (((int32_t)((int32_t)((float)((float)(((float)((float)(((int32_t)((int32_t)(((RuntimeArray *)L_46)->max_length)))))))/(float)(6.0f))))));
 		// for (var boxCount = 0; boxCount < numBoxes; boxCount++)
-		V_8 = 0;
-		goto IL_01c7;
+		V_9 = 0;
+		goto IL_01ba;
 	}
 
 IL_0119:
@@ -9474,7 +9607,7 @@ IL_0119:
 		BoundingBox__ctor_mF91EB45114F7548B304C39AEE5856A3850C2FD65(L_47, /*hidden argument*/NULL);
 		BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * L_48 = L_47;
 		StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_49 = V_5;
-		int32_t L_50 = V_8;
+		int32_t L_50 = V_9;
 		NullCheck(L_49);
 		int32_t L_51 = ((int32_t)il2cpp_codegen_multiply((int32_t)L_50, (int32_t)6));
 		String_t* L_52 = (L_49)->GetAt(static_cast<il2cpp_array_size_t>(L_51));
@@ -9483,7 +9616,7 @@ IL_0119:
 		BoundingBox_put_TopLabel_m60E903D13BDDC6DD044D1F332EA4EC9F265ED1C5(L_48, L_53, /*hidden argument*/NULL);
 		BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * L_54 = L_48;
 		StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_55 = V_5;
-		int32_t L_56 = V_8;
+		int32_t L_56 = V_9;
 		NullCheck(L_55);
 		int32_t L_57 = ((int32_t)il2cpp_codegen_add((int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_56, (int32_t)6)), (int32_t)1));
 		String_t* L_58 = (L_55)->GetAt(static_cast<il2cpp_array_size_t>(L_57));
@@ -9492,7 +9625,7 @@ IL_0119:
 		BoundingBox_put_X_m479D6E24443A7FD4AA0E8BCF67C2069D130FEBD2(L_54, L_59, /*hidden argument*/NULL);
 		BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * L_60 = L_54;
 		StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_61 = V_5;
-		int32_t L_62 = V_8;
+		int32_t L_62 = V_9;
 		NullCheck(L_61);
 		int32_t L_63 = ((int32_t)il2cpp_codegen_add((int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_62, (int32_t)6)), (int32_t)2));
 		String_t* L_64 = (L_61)->GetAt(static_cast<il2cpp_array_size_t>(L_63));
@@ -9501,7 +9634,7 @@ IL_0119:
 		BoundingBox_put_Y_mF04BCDDF71EADCB4A96387180129AC56F3993B6B(L_60, L_65, /*hidden argument*/NULL);
 		BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * L_66 = L_60;
 		StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_67 = V_5;
-		int32_t L_68 = V_8;
+		int32_t L_68 = V_9;
 		NullCheck(L_67);
 		int32_t L_69 = ((int32_t)il2cpp_codegen_add((int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_68, (int32_t)6)), (int32_t)3));
 		String_t* L_70 = (L_67)->GetAt(static_cast<il2cpp_array_size_t>(L_69));
@@ -9510,7 +9643,7 @@ IL_0119:
 		BoundingBox_put_Height_m38EB832CB2BDDE7A130B8C1C95C1A701B6423AAD(L_66, L_71, /*hidden argument*/NULL);
 		BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * L_72 = L_66;
 		StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_73 = V_5;
-		int32_t L_74 = V_8;
+		int32_t L_74 = V_9;
 		NullCheck(L_73);
 		int32_t L_75 = ((int32_t)il2cpp_codegen_add((int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_74, (int32_t)6)), (int32_t)4));
 		String_t* L_76 = (L_73)->GetAt(static_cast<il2cpp_array_size_t>(L_75));
@@ -9519,76 +9652,85 @@ IL_0119:
 		BoundingBox_put_Width_m13E3ECE097F5E74717FC250C0F8E1A004E3CD5EF(L_72, L_77, /*hidden argument*/NULL);
 		BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * L_78 = L_72;
 		StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_79 = V_5;
-		int32_t L_80 = V_8;
+		int32_t L_80 = V_9;
 		NullCheck(L_79);
 		int32_t L_81 = ((int32_t)il2cpp_codegen_add((int32_t)((int32_t)il2cpp_codegen_multiply((int32_t)L_80, (int32_t)6)), (int32_t)5));
 		String_t* L_82 = (L_79)->GetAt(static_cast<il2cpp_array_size_t>(L_81));
 		float L_83 = Single_Parse_m643ECE18CB0499B2B3EC76C8B941020122003DC6(L_82, /*hidden argument*/NULL);
 		NullCheck(L_78);
 		BoundingBox_put_Confidence_m92A5795FEBACE603B43ED5F1F1785662651AA1ED(L_78, L_83, /*hidden argument*/NULL);
-		V_9 = L_78;
-		// _input=boxCount.ToString();
-		YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_84 = V_1;
-		String_t* L_85 = Int32_ToString_m1863896DE712BF97C031D55B12E1583F1982DC02((int32_t*)(&V_8), /*hidden argument*/NULL);
-		NullCheck(L_84);
-		L_84->set__input_10(L_85);
+		V_10 = L_78;
 		// box.Label = _labels[box.TopLabel];
-		BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * L_86 = V_9;
-		YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_87 = V_1;
+		BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * L_84 = V_10;
+		YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_85 = V_1;
+		NullCheck(L_85);
+		StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_86 = L_85->get__labels_17();
+		BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * L_87 = V_10;
 		NullCheck(L_87);
-		StringU5BU5D_t933FB07893230EA91C40FF900D5400665E87B14E* L_88 = L_87->get__labels_17();
-		BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * L_89 = V_9;
-		NullCheck(L_89);
-		int32_t L_90 = BoundingBox_get_TopLabel_m96627B1BEACBCC7CAF1C47D692B101680E80CDA3(L_89, /*hidden argument*/NULL);
-		NullCheck(L_88);
-		int32_t L_91 = L_90;
-		String_t* L_92 = (L_88)->GetAt(static_cast<il2cpp_array_size_t>(L_91));
+		int32_t L_88 = BoundingBox_get_TopLabel_m96627B1BEACBCC7CAF1C47D692B101680E80CDA3(L_87, /*hidden argument*/NULL);
 		NullCheck(L_86);
-		BoundingBox_put_Label_mA3CF2637F14B4F08DF8B02FCBA0AD5A23DA3B843(L_86, L_92, /*hidden argument*/NULL);
+		int32_t L_89 = L_88;
+		String_t* L_90 = (L_86)->GetAt(static_cast<il2cpp_array_size_t>(L_89));
+		NullCheck(L_84);
+		BoundingBox_put_Label_mA3CF2637F14B4F08DF8B02FCBA0AD5A23DA3B843(L_84, L_90, /*hidden argument*/NULL);
 		// boundingBoxes.Add(box);
-		List_1_t95BFE82BD451C857C62ABE468E525846A8DF3591 * L_93 = V_6;
-		BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * L_94 = V_9;
-		NullCheck(L_93);
-		List_1_Add_m4A70F555579FEDB39DDCEDC6265FDFADAD4C774B(L_93, L_94, /*hidden argument*/List_1_Add_m4A70F555579FEDB39DDCEDC6265FDFADAD4C774B_RuntimeMethod_var);
+		List_1_t95BFE82BD451C857C62ABE468E525846A8DF3591 * L_91 = V_6;
+		BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * L_92 = V_10;
+		NullCheck(L_91);
+		List_1_Add_m4A70F555579FEDB39DDCEDC6265FDFADAD4C774B(L_91, L_92, /*hidden argument*/List_1_Add_m4A70F555579FEDB39DDCEDC6265FDFADAD4C774B_RuntimeMethod_var);
 		// for (var boxCount = 0; boxCount < numBoxes; boxCount++)
-		int32_t L_95 = V_8;
-		V_8 = ((int32_t)il2cpp_codegen_add((int32_t)L_95, (int32_t)1));
+		int32_t L_93 = V_9;
+		V_9 = ((int32_t)il2cpp_codegen_add((int32_t)L_93, (int32_t)1));
 	}
 
-IL_01c7:
+IL_01ba:
 	{
 		// for (var boxCount = 0; boxCount < numBoxes; boxCount++)
-		int32_t L_96 = V_8;
-		int32_t L_97 = V_7;
-		if ((((int32_t)L_96) < ((int32_t)L_97)))
+		int32_t L_94 = V_9;
+		int32_t L_95 = V_7;
+		if ((((int32_t)L_94) < ((int32_t)L_95)))
 		{
 			goto IL_0119;
 		}
 	}
 	{
-		// drawBoundingBoxes.DrawBoxes(boundingBoxes);
-		YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_98 = V_1;
-		NullCheck(L_98);
-		DrawBoundingBoxes_t5B83439701CBD420BEECFAE9F126E90FA1D08781 * L_99 = L_98->get_drawBoundingBoxes_5();
-		List_1_t95BFE82BD451C857C62ABE468E525846A8DF3591 * L_100 = V_6;
+		// Vector3 eulercam=zcamera.ToEulerAngles();
+		YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_96 = V_1;
+		NullCheck(L_96);
+		Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357 * L_97 = L_96->get_address_of_zcamera_26();
+		Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_98 = Quaternion_ToEulerAngles_mEF77BD944D7D96B3E93D797746FC962C944DC04E((Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357 *)L_97, /*hidden argument*/NULL);
+		V_8 = L_98;
+		// _input=eulercam.ToString();
+		YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_99 = V_1;
+		String_t* L_100 = Vector3_ToString_m2682D27AB50CD1CE4677C38D0720A302D582348D((Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 *)(&V_8), /*hidden argument*/NULL);
 		NullCheck(L_99);
-		DrawBoundingBoxes_DrawBoxes_mBF91D848C6332C38633F6E64F2D9864AAEE605AF(L_99, L_100, /*hidden argument*/NULL);
-		// yield return new WaitForSeconds(0.05f);
-		WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8 * L_101 = (WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8 *)il2cpp_codegen_object_new(WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8_il2cpp_TypeInfo_var);
-		WaitForSeconds__ctor_m8E4BA3E27AEFFE5B74A815F26FF8AAB99743F559(L_101, (0.05f), /*hidden argument*/NULL);
-		__this->set_U3CU3E2__current_1(L_101);
+		L_99->set__input_10(L_100);
+		// drawBoundingBoxes.DrawBoxes(boundingBoxes,zcamera);
+		YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_101 = V_1;
+		NullCheck(L_101);
+		DrawBoundingBoxes_t5B83439701CBD420BEECFAE9F126E90FA1D08781 * L_102 = L_101->get_drawBoundingBoxes_5();
+		List_1_t95BFE82BD451C857C62ABE468E525846A8DF3591 * L_103 = V_6;
+		YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_104 = V_1;
+		NullCheck(L_104);
+		Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  L_105 = L_104->get_zcamera_26();
+		NullCheck(L_102);
+		DrawBoundingBoxes_DrawBoxes_m61AD267364EA93F0AFCC32871FA559CF4962A6C4(L_102, L_103, L_105, /*hidden argument*/NULL);
+		// yield return new WaitForSeconds(0.03f);
+		WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8 * L_106 = (WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8 *)il2cpp_codegen_object_new(WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m8E4BA3E27AEFFE5B74A815F26FF8AAB99743F559(L_106, (0.03f), /*hidden argument*/NULL);
+		__this->set_U3CU3E2__current_1(L_106);
 		__this->set_U3CU3E1__state_0(1);
 		return (bool)1;
 	}
 
-IL_01f6:
+IL_020f:
 	{
 		__this->set_U3CU3E1__state_0((-1));
 		// }
 		goto IL_0081;
 	}
 
-IL_0202:
+IL_021b:
 	{
 		// boundingBoxes.Add(new BoundingBox()
 		// {
@@ -9598,86 +9740,96 @@ IL_0202:
 		//     Width = 0,
 		//     X = 0,
 		//     Y = 0});
-		List_1_t95BFE82BD451C857C62ABE468E525846A8DF3591 * L_102 = V_6;
-		BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * L_103 = (BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E *)il2cpp_codegen_object_new(BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E_il2cpp_TypeInfo_var);
-		BoundingBox__ctor_mF91EB45114F7548B304C39AEE5856A3850C2FD65(L_103, /*hidden argument*/NULL);
-		BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * L_104 = L_103;
-		NullCheck(L_104);
-		BoundingBox_put_Confidence_m92A5795FEBACE603B43ED5F1F1785662651AA1ED(L_104, (0.0f), /*hidden argument*/NULL);
-		BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * L_105 = L_104;
-		NullCheck(L_105);
-		BoundingBox_put_Label_mA3CF2637F14B4F08DF8B02FCBA0AD5A23DA3B843(L_105, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, /*hidden argument*/NULL);
-		BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * L_106 = L_105;
-		NullCheck(L_106);
-		BoundingBox_put_Height_m38EB832CB2BDDE7A130B8C1C95C1A701B6423AAD(L_106, (0.0f), /*hidden argument*/NULL);
-		BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * L_107 = L_106;
-		NullCheck(L_107);
-		BoundingBox_put_Width_m13E3ECE097F5E74717FC250C0F8E1A004E3CD5EF(L_107, (0.0f), /*hidden argument*/NULL);
-		BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * L_108 = L_107;
-		NullCheck(L_108);
-		BoundingBox_put_X_m479D6E24443A7FD4AA0E8BCF67C2069D130FEBD2(L_108, (0.0f), /*hidden argument*/NULL);
+		List_1_t95BFE82BD451C857C62ABE468E525846A8DF3591 * L_107 = V_6;
+		BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * L_108 = (BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E *)il2cpp_codegen_object_new(BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E_il2cpp_TypeInfo_var);
+		BoundingBox__ctor_mF91EB45114F7548B304C39AEE5856A3850C2FD65(L_108, /*hidden argument*/NULL);
 		BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * L_109 = L_108;
 		NullCheck(L_109);
-		BoundingBox_put_Y_mF04BCDDF71EADCB4A96387180129AC56F3993B6B(L_109, (0.0f), /*hidden argument*/NULL);
-		NullCheck(L_102);
-		List_1_Add_m4A70F555579FEDB39DDCEDC6265FDFADAD4C774B(L_102, L_109, /*hidden argument*/List_1_Add_m4A70F555579FEDB39DDCEDC6265FDFADAD4C774B_RuntimeMethod_var);
-		// drawBoundingBoxes.DrawBoxes(boundingBoxes);
-		YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_110 = V_1;
+		BoundingBox_put_Confidence_m92A5795FEBACE603B43ED5F1F1785662651AA1ED(L_109, (0.0f), /*hidden argument*/NULL);
+		BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * L_110 = L_109;
 		NullCheck(L_110);
-		DrawBoundingBoxes_t5B83439701CBD420BEECFAE9F126E90FA1D08781 * L_111 = L_110->get_drawBoundingBoxes_5();
-		List_1_t95BFE82BD451C857C62ABE468E525846A8DF3591 * L_112 = V_6;
+		BoundingBox_put_Label_mA3CF2637F14B4F08DF8B02FCBA0AD5A23DA3B843(L_110, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, /*hidden argument*/NULL);
+		BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * L_111 = L_110;
 		NullCheck(L_111);
-		DrawBoundingBoxes_DrawBoxes_mBF91D848C6332C38633F6E64F2D9864AAEE605AF(L_111, L_112, /*hidden argument*/NULL);
-		// _input = "No bounding boxes received.";
-		YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_113 = V_1;
+		BoundingBox_put_Height_m38EB832CB2BDDE7A130B8C1C95C1A701B6423AAD(L_111, (0.0f), /*hidden argument*/NULL);
+		BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * L_112 = L_111;
+		NullCheck(L_112);
+		BoundingBox_put_Width_m13E3ECE097F5E74717FC250C0F8E1A004E3CD5EF(L_112, (0.0f), /*hidden argument*/NULL);
+		BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * L_113 = L_112;
 		NullCheck(L_113);
-		L_113->set__input_10(_stringLiteralCCEB5663AFEC60D7FF60B0CCED845E69A6DB7373);
-		// yield return new WaitForSeconds(0.05f);
-		WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8 * L_114 = (WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8 *)il2cpp_codegen_object_new(WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8_il2cpp_TypeInfo_var);
-		WaitForSeconds__ctor_m8E4BA3E27AEFFE5B74A815F26FF8AAB99743F559(L_114, (0.05f), /*hidden argument*/NULL);
-		__this->set_U3CU3E2__current_1(L_114);
+		BoundingBox_put_X_m479D6E24443A7FD4AA0E8BCF67C2069D130FEBD2(L_113, (0.0f), /*hidden argument*/NULL);
+		BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * L_114 = L_113;
+		NullCheck(L_114);
+		BoundingBox_put_Y_mF04BCDDF71EADCB4A96387180129AC56F3993B6B(L_114, (0.0f), /*hidden argument*/NULL);
+		NullCheck(L_107);
+		List_1_Add_m4A70F555579FEDB39DDCEDC6265FDFADAD4C774B(L_107, L_114, /*hidden argument*/List_1_Add_m4A70F555579FEDB39DDCEDC6265FDFADAD4C774B_RuntimeMethod_var);
+		// drawBoundingBoxes.DrawBoxes(boundingBoxes,zcamera);
+		YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_115 = V_1;
+		NullCheck(L_115);
+		DrawBoundingBoxes_t5B83439701CBD420BEECFAE9F126E90FA1D08781 * L_116 = L_115->get_drawBoundingBoxes_5();
+		List_1_t95BFE82BD451C857C62ABE468E525846A8DF3591 * L_117 = V_6;
+		YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_118 = V_1;
+		NullCheck(L_118);
+		Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  L_119 = L_118->get_zcamera_26();
+		NullCheck(L_116);
+		DrawBoundingBoxes_DrawBoxes_m61AD267364EA93F0AFCC32871FA559CF4962A6C4(L_116, L_117, L_119, /*hidden argument*/NULL);
+		// Vector3 eulercam=zcamera.ToEulerAngles();
+		YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_120 = V_1;
+		NullCheck(L_120);
+		Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357 * L_121 = L_120->get_address_of_zcamera_26();
+		Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_122 = Quaternion_ToEulerAngles_mEF77BD944D7D96B3E93D797746FC962C944DC04E((Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357 *)L_121, /*hidden argument*/NULL);
+		V_11 = L_122;
+		// _input=eulercam.ToString();
+		YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_123 = V_1;
+		String_t* L_124 = Vector3_ToString_m2682D27AB50CD1CE4677C38D0720A302D582348D((Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720 *)(&V_11), /*hidden argument*/NULL);
+		NullCheck(L_123);
+		L_123->set__input_10(L_124);
+		// yield return new WaitForSeconds(0.03f);
+		WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8 * L_125 = (WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8 *)il2cpp_codegen_object_new(WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m8E4BA3E27AEFFE5B74A815F26FF8AAB99743F559(L_125, (0.03f), /*hidden argument*/NULL);
+		__this->set_U3CU3E2__current_1(L_125);
 		__this->set_U3CU3E1__state_0(2);
 		return (bool)1;
 	}
 
-IL_0281:
+IL_02b5:
 	{
 		__this->set_U3CU3E1__state_0((-1));
 		// while (true)
 		goto IL_0081;
 	}
 
-IL_028d:
+IL_02c1:
 	{
 		__this->set_U3CU3E1__state_0((-1));
 		return (bool)0;
 	}
 }
-// System.Object YoloDetectionHoloLens.YoloDetection_<ConnectSocket>d__39::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern "C" IL2CPP_METHOD_ATTR RuntimeObject * U3CConnectSocketU3Ed__39_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB418051EC7303D1C5F9634C3F91D4A7F6D11E44B (U3CConnectSocketU3Ed__39_tA79C43DAE62BD2D1E4471D0BCF0B1094BD95DC9F * __this, const RuntimeMethod* method)
+// System.Object YoloDetectionHoloLens.YoloDetection_<ConnectSocket>d__41::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern "C" IL2CPP_METHOD_ATTR RuntimeObject * U3CConnectSocketU3Ed__41_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m587914B58FBB7E34D4BAD86C1F215A73326E6046 (U3CConnectSocketU3Ed__41_t365DB6990A18B12EC097EA66D6A08536BD002041 * __this, const RuntimeMethod* method)
 {
 	{
 		RuntimeObject * L_0 = __this->get_U3CU3E2__current_1();
 		return L_0;
 	}
 }
-// System.Void YoloDetectionHoloLens.YoloDetection_<ConnectSocket>d__39::System.Collections.IEnumerator.Reset()
-extern "C" IL2CPP_METHOD_ATTR void U3CConnectSocketU3Ed__39_System_Collections_IEnumerator_Reset_mD7AFA2769106CB5860B795C6950E3862C31FDC4B (U3CConnectSocketU3Ed__39_tA79C43DAE62BD2D1E4471D0BCF0B1094BD95DC9F * __this, const RuntimeMethod* method)
+// System.Void YoloDetectionHoloLens.YoloDetection_<ConnectSocket>d__41::System.Collections.IEnumerator.Reset()
+extern "C" IL2CPP_METHOD_ATTR void U3CConnectSocketU3Ed__41_System_Collections_IEnumerator_Reset_mB710A432EE1091434A38F456681CE912F3CD2CC6 (U3CConnectSocketU3Ed__41_t365DB6990A18B12EC097EA66D6A08536BD002041 * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (U3CConnectSocketU3Ed__39_System_Collections_IEnumerator_Reset_mD7AFA2769106CB5860B795C6950E3862C31FDC4B_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CConnectSocketU3Ed__41_System_Collections_IEnumerator_Reset_mB710A432EE1091434A38F456681CE912F3CD2CC6_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
 		NotSupportedException_tE75B318D6590A02A5D9B29FD97409B1750FA0010 * L_0 = (NotSupportedException_tE75B318D6590A02A5D9B29FD97409B1750FA0010 *)il2cpp_codegen_object_new(NotSupportedException_tE75B318D6590A02A5D9B29FD97409B1750FA0010_il2cpp_TypeInfo_var);
 		NotSupportedException__ctor_mA121DE1CAC8F25277DEB489DC7771209D91CAE33(L_0, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, NULL, U3CConnectSocketU3Ed__39_System_Collections_IEnumerator_Reset_mD7AFA2769106CB5860B795C6950E3862C31FDC4B_RuntimeMethod_var);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, NULL, U3CConnectSocketU3Ed__41_System_Collections_IEnumerator_Reset_mB710A432EE1091434A38F456681CE912F3CD2CC6_RuntimeMethod_var);
 	}
 }
-// System.Object YoloDetectionHoloLens.YoloDetection_<ConnectSocket>d__39::System.Collections.IEnumerator.get_Current()
-extern "C" IL2CPP_METHOD_ATTR RuntimeObject * U3CConnectSocketU3Ed__39_System_Collections_IEnumerator_get_Current_m51C34411839266E2164231A9E97DA1ACAF0C5852 (U3CConnectSocketU3Ed__39_tA79C43DAE62BD2D1E4471D0BCF0B1094BD95DC9F * __this, const RuntimeMethod* method)
+// System.Object YoloDetectionHoloLens.YoloDetection_<ConnectSocket>d__41::System.Collections.IEnumerator.get_Current()
+extern "C" IL2CPP_METHOD_ATTR RuntimeObject * U3CConnectSocketU3Ed__41_System_Collections_IEnumerator_get_Current_mE67D402D3F34A244C582D2918E0D83A6A1F276C9 (U3CConnectSocketU3Ed__41_t365DB6990A18B12EC097EA66D6A08536BD002041 * __this, const RuntimeMethod* method)
 {
 	{
 		RuntimeObject * L_0 = __this->get_U3CU3E2__current_1();
@@ -9692,8 +9844,8 @@ extern "C" IL2CPP_METHOD_ATTR RuntimeObject * U3CConnectSocketU3Ed__39_System_Co
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void YoloDetectionHoloLens.YoloDetection_<Databuffer1>d__50::.ctor(System.Int32)
-extern "C" IL2CPP_METHOD_ATTR void U3CDatabuffer1U3Ed__50__ctor_m177E1CB62E105974B5709B69EF3F06140C48DC61 (U3CDatabuffer1U3Ed__50_tB351B4F8B8B81AA3600697E9861BF27E8ADF2C75 * __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method)
+// System.Void YoloDetectionHoloLens.YoloDetection_<Databuffer1>d__52::.ctor(System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void U3CDatabuffer1U3Ed__52__ctor_m5D195DA1DBB79C3D769A9AA3605395282DC27F6B (U3CDatabuffer1U3Ed__52_t5A0FC00FC8FCC82E25286B7A3237F79E2F0AA2EA * __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method)
 {
 	{
 		Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0(__this, /*hidden argument*/NULL);
@@ -9702,20 +9854,20 @@ extern "C" IL2CPP_METHOD_ATTR void U3CDatabuffer1U3Ed__50__ctor_m177E1CB62E10597
 		return;
 	}
 }
-// System.Void YoloDetectionHoloLens.YoloDetection_<Databuffer1>d__50::System.IDisposable.Dispose()
-extern "C" IL2CPP_METHOD_ATTR void U3CDatabuffer1U3Ed__50_System_IDisposable_Dispose_m5D793F0189AEACFEE0BF0EE38C1F6676C54DE68A (U3CDatabuffer1U3Ed__50_tB351B4F8B8B81AA3600697E9861BF27E8ADF2C75 * __this, const RuntimeMethod* method)
+// System.Void YoloDetectionHoloLens.YoloDetection_<Databuffer1>d__52::System.IDisposable.Dispose()
+extern "C" IL2CPP_METHOD_ATTR void U3CDatabuffer1U3Ed__52_System_IDisposable_Dispose_m93E274A2839A37D3F2D87D144BFD0E3805644680 (U3CDatabuffer1U3Ed__52_t5A0FC00FC8FCC82E25286B7A3237F79E2F0AA2EA * __this, const RuntimeMethod* method)
 {
 	{
 		return;
 	}
 }
-// System.Boolean YoloDetectionHoloLens.YoloDetection_<Databuffer1>d__50::MoveNext()
-extern "C" IL2CPP_METHOD_ATTR bool U3CDatabuffer1U3Ed__50_MoveNext_m85AEC30CE8B9363A93E6AE5FD3E4D62D84779D6F (U3CDatabuffer1U3Ed__50_tB351B4F8B8B81AA3600697E9861BF27E8ADF2C75 * __this, const RuntimeMethod* method)
+// System.Boolean YoloDetectionHoloLens.YoloDetection_<Databuffer1>d__52::MoveNext()
+extern "C" IL2CPP_METHOD_ATTR bool U3CDatabuffer1U3Ed__52_MoveNext_mFD8C8A3AB8C1785C39488F9E64707C6E17785AE6 (U3CDatabuffer1U3Ed__52_t5A0FC00FC8FCC82E25286B7A3237F79E2F0AA2EA * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (U3CDatabuffer1U3Ed__50_MoveNext_m85AEC30CE8B9363A93E6AE5FD3E4D62D84779D6F_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CDatabuffer1U3Ed__52_MoveNext_mFD8C8A3AB8C1785C39488F9E64707C6E17785AE6_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
@@ -9742,11 +9894,11 @@ extern "C" IL2CPP_METHOD_ATTR bool U3CDatabuffer1U3Ed__50_MoveNext_m85AEC30CE8B9
 			}
 			case 1:
 			{
-				goto IL_010c;
+				goto IL_0112;
 			}
 			case 2:
 			{
-				goto IL_012c;
+				goto IL_0132;
 			}
 		}
 	}
@@ -9858,68 +10010,71 @@ IL_0022:
 		BoundingBox_t2E5DFF459EA3ECEDB5E8DE431C94FD6D7381676E * L_49 = V_9;
 		NullCheck(L_48);
 		List_1_Add_m4A70F555579FEDB39DDCEDC6265FDFADAD4C774B(L_48, L_49, /*hidden argument*/List_1_Add_m4A70F555579FEDB39DDCEDC6265FDFADAD4C774B_RuntimeMethod_var);
-		// drawBoundingBoxes.DrawBoxes(boundingBoxes);
+		// drawBoundingBoxes.DrawBoxes(boundingBoxes,zcamera);
 		YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_50 = V_1;
 		NullCheck(L_50);
 		DrawBoundingBoxes_t5B83439701CBD420BEECFAE9F126E90FA1D08781 * L_51 = L_50->get_drawBoundingBoxes_5();
 		List_1_t95BFE82BD451C857C62ABE468E525846A8DF3591 * L_52 = V_8;
-		NullCheck(L_51);
-		DrawBoundingBoxes_DrawBoxes_mBF91D848C6332C38633F6E64F2D9864AAEE605AF(L_51, L_52, /*hidden argument*/NULL);
-		// _input = "Received bounding boxes.";
 		YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_53 = V_1;
 		NullCheck(L_53);
-		L_53->set__input_10(_stringLiteralAD4239CDC05B365D3642175134B80241EAED427A);
+		Quaternion_t319F3319A7D43FFA5D819AD6C0A98851F0095357  L_54 = L_53->get_zcamera_26();
+		NullCheck(L_51);
+		DrawBoundingBoxes_DrawBoxes_m61AD267364EA93F0AFCC32871FA559CF4962A6C4(L_51, L_52, L_54, /*hidden argument*/NULL);
+		// _input = "Received bounding boxes.";
+		YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_55 = V_1;
+		NullCheck(L_55);
+		L_55->set__input_10(_stringLiteralAD4239CDC05B365D3642175134B80241EAED427A);
 		// yield return new WaitForSeconds(0.05f);
-		WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8 * L_54 = (WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8 *)il2cpp_codegen_object_new(WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8_il2cpp_TypeInfo_var);
-		WaitForSeconds__ctor_m8E4BA3E27AEFFE5B74A815F26FF8AAB99743F559(L_54, (0.05f), /*hidden argument*/NULL);
-		__this->set_U3CU3E2__current_1(L_54);
+		WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8 * L_56 = (WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8 *)il2cpp_codegen_object_new(WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m8E4BA3E27AEFFE5B74A815F26FF8AAB99743F559(L_56, (0.05f), /*hidden argument*/NULL);
+		__this->set_U3CU3E2__current_1(L_56);
 		__this->set_U3CU3E1__state_0(1);
 		return (bool)1;
 	}
 
-IL_010c:
+IL_0112:
 	{
 		__this->set_U3CU3E1__state_0((-1));
 		// yield return new WaitForSeconds(0.05f);
-		WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8 * L_55 = (WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8 *)il2cpp_codegen_object_new(WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8_il2cpp_TypeInfo_var);
-		WaitForSeconds__ctor_m8E4BA3E27AEFFE5B74A815F26FF8AAB99743F559(L_55, (0.05f), /*hidden argument*/NULL);
-		__this->set_U3CU3E2__current_1(L_55);
+		WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8 * L_57 = (WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8 *)il2cpp_codegen_object_new(WaitForSeconds_t3E9E78D3BB53F03F96C7F28BA9B9086CD1A5F4E8_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m8E4BA3E27AEFFE5B74A815F26FF8AAB99743F559(L_57, (0.05f), /*hidden argument*/NULL);
+		__this->set_U3CU3E2__current_1(L_57);
 		__this->set_U3CU3E1__state_0(2);
 		return (bool)1;
 	}
 
-IL_012c:
+IL_0132:
 	{
 		__this->set_U3CU3E1__state_0((-1));
 		// }
 		return (bool)0;
 	}
 }
-// System.Object YoloDetectionHoloLens.YoloDetection_<Databuffer1>d__50::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern "C" IL2CPP_METHOD_ATTR RuntimeObject * U3CDatabuffer1U3Ed__50_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB64BE0C750F11F8B305AB4B8BB99AC4C847B2072 (U3CDatabuffer1U3Ed__50_tB351B4F8B8B81AA3600697E9861BF27E8ADF2C75 * __this, const RuntimeMethod* method)
+// System.Object YoloDetectionHoloLens.YoloDetection_<Databuffer1>d__52::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern "C" IL2CPP_METHOD_ATTR RuntimeObject * U3CDatabuffer1U3Ed__52_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m95C8E9B23E81441B82ED4AC0F6665227618D7A7A (U3CDatabuffer1U3Ed__52_t5A0FC00FC8FCC82E25286B7A3237F79E2F0AA2EA * __this, const RuntimeMethod* method)
 {
 	{
 		RuntimeObject * L_0 = __this->get_U3CU3E2__current_1();
 		return L_0;
 	}
 }
-// System.Void YoloDetectionHoloLens.YoloDetection_<Databuffer1>d__50::System.Collections.IEnumerator.Reset()
-extern "C" IL2CPP_METHOD_ATTR void U3CDatabuffer1U3Ed__50_System_Collections_IEnumerator_Reset_m414B1E9968D5905455BF22EFE5C54A3C23B28536 (U3CDatabuffer1U3Ed__50_tB351B4F8B8B81AA3600697E9861BF27E8ADF2C75 * __this, const RuntimeMethod* method)
+// System.Void YoloDetectionHoloLens.YoloDetection_<Databuffer1>d__52::System.Collections.IEnumerator.Reset()
+extern "C" IL2CPP_METHOD_ATTR void U3CDatabuffer1U3Ed__52_System_Collections_IEnumerator_Reset_m21AF74F13106F11D5B7CA2D647F7C1704F97071B (U3CDatabuffer1U3Ed__52_t5A0FC00FC8FCC82E25286B7A3237F79E2F0AA2EA * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (U3CDatabuffer1U3Ed__50_System_Collections_IEnumerator_Reset_m414B1E9968D5905455BF22EFE5C54A3C23B28536_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CDatabuffer1U3Ed__52_System_Collections_IEnumerator_Reset_m21AF74F13106F11D5B7CA2D647F7C1704F97071B_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
 		NotSupportedException_tE75B318D6590A02A5D9B29FD97409B1750FA0010 * L_0 = (NotSupportedException_tE75B318D6590A02A5D9B29FD97409B1750FA0010 *)il2cpp_codegen_object_new(NotSupportedException_tE75B318D6590A02A5D9B29FD97409B1750FA0010_il2cpp_TypeInfo_var);
 		NotSupportedException__ctor_mA121DE1CAC8F25277DEB489DC7771209D91CAE33(L_0, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, NULL, U3CDatabuffer1U3Ed__50_System_Collections_IEnumerator_Reset_m414B1E9968D5905455BF22EFE5C54A3C23B28536_RuntimeMethod_var);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, NULL, U3CDatabuffer1U3Ed__52_System_Collections_IEnumerator_Reset_m21AF74F13106F11D5B7CA2D647F7C1704F97071B_RuntimeMethod_var);
 	}
 }
-// System.Object YoloDetectionHoloLens.YoloDetection_<Databuffer1>d__50::System.Collections.IEnumerator.get_Current()
-extern "C" IL2CPP_METHOD_ATTR RuntimeObject * U3CDatabuffer1U3Ed__50_System_Collections_IEnumerator_get_Current_mEBBEFA91944D957BDF6889B2E29DA552822B8F2B (U3CDatabuffer1U3Ed__50_tB351B4F8B8B81AA3600697E9861BF27E8ADF2C75 * __this, const RuntimeMethod* method)
+// System.Object YoloDetectionHoloLens.YoloDetection_<Databuffer1>d__52::System.Collections.IEnumerator.get_Current()
+extern "C" IL2CPP_METHOD_ATTR RuntimeObject * U3CDatabuffer1U3Ed__52_System_Collections_IEnumerator_get_Current_m897A19CFC7193F6FAAA7EC78B7D6A1B9070909DA (U3CDatabuffer1U3Ed__52_t5A0FC00FC8FCC82E25286B7A3237F79E2F0AA2EA * __this, const RuntimeMethod* method)
 {
 	{
 		RuntimeObject * L_0 = __this->get_U3CU3E2__current_1();
@@ -9934,13 +10089,13 @@ extern "C" IL2CPP_METHOD_ATTR RuntimeObject * U3CDatabuffer1U3Ed__50_System_Coll
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void YoloDetectionHoloLens.YoloDetection_<Listener_ConnectionReceived>d__49::MoveNext()
-extern "C" IL2CPP_METHOD_ATTR void U3CListener_ConnectionReceivedU3Ed__49_MoveNext_mEADA63CDF0B0E06A408EF591DA9D449BDEF83718 (U3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8 * __this, const RuntimeMethod* method)
+// System.Void YoloDetectionHoloLens.YoloDetection_<Listener_ConnectionReceived>d__51::MoveNext()
+extern "C" IL2CPP_METHOD_ATTR void U3CListener_ConnectionReceivedU3Ed__51_MoveNext_mDAD7AE8F134CFF3D6A810F3AB9D2E8F9D00AC5F2 (U3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4 * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (U3CListener_ConnectionReceivedU3Ed__49_MoveNext_mEADA63CDF0B0E06A408EF591DA9D449BDEF83718_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CListener_ConnectionReceivedU3Ed__51_MoveNext_mDAD7AE8F134CFF3D6A810F3AB9D2E8F9D00AC5F2_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
@@ -10064,7 +10219,7 @@ IL_007a:
 					TaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830  L_16 = V_4;
 					__this->set_U3CU3Eu__1_7(L_16);
 					AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * L_17 = __this->get_address_of_U3CU3Et__builder_1();
-					AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830_TisU3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8_m3C702C47BD7D163FE0F72C03216861F56089FD85((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)L_17, (TaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830 *)(&V_4), (U3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8 *)__this, /*hidden argument*/AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830_TisU3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8_m3C702C47BD7D163FE0F72C03216861F56089FD85_RuntimeMethod_var);
+					AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830_TisU3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4_m5B6B67B29538076E4C87FB699685D5C8D68312B2((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)L_17, (TaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830 *)(&V_4), (U3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4 *)__this, /*hidden argument*/AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830_TisU3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4_m5B6B67B29538076E4C87FB699685D5C8D68312B2_RuntimeMethod_var);
 					IL2CPP_LEAVE(0x23E, FINALLY_00da);
 				}
 
@@ -10195,7 +10350,7 @@ IL_0146:
 					TaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830  L_39 = V_4;
 					__this->set_U3CU3Eu__1_7(L_39);
 					AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * L_40 = __this->get_address_of_U3CU3Et__builder_1();
-					AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830_TisU3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8_m3C702C47BD7D163FE0F72C03216861F56089FD85((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)L_40, (TaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830 *)(&V_4), (U3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8 *)__this, /*hidden argument*/AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830_TisU3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8_m3C702C47BD7D163FE0F72C03216861F56089FD85_RuntimeMethod_var);
+					AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830_TisU3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4_m5B6B67B29538076E4C87FB699685D5C8D68312B2((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)L_40, (TaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830 *)(&V_4), (U3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4 *)__this, /*hidden argument*/AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_1_t4775EBEDF8907030D3D4E4F035D7BC9DD18E8830_TisU3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4_m5B6B67B29538076E4C87FB699685D5C8D68312B2_RuntimeMethod_var);
 					IL2CPP_LEAVE(0x23E, FINALLY_019d);
 				}
 
@@ -10353,13 +10508,13 @@ IL_023e:
 		return;
 	}
 }
-extern "C"  void U3CListener_ConnectionReceivedU3Ed__49_MoveNext_mEADA63CDF0B0E06A408EF591DA9D449BDEF83718_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+extern "C"  void U3CListener_ConnectionReceivedU3Ed__51_MoveNext_mDAD7AE8F134CFF3D6A810F3AB9D2E8F9D00AC5F2_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
-	U3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8 * _thisAdjusted = reinterpret_cast<U3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8 *>(__this + 1);
-	U3CListener_ConnectionReceivedU3Ed__49_MoveNext_mEADA63CDF0B0E06A408EF591DA9D449BDEF83718(_thisAdjusted, method);
+	U3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4 * _thisAdjusted = reinterpret_cast<U3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4 *>(__this + 1);
+	U3CListener_ConnectionReceivedU3Ed__51_MoveNext_mDAD7AE8F134CFF3D6A810F3AB9D2E8F9D00AC5F2(_thisAdjusted, method);
 }
-// System.Void YoloDetectionHoloLens.YoloDetection_<Listener_ConnectionReceived>d__49::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern "C" IL2CPP_METHOD_ATTR void U3CListener_ConnectionReceivedU3Ed__49_SetStateMachine_mD64703BECA33BD35985B052FC87D9C5404E97EFE (U3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8 * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
+// System.Void YoloDetectionHoloLens.YoloDetection_<Listener_ConnectionReceived>d__51::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern "C" IL2CPP_METHOD_ATTR void U3CListener_ConnectionReceivedU3Ed__51_SetStateMachine_m1B551ED5F1A5E94F94985E917E1180853AC64AB0 (U3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4 * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
 {
 	{
 		AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * L_0 = __this->get_address_of_U3CU3Et__builder_1();
@@ -10368,10 +10523,10 @@ extern "C" IL2CPP_METHOD_ATTR void U3CListener_ConnectionReceivedU3Ed__49_SetSta
 		return;
 	}
 }
-extern "C"  void U3CListener_ConnectionReceivedU3Ed__49_SetStateMachine_mD64703BECA33BD35985B052FC87D9C5404E97EFE_AdjustorThunk (RuntimeObject * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
+extern "C"  void U3CListener_ConnectionReceivedU3Ed__51_SetStateMachine_m1B551ED5F1A5E94F94985E917E1180853AC64AB0_AdjustorThunk (RuntimeObject * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
 {
-	U3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8 * _thisAdjusted = reinterpret_cast<U3CListener_ConnectionReceivedU3Ed__49_tA50BB42EF772589ECDE0833346B94E11DBAFACF8 *>(__this + 1);
-	U3CListener_ConnectionReceivedU3Ed__49_SetStateMachine_mD64703BECA33BD35985B052FC87D9C5404E97EFE(_thisAdjusted, ___stateMachine0, method);
+	U3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4 * _thisAdjusted = reinterpret_cast<U3CListener_ConnectionReceivedU3Ed__51_tEC6C7FB9723E655067743CDB501194ADA1CBD7E4 *>(__this + 1);
+	U3CListener_ConnectionReceivedU3Ed__51_SetStateMachine_m1B551ED5F1A5E94F94985E917E1180853AC64AB0(_thisAdjusted, ___stateMachine0, method);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -10381,13 +10536,13 @@ extern "C"  void U3CListener_ConnectionReceivedU3Ed__49_SetStateMachine_mD64703B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void YoloDetectionHoloLens.YoloDetection_<Listener_Start>d__48::MoveNext()
-extern "C" IL2CPP_METHOD_ATTR void U3CListener_StartU3Ed__48_MoveNext_mA6FCDECA5F56D4319FEAE1E76FDF01D474C9C87B (U3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6 * __this, const RuntimeMethod* method)
+// System.Void YoloDetectionHoloLens.YoloDetection_<Listener_Start>d__50::MoveNext()
+extern "C" IL2CPP_METHOD_ATTR void U3CListener_StartU3Ed__50_MoveNext_mAA853E366ACA51B7E7A8505A3A8F56B133F62581 (U3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (U3CListener_StartU3Ed__48_MoveNext_mA6FCDECA5F56D4319FEAE1E76FDF01D474C9C87B_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CListener_StartU3Ed__50_MoveNext_mAA853E366ACA51B7E7A8505A3A8F56B133F62581_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
@@ -10448,10 +10603,10 @@ IL_001f:
 				// await listener1.BindServiceNameAsync(port1);
 				YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_4 = V_1;
 				NullCheck(L_4);
-				StreamSocketListener_t70D22DB456195FB1F414724B2A1C639ED99E10DE * L_5 = L_4->get_listener1_28();
+				StreamSocketListener_t70D22DB456195FB1F414724B2A1C639ED99E10DE * L_5 = L_4->get_listener1_30();
 				YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_6 = V_1;
 				NullCheck(L_6);
-				String_t* L_7 = L_6->get_port1_29();
+				String_t* L_7 = L_6->get_port1_31();
 				NullCheck(L_5);
 				RuntimeObject* L_8 = StreamSocketListener_BindServiceNameAsync_m7533577A9C0CA0F5C9331AAF567A7E34D6D4F2D7(L_5, L_7, /*hidden argument*/NULL);
 				TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F  L_9 = WindowsRuntimeSystemExtensions_GetAwaiter_m1E46B83D2D5BEE385305CFFD9496572784AB5D2C(L_8, /*hidden argument*/NULL);
@@ -10471,7 +10626,7 @@ IL_003f:
 				TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F  L_12 = V_2;
 				__this->set_U3CU3Eu__1_3(L_12);
 				AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * L_13 = __this->get_address_of_U3CU3Et__builder_1();
-				AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6_m1323BFF243F7FEEEBAAB3CDE7DA1E07172402467((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)L_13, (TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F *)(&V_2), (U3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6 *)__this, /*hidden argument*/AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6_m1323BFF243F7FEEEBAAB3CDE7DA1E07172402467_RuntimeMethod_var);
+				AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E_mED805E0A30229321DA68C09D7C5C23954AD8A233((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)L_13, (TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F *)(&V_2), (U3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E *)__this, /*hidden argument*/AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E_mED805E0A30229321DA68C09D7C5C23954AD8A233_RuntimeMethod_var);
 				goto IL_00d4;
 			}
 
@@ -10555,13 +10710,13 @@ IL_00d4:
 		return;
 	}
 }
-extern "C"  void U3CListener_StartU3Ed__48_MoveNext_mA6FCDECA5F56D4319FEAE1E76FDF01D474C9C87B_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+extern "C"  void U3CListener_StartU3Ed__50_MoveNext_mAA853E366ACA51B7E7A8505A3A8F56B133F62581_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
-	U3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6 * _thisAdjusted = reinterpret_cast<U3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6 *>(__this + 1);
-	U3CListener_StartU3Ed__48_MoveNext_mA6FCDECA5F56D4319FEAE1E76FDF01D474C9C87B(_thisAdjusted, method);
+	U3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E * _thisAdjusted = reinterpret_cast<U3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E *>(__this + 1);
+	U3CListener_StartU3Ed__50_MoveNext_mAA853E366ACA51B7E7A8505A3A8F56B133F62581(_thisAdjusted, method);
 }
-// System.Void YoloDetectionHoloLens.YoloDetection_<Listener_Start>d__48::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern "C" IL2CPP_METHOD_ATTR void U3CListener_StartU3Ed__48_SetStateMachine_mAD20B28D993202DC8A41A7521DB07289840006ED (U3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6 * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
+// System.Void YoloDetectionHoloLens.YoloDetection_<Listener_Start>d__50::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern "C" IL2CPP_METHOD_ATTR void U3CListener_StartU3Ed__50_SetStateMachine_mF96713496882109EFC05600DD91F1383EE860525 (U3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
 {
 	{
 		AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * L_0 = __this->get_address_of_U3CU3Et__builder_1();
@@ -10570,10 +10725,10 @@ extern "C" IL2CPP_METHOD_ATTR void U3CListener_StartU3Ed__48_SetStateMachine_mAD
 		return;
 	}
 }
-extern "C"  void U3CListener_StartU3Ed__48_SetStateMachine_mAD20B28D993202DC8A41A7521DB07289840006ED_AdjustorThunk (RuntimeObject * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
+extern "C"  void U3CListener_StartU3Ed__50_SetStateMachine_mF96713496882109EFC05600DD91F1383EE860525_AdjustorThunk (RuntimeObject * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
 {
-	U3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6 * _thisAdjusted = reinterpret_cast<U3CListener_StartU3Ed__48_t05B6B2F4FECCE98A3AA80D472EDD3941BE3295D6 *>(__this + 1);
-	U3CListener_StartU3Ed__48_SetStateMachine_mAD20B28D993202DC8A41A7521DB07289840006ED(_thisAdjusted, ___stateMachine0, method);
+	U3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E * _thisAdjusted = reinterpret_cast<U3CListener_StartU3Ed__50_t40142B6C9EF3A642573D1D0A6168433FF587C78E *>(__this + 1);
+	U3CListener_StartU3Ed__50_SetStateMachine_mF96713496882109EFC05600DD91F1383EE860525(_thisAdjusted, ___stateMachine0, method);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -10583,13 +10738,13 @@ extern "C"  void U3CListener_StartU3Ed__48_SetStateMachine_mAD20B28D993202DC8A41
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void YoloDetectionHoloLens.YoloDetection_<OnApplicationQuit>d__35::MoveNext()
-extern "C" IL2CPP_METHOD_ATTR void U3COnApplicationQuitU3Ed__35_MoveNext_m101E4F3EC14D4AAA7280893A01B84125A095CB57 (U3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931 * __this, const RuntimeMethod* method)
+// System.Void YoloDetectionHoloLens.YoloDetection_<OnApplicationQuit>d__37::MoveNext()
+extern "C" IL2CPP_METHOD_ATTR void U3COnApplicationQuitU3Ed__37_MoveNext_mAA641A0F1E44368237833A583704B90ED178ED7C (U3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1 * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (U3COnApplicationQuitU3Ed__35_MoveNext_m101E4F3EC14D4AAA7280893A01B84125A095CB57_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3COnApplicationQuitU3Ed__37_MoveNext_mAA641A0F1E44368237833A583704B90ED178ED7C_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
@@ -10646,7 +10801,7 @@ IL_0026:
 			TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F  L_8 = V_2;
 			__this->set_U3CU3Eu__1_3(L_8);
 			AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * L_9 = __this->get_address_of_U3CU3Et__builder_1();
-			AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931_mD6FCC091BA66DA80D1B0E4BE0E37DD64B7241F25((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)L_9, (TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F *)(&V_2), (U3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931 *)__this, /*hidden argument*/AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931_mD6FCC091BA66DA80D1B0E4BE0E37DD64B7241F25_RuntimeMethod_var);
+			AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1_m5D213FA0F5F13DED7A4C110FAE90115224F8B38D((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)L_9, (TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F *)(&V_2), (U3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1 *)__this, /*hidden argument*/AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1_m5D213FA0F5F13DED7A4C110FAE90115224F8B38D_RuntimeMethod_var);
 			goto IL_0095;
 		}
 
@@ -10698,13 +10853,13 @@ IL_0095:
 		return;
 	}
 }
-extern "C"  void U3COnApplicationQuitU3Ed__35_MoveNext_m101E4F3EC14D4AAA7280893A01B84125A095CB57_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+extern "C"  void U3COnApplicationQuitU3Ed__37_MoveNext_mAA641A0F1E44368237833A583704B90ED178ED7C_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
-	U3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931 * _thisAdjusted = reinterpret_cast<U3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931 *>(__this + 1);
-	U3COnApplicationQuitU3Ed__35_MoveNext_m101E4F3EC14D4AAA7280893A01B84125A095CB57(_thisAdjusted, method);
+	U3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1 * _thisAdjusted = reinterpret_cast<U3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1 *>(__this + 1);
+	U3COnApplicationQuitU3Ed__37_MoveNext_mAA641A0F1E44368237833A583704B90ED178ED7C(_thisAdjusted, method);
 }
-// System.Void YoloDetectionHoloLens.YoloDetection_<OnApplicationQuit>d__35::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern "C" IL2CPP_METHOD_ATTR void U3COnApplicationQuitU3Ed__35_SetStateMachine_m82C7150C7A85EB85B0D87635F3FB08B0BF9E2942 (U3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931 * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
+// System.Void YoloDetectionHoloLens.YoloDetection_<OnApplicationQuit>d__37::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern "C" IL2CPP_METHOD_ATTR void U3COnApplicationQuitU3Ed__37_SetStateMachine_m30ADF388A31C6231887056127087CDB004F23CAC (U3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1 * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
 {
 	{
 		AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * L_0 = __this->get_address_of_U3CU3Et__builder_1();
@@ -10713,10 +10868,10 @@ extern "C" IL2CPP_METHOD_ATTR void U3COnApplicationQuitU3Ed__35_SetStateMachine_
 		return;
 	}
 }
-extern "C"  void U3COnApplicationQuitU3Ed__35_SetStateMachine_m82C7150C7A85EB85B0D87635F3FB08B0BF9E2942_AdjustorThunk (RuntimeObject * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
+extern "C"  void U3COnApplicationQuitU3Ed__37_SetStateMachine_m30ADF388A31C6231887056127087CDB004F23CAC_AdjustorThunk (RuntimeObject * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
 {
-	U3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931 * _thisAdjusted = reinterpret_cast<U3COnApplicationQuitU3Ed__35_t1258E3A1B201F827B1AFEDCDA933FF78270A0931 *>(__this + 1);
-	U3COnApplicationQuitU3Ed__35_SetStateMachine_m82C7150C7A85EB85B0D87635F3FB08B0BF9E2942(_thisAdjusted, ___stateMachine0, method);
+	U3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1 * _thisAdjusted = reinterpret_cast<U3COnApplicationQuitU3Ed__37_t6AAD6CCBEF1964DB1C8AB23FA18301AED6583CD1 *>(__this + 1);
+	U3COnApplicationQuitU3Ed__37_SetStateMachine_m30ADF388A31C6231887056127087CDB004F23CAC(_thisAdjusted, ___stateMachine0, method);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -10726,13 +10881,13 @@ extern "C"  void U3COnApplicationQuitU3Ed__35_SetStateMachine_m82C7150C7A85EB85B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void YoloDetectionHoloLens.YoloDetection_<Start>d__34::MoveNext()
-extern "C" IL2CPP_METHOD_ATTR void U3CStartU3Ed__34_MoveNext_mCBED5AECCC96BB9E1D359348DE0DD819C42DDC11 (U3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272 * __this, const RuntimeMethod* method)
+// System.Void YoloDetectionHoloLens.YoloDetection_<Start>d__36::MoveNext()
+extern "C" IL2CPP_METHOD_ATTR void U3CStartU3Ed__36_MoveNext_m17119DC0DACDBFB9264E4B78B3B50F4F1E0EF498 (U3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (U3CStartU3Ed__34_MoveNext_mCBED5AECCC96BB9E1D359348DE0DD819C42DDC11_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CStartU3Ed__36_MoveNext_m17119DC0DACDBFB9264E4B78B3B50F4F1E0EF498_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
@@ -10799,7 +10954,7 @@ IL_0037:
 			TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F  L_11 = V_2;
 			__this->set_U3CU3Eu__1_3(L_11);
 			AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * L_12 = __this->get_address_of_U3CU3Et__builder_1();
-			AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272_mD6C45E98D88E844DCBBAE8D534630B8361FC6F16((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)L_12, (TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F *)(&V_2), (U3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272 *)__this, /*hidden argument*/AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272_mD6C45E98D88E844DCBBAE8D534630B8361FC6F16_RuntimeMethod_var);
+			AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C_m59A61C6FE4C2DF9212060FBD1AB8E935E10A48A9((AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF *)L_12, (TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F *)(&V_2), (U3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C *)__this, /*hidden argument*/AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C_m59A61C6FE4C2DF9212060FBD1AB8E935E10A48A9_RuntimeMethod_var);
 			goto IL_00a6;
 		}
 
@@ -10851,13 +11006,13 @@ IL_00a6:
 		return;
 	}
 }
-extern "C"  void U3CStartU3Ed__34_MoveNext_mCBED5AECCC96BB9E1D359348DE0DD819C42DDC11_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+extern "C"  void U3CStartU3Ed__36_MoveNext_m17119DC0DACDBFB9264E4B78B3B50F4F1E0EF498_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
-	U3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272 * _thisAdjusted = reinterpret_cast<U3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272 *>(__this + 1);
-	U3CStartU3Ed__34_MoveNext_mCBED5AECCC96BB9E1D359348DE0DD819C42DDC11(_thisAdjusted, method);
+	U3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C * _thisAdjusted = reinterpret_cast<U3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C *>(__this + 1);
+	U3CStartU3Ed__36_MoveNext_m17119DC0DACDBFB9264E4B78B3B50F4F1E0EF498(_thisAdjusted, method);
 }
-// System.Void YoloDetectionHoloLens.YoloDetection_<Start>d__34::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern "C" IL2CPP_METHOD_ATTR void U3CStartU3Ed__34_SetStateMachine_m0073A83FECFA4D59A159929208286D270F994211 (U3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272 * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
+// System.Void YoloDetectionHoloLens.YoloDetection_<Start>d__36::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern "C" IL2CPP_METHOD_ATTR void U3CStartU3Ed__36_SetStateMachine_mEF3ED03CB98D0A8ABBEEDA4CF50072F61D492833 (U3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
 {
 	{
 		AsyncVoidMethodBuilder_t44E3C9B52B019BB5BDCC0E1BB83188B536161CFF * L_0 = __this->get_address_of_U3CU3Et__builder_1();
@@ -10866,10 +11021,10 @@ extern "C" IL2CPP_METHOD_ATTR void U3CStartU3Ed__34_SetStateMachine_m0073A83FECF
 		return;
 	}
 }
-extern "C"  void U3CStartU3Ed__34_SetStateMachine_m0073A83FECFA4D59A159929208286D270F994211_AdjustorThunk (RuntimeObject * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
+extern "C"  void U3CStartU3Ed__36_SetStateMachine_mEF3ED03CB98D0A8ABBEEDA4CF50072F61D492833_AdjustorThunk (RuntimeObject * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
 {
-	U3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272 * _thisAdjusted = reinterpret_cast<U3CStartU3Ed__34_t82F2C76E463313640FC8B9870C49F7324297A272 *>(__this + 1);
-	U3CStartU3Ed__34_SetStateMachine_m0073A83FECFA4D59A159929208286D270F994211(_thisAdjusted, ___stateMachine0, method);
+	U3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C * _thisAdjusted = reinterpret_cast<U3CStartU3Ed__36_t856FED444AB5EAE5658CA0CBA9F439E36D83777C *>(__this + 1);
+	U3CStartU3Ed__36_SetStateMachine_mEF3ED03CB98D0A8ABBEEDA4CF50072F61D492833(_thisAdjusted, ___stateMachine0, method);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -10879,13 +11034,13 @@ extern "C"  void U3CStartU3Ed__34_SetStateMachine_m0073A83FECFA4D59A159929208286
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void YoloDetectionHoloLens.YoloDetection_<StartHoloLensMediaFrameSourceGroup>d__37::MoveNext()
-extern "C" IL2CPP_METHOD_ATTR void U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_MoveNext_m67599A6EE7BCE3E220E500EE7401FA98B2E9D9D4 (U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A * __this, const RuntimeMethod* method)
+// System.Void YoloDetectionHoloLens.YoloDetection_<StartHoloLensMediaFrameSourceGroup>d__39::MoveNext()
+extern "C" IL2CPP_METHOD_ATTR void U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_MoveNext_m46C71A19C3BAF760E0AD65A58AB75F893DA86890 (U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44 * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_MoveNext_m67599A6EE7BCE3E220E500EE7401FA98B2E9D9D4_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_MoveNext_m46C71A19C3BAF760E0AD65A58AB75F893DA86890_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
@@ -10931,22 +11086,22 @@ IL_0014:
 			YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_4 = V_1;
 			YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_5 = V_1;
 			NullCheck(L_5);
-			int32_t L_6 = L_5->get_sensorTypePv_31();
+			int32_t L_6 = L_5->get_sensorTypePv_33();
 			NullCheck(L_4);
-			L_4->set__sensorType_36(L_6);
+			L_4->set__sensorType_38(L_6);
 			// _sensorFrameStreamer = new SensorFrameStreamer();
 			YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_7 = V_1;
 			SensorFrameStreamer_t260E842ACC198DB23E5DDF4E161D537DFB2A0849 * L_8 = (SensorFrameStreamer_t260E842ACC198DB23E5DDF4E161D537DFB2A0849 *)il2cpp_codegen_object_new(SensorFrameStreamer_t260E842ACC198DB23E5DDF4E161D537DFB2A0849_il2cpp_TypeInfo_var);
 			SensorFrameStreamer__ctor_m2A7FE63EE0D6B674FB9C840663B0EAFBF377C657(L_8, /*hidden argument*/NULL);
 			NullCheck(L_7);
-			L_7->set__sensorFrameStreamer_33(L_8);
+			L_7->set__sensorFrameStreamer_35(L_8);
 			// _sensorFrameStreamer.Enable(_sensorType);
 			YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_9 = V_1;
 			NullCheck(L_9);
-			SensorFrameStreamer_t260E842ACC198DB23E5DDF4E161D537DFB2A0849 * L_10 = L_9->get__sensorFrameStreamer_33();
+			SensorFrameStreamer_t260E842ACC198DB23E5DDF4E161D537DFB2A0849 * L_10 = L_9->get__sensorFrameStreamer_35();
 			YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_11 = V_1;
 			NullCheck(L_11);
-			int32_t L_12 = L_11->get__sensorType_36();
+			int32_t L_12 = L_11->get__sensorType_38();
 			NullCheck(L_10);
 			SensorFrameStreamer_Enable_m76FACD01E7F7662E5C8045742125D0D6494E82AD(L_10, L_12, /*hidden argument*/NULL);
 			// Debug.Log("YoloDetection.Detection.StartHoloLensMediaFrameSourceGroup: Setting up spatial perception");
@@ -10956,7 +11111,7 @@ IL_0014:
 			SpatialPerception_tDD728203A074E13BCA1E015A265D6CC013A08577 * L_14 = (SpatialPerception_tDD728203A074E13BCA1E015A265D6CC013A08577 *)il2cpp_codegen_object_new(SpatialPerception_tDD728203A074E13BCA1E015A265D6CC013A08577_il2cpp_TypeInfo_var);
 			SpatialPerception__ctor_mEF5E6D7D5750DD1AF34E9F594E10846F1EB007D3(L_14, /*hidden argument*/NULL);
 			NullCheck(L_13);
-			L_13->set__spatialPerception_34(L_14);
+			L_13->set__spatialPerception_36(L_14);
 			// Debug.Log("YoloDetection.Detection.StartHoloLensMediaFrameSourceGroup: Setting up the media frame source group");
 			Debug_Log_m4B7C70BAFD477C6BDB59C88A0934F0B018D03708(_stringLiteralC2B076BB0C995373D2FC212D6D2DEA8909EBE2FB, /*hidden argument*/NULL);
 			// _holoLensMediaFrameSourceGroup = new MediaFrameSourceGroup(
@@ -10966,24 +11121,24 @@ IL_0014:
 			YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_15 = V_1;
 			YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_16 = V_1;
 			NullCheck(L_16);
-			int32_t L_17 = L_16->get__selectedMediaFrameSourceGroupType_32();
+			int32_t L_17 = L_16->get__selectedMediaFrameSourceGroupType_34();
 			YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_18 = V_1;
 			NullCheck(L_18);
-			SpatialPerception_tDD728203A074E13BCA1E015A265D6CC013A08577 * L_19 = L_18->get__spatialPerception_34();
+			SpatialPerception_tDD728203A074E13BCA1E015A265D6CC013A08577 * L_19 = L_18->get__spatialPerception_36();
 			YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_20 = V_1;
 			NullCheck(L_20);
-			SensorFrameStreamer_t260E842ACC198DB23E5DDF4E161D537DFB2A0849 * L_21 = L_20->get__sensorFrameStreamer_33();
+			SensorFrameStreamer_t260E842ACC198DB23E5DDF4E161D537DFB2A0849 * L_21 = L_20->get__sensorFrameStreamer_35();
 			MediaFrameSourceGroup_t81A62BB7229CDBDE57DACE8362C9A7657B19DEB8 * L_22 = (MediaFrameSourceGroup_t81A62BB7229CDBDE57DACE8362C9A7657B19DEB8 *)il2cpp_codegen_object_new(MediaFrameSourceGroup_t81A62BB7229CDBDE57DACE8362C9A7657B19DEB8_il2cpp_TypeInfo_var);
 			MediaFrameSourceGroup__ctor_m3C4432053C1635FA8C028E1DA555A14A3B2ADAA0(L_22, L_17, L_19, L_21, /*hidden argument*/NULL);
 			NullCheck(L_15);
-			L_15->set__holoLensMediaFrameSourceGroup_35(L_22);
+			L_15->set__holoLensMediaFrameSourceGroup_37(L_22);
 			// _holoLensMediaFrameSourceGroup.Enable(_sensorType);
 			YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_23 = V_1;
 			NullCheck(L_23);
-			MediaFrameSourceGroup_t81A62BB7229CDBDE57DACE8362C9A7657B19DEB8 * L_24 = L_23->get__holoLensMediaFrameSourceGroup_35();
+			MediaFrameSourceGroup_t81A62BB7229CDBDE57DACE8362C9A7657B19DEB8 * L_24 = L_23->get__holoLensMediaFrameSourceGroup_37();
 			YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_25 = V_1;
 			NullCheck(L_25);
-			int32_t L_26 = L_25->get__sensorType_36();
+			int32_t L_26 = L_25->get__sensorType_38();
 			NullCheck(L_24);
 			MediaFrameSourceGroup_Enable_mFB95B66C15BEAD3C5AC911DD021551BBE8692532(L_24, L_26, /*hidden argument*/NULL);
 			// Debug.Log("YoloDetection.Detection.StartHoloLensMediaFrameSourceGroup: Starting the media frame source group");
@@ -10991,7 +11146,7 @@ IL_0014:
 			// await _holoLensMediaFrameSourceGroup.StartAsync();
 			YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_27 = V_1;
 			NullCheck(L_27);
-			MediaFrameSourceGroup_t81A62BB7229CDBDE57DACE8362C9A7657B19DEB8 * L_28 = L_27->get__holoLensMediaFrameSourceGroup_35();
+			MediaFrameSourceGroup_t81A62BB7229CDBDE57DACE8362C9A7657B19DEB8 * L_28 = L_27->get__holoLensMediaFrameSourceGroup_37();
 			NullCheck(L_28);
 			RuntimeObject* L_29 = MediaFrameSourceGroup_StartAsync_m526B5B8956EB089601E9B7CA2A9AFE318DD6490C(L_28, /*hidden argument*/NULL);
 			TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F  L_30 = WindowsRuntimeSystemExtensions_GetAwaiter_m1E46B83D2D5BEE385305CFFD9496572784AB5D2C(L_29, /*hidden argument*/NULL);
@@ -11011,7 +11166,7 @@ IL_00c2:
 			TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F  L_33 = V_2;
 			__this->set_U3CU3Eu__1_3(L_33);
 			AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * L_34 = __this->get_address_of_U3CU3Et__builder_1();
-			AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A_m05E34F9F7FA56A0F4DFD8D4214DEB8E9E3D0196B((AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 *)L_34, (TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F *)(&V_2), (U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A *)__this, /*hidden argument*/AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A_m05E34F9F7FA56A0F4DFD8D4214DEB8E9E3D0196B_RuntimeMethod_var);
+			AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44_m9C28B9D0CA00F9D9BABB7EB7D9B886D5C23D195D((AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 *)L_34, (TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F *)(&V_2), (U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44 *)__this, /*hidden argument*/AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44_m9C28B9D0CA00F9D9BABB7EB7D9B886D5C23D195D_RuntimeMethod_var);
 			goto IL_0143;
 		}
 
@@ -11071,13 +11226,13 @@ IL_0143:
 		return;
 	}
 }
-extern "C"  void U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_MoveNext_m67599A6EE7BCE3E220E500EE7401FA98B2E9D9D4_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+extern "C"  void U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_MoveNext_m46C71A19C3BAF760E0AD65A58AB75F893DA86890_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
-	U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A * _thisAdjusted = reinterpret_cast<U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A *>(__this + 1);
-	U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_MoveNext_m67599A6EE7BCE3E220E500EE7401FA98B2E9D9D4(_thisAdjusted, method);
+	U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44 * _thisAdjusted = reinterpret_cast<U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44 *>(__this + 1);
+	U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_MoveNext_m46C71A19C3BAF760E0AD65A58AB75F893DA86890(_thisAdjusted, method);
 }
-// System.Void YoloDetectionHoloLens.YoloDetection_<StartHoloLensMediaFrameSourceGroup>d__37::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern "C" IL2CPP_METHOD_ATTR void U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_SetStateMachine_m429D5320F885CD22F0A3060235CC73C0D5DFB283 (U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
+// System.Void YoloDetectionHoloLens.YoloDetection_<StartHoloLensMediaFrameSourceGroup>d__39::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern "C" IL2CPP_METHOD_ATTR void U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_SetStateMachine_m87EAC37072E201F7E7A67E49A3303B813D447100 (U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44 * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
 {
 	{
 		AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * L_0 = __this->get_address_of_U3CU3Et__builder_1();
@@ -11086,10 +11241,10 @@ extern "C" IL2CPP_METHOD_ATTR void U3CStartHoloLensMediaFrameSourceGroupU3Ed__37
 		return;
 	}
 }
-extern "C"  void U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_SetStateMachine_m429D5320F885CD22F0A3060235CC73C0D5DFB283_AdjustorThunk (RuntimeObject * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
+extern "C"  void U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_SetStateMachine_m87EAC37072E201F7E7A67E49A3303B813D447100_AdjustorThunk (RuntimeObject * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
 {
-	U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A * _thisAdjusted = reinterpret_cast<U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_t1403FED76B3CF98668B35F4CB9EA8D2A90C70D7A *>(__this + 1);
-	U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_SetStateMachine_m429D5320F885CD22F0A3060235CC73C0D5DFB283(_thisAdjusted, ___stateMachine0, method);
+	U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44 * _thisAdjusted = reinterpret_cast<U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_tBDB6C9685910D3D2358BF437960FB9516C8D9B44 *>(__this + 1);
+	U3CStartHoloLensMediaFrameSourceGroupU3Ed__39_SetStateMachine_m87EAC37072E201F7E7A67E49A3303B813D447100(_thisAdjusted, ___stateMachine0, method);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -11099,13 +11254,13 @@ extern "C"  void U3CStartHoloLensMediaFrameSourceGroupU3Ed__37_SetStateMachine_m
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void YoloDetectionHoloLens.YoloDetection_<StopHoloLensMediaFrameSourceGroup>d__38::MoveNext()
-extern "C" IL2CPP_METHOD_ATTR void U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_MoveNext_m4FE6A3E2AF2880422377620F5482125C7372AD28 (U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435 * __this, const RuntimeMethod* method)
+// System.Void YoloDetectionHoloLens.YoloDetection_<StopHoloLensMediaFrameSourceGroup>d__40::MoveNext()
+extern "C" IL2CPP_METHOD_ATTR void U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_MoveNext_mD53412BDA661B4453EC08170EEEC70EF31D2E48F (U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_MoveNext_m4FE6A3E2AF2880422377620F5482125C7372AD28_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_MoveNext_mD53412BDA661B4453EC08170EEEC70EF31D2E48F_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
@@ -11144,7 +11299,7 @@ IL_0011:
 			//     !_holoLensMediaFrameSourceGroupStarted)
 			YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_3 = V_1;
 			NullCheck(L_3);
-			MediaFrameSourceGroup_t81A62BB7229CDBDE57DACE8362C9A7657B19DEB8 * L_4 = L_3->get__holoLensMediaFrameSourceGroup_35();
+			MediaFrameSourceGroup_t81A62BB7229CDBDE57DACE8362C9A7657B19DEB8 * L_4 = L_3->get__holoLensMediaFrameSourceGroup_37();
 			if (!L_4)
 			{
 				goto IL_0021;
@@ -11173,7 +11328,7 @@ IL_0026:
 			// await _holoLensMediaFrameSourceGroup.StopAsync();
 			YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_7 = V_1;
 			NullCheck(L_7);
-			MediaFrameSourceGroup_t81A62BB7229CDBDE57DACE8362C9A7657B19DEB8 * L_8 = L_7->get__holoLensMediaFrameSourceGroup_35();
+			MediaFrameSourceGroup_t81A62BB7229CDBDE57DACE8362C9A7657B19DEB8 * L_8 = L_7->get__holoLensMediaFrameSourceGroup_37();
 			NullCheck(L_8);
 			RuntimeObject* L_9 = MediaFrameSourceGroup_StopAsync_m7BD719AB4F6251735FE4EAFA4A0C48794CD23368(L_8, /*hidden argument*/NULL);
 			TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F  L_10 = WindowsRuntimeSystemExtensions_GetAwaiter_m1E46B83D2D5BEE385305CFFD9496572784AB5D2C(L_9, /*hidden argument*/NULL);
@@ -11193,7 +11348,7 @@ IL_0040:
 			TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F  L_13 = V_2;
 			__this->set_U3CU3Eu__1_3(L_13);
 			AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * L_14 = __this->get_address_of_U3CU3Et__builder_1();
-			AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435_m5E108397105666BC5D37C25982B6E42C347072F2((AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 *)L_14, (TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F *)(&V_2), (U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435 *)__this, /*hidden argument*/AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435_m5E108397105666BC5D37C25982B6E42C347072F2_RuntimeMethod_var);
+			AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F_mEB5CDA66ACDC181EED598F9B95BF5672F639E1E9((AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 *)L_14, (TaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F *)(&V_2), (U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F *)__this, /*hidden argument*/AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_TisTaskAwaiter_t0CDE8DBB564F0A0EA55FA6B3D43EEF96BC26252F_TisU3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F_mEB5CDA66ACDC181EED598F9B95BF5672F639E1E9_RuntimeMethod_var);
 			goto IL_00c4;
 		}
 
@@ -11214,11 +11369,11 @@ IL_007c:
 			// _holoLensMediaFrameSourceGroup = null;
 			YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_18 = V_1;
 			NullCheck(L_18);
-			L_18->set__holoLensMediaFrameSourceGroup_35((MediaFrameSourceGroup_t81A62BB7229CDBDE57DACE8362C9A7657B19DEB8 *)NULL);
+			L_18->set__holoLensMediaFrameSourceGroup_37((MediaFrameSourceGroup_t81A62BB7229CDBDE57DACE8362C9A7657B19DEB8 *)NULL);
 			// _sensorFrameStreamer = null;
 			YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_19 = V_1;
 			NullCheck(L_19);
-			L_19->set__sensorFrameStreamer_33((SensorFrameStreamer_t260E842ACC198DB23E5DDF4E161D537DFB2A0849 *)NULL);
+			L_19->set__sensorFrameStreamer_35((SensorFrameStreamer_t260E842ACC198DB23E5DDF4E161D537DFB2A0849 *)NULL);
 			// _holoLensMediaFrameSourceGroupStarted = false;
 			YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_20 = V_1;
 			NullCheck(L_20);
@@ -11257,13 +11412,13 @@ IL_00c4:
 		return;
 	}
 }
-extern "C"  void U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_MoveNext_m4FE6A3E2AF2880422377620F5482125C7372AD28_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+extern "C"  void U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_MoveNext_mD53412BDA661B4453EC08170EEEC70EF31D2E48F_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
-	U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435 * _thisAdjusted = reinterpret_cast<U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435 *>(__this + 1);
-	U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_MoveNext_m4FE6A3E2AF2880422377620F5482125C7372AD28(_thisAdjusted, method);
+	U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F * _thisAdjusted = reinterpret_cast<U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F *>(__this + 1);
+	U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_MoveNext_mD53412BDA661B4453EC08170EEEC70EF31D2E48F(_thisAdjusted, method);
 }
-// System.Void YoloDetectionHoloLens.YoloDetection_<StopHoloLensMediaFrameSourceGroup>d__38::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
-extern "C" IL2CPP_METHOD_ATTR void U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_SetStateMachine_mD2F731063D13DEE2C7CAC277974FD854DC830959 (U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435 * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
+// System.Void YoloDetectionHoloLens.YoloDetection_<StopHoloLensMediaFrameSourceGroup>d__40::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+extern "C" IL2CPP_METHOD_ATTR void U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_SetStateMachine_m47C9402383E25E8935813CDE81A1C8657450197E (U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
 {
 	{
 		AsyncTaskMethodBuilder_t0CD1893D670405BED201BE8CA6F2E811F2C0F487 * L_0 = __this->get_address_of_U3CU3Et__builder_1();
@@ -11272,10 +11427,10 @@ extern "C" IL2CPP_METHOD_ATTR void U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_
 		return;
 	}
 }
-extern "C"  void U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_SetStateMachine_mD2F731063D13DEE2C7CAC277974FD854DC830959_AdjustorThunk (RuntimeObject * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
+extern "C"  void U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_SetStateMachine_m47C9402383E25E8935813CDE81A1C8657450197E_AdjustorThunk (RuntimeObject * __this, RuntimeObject* ___stateMachine0, const RuntimeMethod* method)
 {
-	U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435 * _thisAdjusted = reinterpret_cast<U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_t8FFC98E2F97CA4233612A3E002195C7EBE5D0435 *>(__this + 1);
-	U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_SetStateMachine_mD2F731063D13DEE2C7CAC277974FD854DC830959(_thisAdjusted, ___stateMachine0, method);
+	U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F * _thisAdjusted = reinterpret_cast<U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_t497C1CA550F5AB2DF0A5AF2127AC612FFC75DB0F *>(__this + 1);
+	U3CStopHoloLensMediaFrameSourceGroupU3Ed__40_SetStateMachine_m47C9402383E25E8935813CDE81A1C8657450197E(_thisAdjusted, ___stateMachine0, method);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -11285,8 +11440,8 @@ extern "C"  void U3CStopHoloLensMediaFrameSourceGroupU3Ed__38_SetStateMachine_mD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void YoloDetectionHoloLens.YoloDetection_<testconn>d__45::.ctor(System.Int32)
-extern "C" IL2CPP_METHOD_ATTR void U3CtestconnU3Ed__45__ctor_m7BD64FF6099CEE9DE9DBAB2D851513D525B7BB15 (U3CtestconnU3Ed__45_t5A1A96807FEB9794E8B6E3BA7497C4C86BF44AD9 * __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method)
+// System.Void YoloDetectionHoloLens.YoloDetection_<testconn>d__47::.ctor(System.Int32)
+extern "C" IL2CPP_METHOD_ATTR void U3CtestconnU3Ed__47__ctor_m013DA943709B42AB7B4BAF395E9F5BF3CBD7E6AA (U3CtestconnU3Ed__47_tA87F302836423510DD5D436CA9341DBCA85E32E8 * __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method)
 {
 	{
 		Object__ctor_m925ECA5E85CA100E3FB86A4F9E15C120E9A184C0(__this, /*hidden argument*/NULL);
@@ -11295,20 +11450,20 @@ extern "C" IL2CPP_METHOD_ATTR void U3CtestconnU3Ed__45__ctor_m7BD64FF6099CEE9DE9
 		return;
 	}
 }
-// System.Void YoloDetectionHoloLens.YoloDetection_<testconn>d__45::System.IDisposable.Dispose()
-extern "C" IL2CPP_METHOD_ATTR void U3CtestconnU3Ed__45_System_IDisposable_Dispose_m2BEDC3170DF99E58B44B728EA492DD98B51684B6 (U3CtestconnU3Ed__45_t5A1A96807FEB9794E8B6E3BA7497C4C86BF44AD9 * __this, const RuntimeMethod* method)
+// System.Void YoloDetectionHoloLens.YoloDetection_<testconn>d__47::System.IDisposable.Dispose()
+extern "C" IL2CPP_METHOD_ATTR void U3CtestconnU3Ed__47_System_IDisposable_Dispose_m2AA5848AFE475DEAF4C97D2902468CCCCC374FB4 (U3CtestconnU3Ed__47_tA87F302836423510DD5D436CA9341DBCA85E32E8 * __this, const RuntimeMethod* method)
 {
 	{
 		return;
 	}
 }
-// System.Boolean YoloDetectionHoloLens.YoloDetection_<testconn>d__45::MoveNext()
-extern "C" IL2CPP_METHOD_ATTR bool U3CtestconnU3Ed__45_MoveNext_mF0831A9FE9C4F9B02D48266AE7EE4FC3F2B99B76 (U3CtestconnU3Ed__45_t5A1A96807FEB9794E8B6E3BA7497C4C86BF44AD9 * __this, const RuntimeMethod* method)
+// System.Boolean YoloDetectionHoloLens.YoloDetection_<testconn>d__47::MoveNext()
+extern "C" IL2CPP_METHOD_ATTR bool U3CtestconnU3Ed__47_MoveNext_m0DDF970379ECDD8C576C4314D50E1655A2DEAE9E (U3CtestconnU3Ed__47_tA87F302836423510DD5D436CA9341DBCA85E32E8 * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (U3CtestconnU3Ed__45_MoveNext_mF0831A9FE9C4F9B02D48266AE7EE4FC3F2B99B76_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CtestconnU3Ed__47_MoveNext_m0DDF970379ECDD8C576C4314D50E1655A2DEAE9E_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
@@ -11381,7 +11536,7 @@ IL_001a:
 		// running = true;
 		YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_21 = V_1;
 		NullCheck(L_21);
-		L_21->set_running_26((bool)1);
+		L_21->set_running_28((bool)1);
 		goto IL_0083;
 	}
 
@@ -11398,7 +11553,7 @@ IL_0083:
 		// while (running)
 		YoloDetection_tFDEB51EA3E6E90C57BE99BEADB7D9D7962EBD170 * L_23 = V_1;
 		NullCheck(L_23);
-		bool L_24 = L_23->get_running_26();
+		bool L_24 = L_23->get_running_28();
 		if (L_24)
 		{
 			goto IL_007d;
@@ -11420,31 +11575,31 @@ IL_00a4:
 		return (bool)0;
 	}
 }
-// System.Object YoloDetectionHoloLens.YoloDetection_<testconn>d__45::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern "C" IL2CPP_METHOD_ATTR RuntimeObject * U3CtestconnU3Ed__45_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m5DB94454C6A1A1248385B32F078D17A8EFC0EE91 (U3CtestconnU3Ed__45_t5A1A96807FEB9794E8B6E3BA7497C4C86BF44AD9 * __this, const RuntimeMethod* method)
+// System.Object YoloDetectionHoloLens.YoloDetection_<testconn>d__47::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern "C" IL2CPP_METHOD_ATTR RuntimeObject * U3CtestconnU3Ed__47_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m429D771FDC69F28EB9CC602C7A984466FC4A3895 (U3CtestconnU3Ed__47_tA87F302836423510DD5D436CA9341DBCA85E32E8 * __this, const RuntimeMethod* method)
 {
 	{
 		RuntimeObject * L_0 = __this->get_U3CU3E2__current_1();
 		return L_0;
 	}
 }
-// System.Void YoloDetectionHoloLens.YoloDetection_<testconn>d__45::System.Collections.IEnumerator.Reset()
-extern "C" IL2CPP_METHOD_ATTR void U3CtestconnU3Ed__45_System_Collections_IEnumerator_Reset_m2F72E3CBC717E12041E8DF02FAE982ECC44D40D2 (U3CtestconnU3Ed__45_t5A1A96807FEB9794E8B6E3BA7497C4C86BF44AD9 * __this, const RuntimeMethod* method)
+// System.Void YoloDetectionHoloLens.YoloDetection_<testconn>d__47::System.Collections.IEnumerator.Reset()
+extern "C" IL2CPP_METHOD_ATTR void U3CtestconnU3Ed__47_System_Collections_IEnumerator_Reset_mF7854C43E20E1069BB3A0DEFFF8BF339324D8C4B (U3CtestconnU3Ed__47_tA87F302836423510DD5D436CA9341DBCA85E32E8 * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (U3CtestconnU3Ed__45_System_Collections_IEnumerator_Reset_m2F72E3CBC717E12041E8DF02FAE982ECC44D40D2_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CtestconnU3Ed__47_System_Collections_IEnumerator_Reset_mF7854C43E20E1069BB3A0DEFFF8BF339324D8C4B_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
 		NotSupportedException_tE75B318D6590A02A5D9B29FD97409B1750FA0010 * L_0 = (NotSupportedException_tE75B318D6590A02A5D9B29FD97409B1750FA0010 *)il2cpp_codegen_object_new(NotSupportedException_tE75B318D6590A02A5D9B29FD97409B1750FA0010_il2cpp_TypeInfo_var);
 		NotSupportedException__ctor_mA121DE1CAC8F25277DEB489DC7771209D91CAE33(L_0, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, NULL, U3CtestconnU3Ed__45_System_Collections_IEnumerator_Reset_m2F72E3CBC717E12041E8DF02FAE982ECC44D40D2_RuntimeMethod_var);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, NULL, U3CtestconnU3Ed__47_System_Collections_IEnumerator_Reset_mF7854C43E20E1069BB3A0DEFFF8BF339324D8C4B_RuntimeMethod_var);
 	}
 }
-// System.Object YoloDetectionHoloLens.YoloDetection_<testconn>d__45::System.Collections.IEnumerator.get_Current()
-extern "C" IL2CPP_METHOD_ATTR RuntimeObject * U3CtestconnU3Ed__45_System_Collections_IEnumerator_get_Current_m585FB0DF5AD37FD78413FA5EB008109B9DF80977 (U3CtestconnU3Ed__45_t5A1A96807FEB9794E8B6E3BA7497C4C86BF44AD9 * __this, const RuntimeMethod* method)
+// System.Object YoloDetectionHoloLens.YoloDetection_<testconn>d__47::System.Collections.IEnumerator.get_Current()
+extern "C" IL2CPP_METHOD_ATTR RuntimeObject * U3CtestconnU3Ed__47_System_Collections_IEnumerator_get_Current_mC1E8AE5B485BDE13A74F84BAC78807C64E060E55 (U3CtestconnU3Ed__47_tA87F302836423510DD5D436CA9341DBCA85E32E8 * __this, const RuntimeMethod* method)
 {
 	{
 		RuntimeObject * L_0 = __this->get_U3CU3E2__current_1();

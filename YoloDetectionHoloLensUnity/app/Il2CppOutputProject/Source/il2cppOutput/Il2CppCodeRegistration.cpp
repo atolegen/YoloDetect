@@ -36,15 +36,15 @@ extern Il2CppInteropData g_Il2CppInteropData[];
 extern Il2CppWindowsRuntimeFactoryTableEntry g_WindowsRuntimeFactories[];
 extern const Il2CppCodeRegistration g_CodeRegistration = 
 {
-	14654,
+	14663,
 	g_MethodPointers,
 	1,
 	g_ReversePInvokeWrapperPointers,
 	17720,
 	g_Il2CppGenericMethodPointers,
-	2673,
+	2677,
 	g_Il2CppInvokerPointers,
-	3808,
+	3813,
 	g_AttributeGenerators,
 	1107,
 	g_UnresolvedVirtualMethodPointers,

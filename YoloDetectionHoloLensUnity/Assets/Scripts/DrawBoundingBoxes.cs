@@ -44,7 +44,7 @@ namespace DrawingUtils
         }
 
 #if ENABLE_WINMD_SUPPORT
-        public void DrawBoxes(List<BoundingBox> boxes)
+        public void DrawBoxes(List<BoundingBox> boxes, Quaternion zcamera)
         {
             
             // Destroy cached variables to prevent memory leaks.
@@ -105,7 +105,10 @@ namespace DrawingUtils
                     Quaternion.identity,
                     this.gameObject.transform) as GameObject;
 
-                _thisBoundingBox.transform.localPosition = new Vector3(xText, yText, 0f);
+                
+                _thisBoundingBox.transform.localPosition = new Vector3(xText, yText, 0f );
+
+                _thisBoundingBox.transform.rotation=zcamera;//myFixedQuaternion;
 
                 // Set the label of the bounding box.
                 var label = $"{box.Label}: {box.Confidence} ";
